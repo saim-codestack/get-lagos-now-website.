@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en" data-page="{{ dataPage }}">
+<head>
+{%- include "components/head-meta.njk" %}
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+{% if navComment %}
+  {{ navComment | safe }}
+{%- endif %}
+{%- include "components/site-header.njk" %}
+  <main id="main">
+{{ content | safe }}
+{%- include "components/cta-banner.njk" %}
+  </main>
+{% if footerComment %}
+  {{ footerComment | safe }}
+{%- endif %}
+{%- include "components/site-footer.njk" %}
+{% for jsFile in js %}
+  <script src="{{ prefix }}assets/js/{{ jsFile }}" defer></script>
+{%- endfor %}
+</body>
+</html>

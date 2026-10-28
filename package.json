@@ -1,0 +1,17 @@
+{
+  "name": "get-lagos-now-website",
+  "version": "1.1.0",
+  "private": true,
+  "description": "Get Lagos Now — static agency website. Eleventy is used at build time only; production output is plain static HTML/CSS/JS.",
+  "type": "module",
+  "scripts": {
+    "build": "eleventy",
+    "serve": "eleventy --serve",
+    "inventory": "node tools/refactor/phase1-url-inventory.mjs",
+    "diff:phase2": "node tools/refactor/phase2-dom-diff.mjs"
+  },
+  "devDependencies": {
+    "@11ty/eleventy": "3.1.7",
+    "parse5": "8.0.1"
+  }
+}

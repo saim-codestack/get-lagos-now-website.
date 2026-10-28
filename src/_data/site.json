@@ -1,0 +1,16 @@
+{
+  "name": "Get Lagos Now",
+  "legalEntity": "Lagos Consulting LLC",
+  "logoSrc": "assets/images/shared/gln.png",
+  "faviconSrc": "assets/images/shared/gln.png",
+  "themeColor": "#F5F3F0",
+  "fontsStylesheet": "https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap",
+  "headerLabel": "Have a project?",
+  "headerCtaLabel": "Let's Talk",
+  "mobileFootLine": "Portland, Oregon · Since 2010",
+  "footerTagline": "Human-centered.<br>Strategic innovation.<br>High touch.",
+  "footerDesc": "A PDX-based, purpose-driven Benefit Company creating inclusive, accessible digital experiences since 2010.",
+  "footerLoc": "Portland, Oregon",
+  "footerCredit": "Editorial photography via Pexels. Project imagery © respective clients.",
+  "publishedPrivacyPolicy": "https://getlagosnow.com/privacy-policy/"
+}

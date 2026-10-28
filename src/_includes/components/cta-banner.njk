@@ -1,0 +1,30 @@
+    <section class="cta{% if cta.sectionClass %} {{ cta.sectionClass }}{% endif %}" aria-labelledby="{{ cta.titleId }}">
+      <div class="container">
+        <div class="cta__banner{% if cta.bannerClass %} {{ cta.bannerClass }}{% endif %}">
+          {%- if cta.variant == "services" %}
+          <div class="{{ cta.wrapperClass }}">
+            <p class="eyebrow eyebrow--light">{{ cta.eyebrow }}</p>
+            <h2 id="{{ cta.titleId }}" class="{{ cta.titleClass }}">{{ cta.title }}</h2>
+            <p class="{{ cta.lineClass }}">{{ cta.line }}</p>
+          </div>
+          {%- elseif cta.wrapper %}
+          <div{% if cta.wrapperClass %} class="{{ cta.wrapperClass }}"{% endif %}>
+            <h2 id="{{ cta.titleId }}" class="cta__title">{{ cta.title }}</h2>
+            <p class="{{ cta.lineClass }}">{{ cta.line }}</p>
+          </div>
+          {%- else %}
+          <h2 id="{{ cta.titleId }}" class="cta__title">{{ cta.title }}</h2>
+          {%- endif %}
+          <a href="{% if cta.href[0] != '#' %}{{ prefix }}{% endif %}{{ cta.href }}" class="cta__action">
+            <span class="cta__action-mark" aria-hidden="true">
+              <img src="https://images.pexels.com/photos/16752907/pexels-photo-16752907.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&fit=crop" alt="" loading="lazy">
+            </span>
+            <span class="cta__action-text">
+              <strong>{{ cta.strong }}</strong>
+              <span>{{ cta.sub }}</span>
+            </span>
+            <span class="sq-btn sq-btn--red" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+          </a>
+        </div>
+      </div>
+    </section>

@@ -1,0 +1,343 @@
+---json
+{
+  "layout": "layouts/base.njk",
+  "title": "Our Work — Get Lagos Now | Selected Websites, Branding & Marketing Projects",
+  "description": "Selected work from Get Lagos Now: accessible websites, branding and marketing for mission-driven organizations including Wallace Medical & Dental, The Children's Institute and Energy Trust of Oregon.",
+  "dataPage": "work",
+  "css": [
+    "style.css",
+    "responsive.css",
+    "work.css"
+  ],
+  "js": [
+    "main.js"
+  ],
+  "robots": null,
+  "themeColor": true,
+  "preconnectFonts": true,
+  "preconnectSource": false,
+  "navComment": "<!-- ============ NAVIGATION ============ -->",
+  "footerComment": "<!-- ============ FOOTER ============ -->",
+  "footerCredit": "Editorial photography via Pexels. Project imagery © respective clients.",
+  "nav": {
+    "dropdownToggle": "work",
+    "dropdownCurrent": "work.html",
+    "footerCurrent": {
+      "explore": "work.html"
+    }
+  },
+  "cta": {
+    "sectionClass": "work-cta",
+    "titleId": "cta-title",
+    "title": "Let's Talk.",
+    "wrapper": "class",
+    "wrapperClass": "work-cta__main",
+    "lineClass": "work-cta__line",
+    "line": "Have a project in mind? Let's create something meaningful together.",
+    "href": "contact.html#contact-form",
+    "strong": "Start a project",
+    "sub": "Portland, Oregon"
+  }
+}
+---
+
+
+    <!-- ============ 01 HERO ============ -->
+    <section class="work-hero" aria-labelledby="work-hero-title">
+      <div class="container work-hero__grid">
+        <div class="work-hero__content">
+          <p class="eyebrow work-hero__eyebrow">Selected work</p>
+          <h1 id="work-hero-title" class="work-hero__title">
+            <span class="line"><span>Work that makes</span></span>
+            <span class="line"><span>an impact.</span></span>
+          </h1>
+          <p class="work-hero__text">From accessible digital experiences to thoughtful creative solutions, we collaborate with organizations to turn purposeful ideas into meaningful work.</p>
+          <a href="#featured" class="scroll-cue">
+            <span class="scroll-cue__track" aria-hidden="true"><span class="scroll-cue__dot"></span></span>
+            <span>Scroll to explore</span>
+          </a>
+        </div>
+
+        <div class="work-hero__visual">
+          <figure class="work-hero__primary">
+            <img src="assets/images/shared/20250613_Wallace-Dental-Clinic_Best.jpg"
+                 data-fallback="assets/images/shared/20250613_Wallace-Dental-Clinic_Best-1024x683.jpg"
+                 alt="Interior of the Wallace Medical &amp; Dental Rockwood clinic"
+                 width="1024" height="683" fetchpriority="high">
+            <figcaption class="work-hero__caption"><span class="dot-red" aria-hidden="true"></span> Wallace Medical &amp; Dental</figcaption>
+          </figure>
+          <figure class="work-hero__detail">
+            <img src="assets/images/shared/childrens-inst-1024x683.png"
+                 alt="Detail of The Children's Institute website project" width="1024" height="683">
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 02 FEATURED PROJECT ============ -->
+    <section class="feature section" id="featured" aria-labelledby="feature-title">
+      <div class="container">
+        <article class="feature__panel reveal">
+          <a class="feature__media" href="portfolio-medical-dental.html" target="_blank" rel="noopener" tabindex="-1" aria-hidden="true">
+            <img src="assets/images/shared/DowntownRockwoodbuilding.jpg"
+                 data-fallback="assets/images/shared/DowntownRockwoodbuilding-1024x683.jpg"
+                 alt="" width="1024" height="683" loading="lazy">
+            <span class="feature__tag">001</span>
+          </a>
+
+          <div class="feature__details">
+            <p class="eyebrow">Featured project / 001</p>
+            <h2 id="feature-title" class="feature__client">Wallace Medical &amp; Dental</h2>
+            <p class="feature__headline">Digital experiences that put people first.</p>
+            <p class="feature__text">A thoughtful approach to website design, accessibility, and multilingual digital experiences for a community-focused healthcare organization.</p>
+
+            <dl class="feature__meta">
+              <div><dt class="meta-label">Scope</dt><dd>Website Design / Accessibility / Multilingual</dd></div>
+              <div><dt class="meta-label">Year</dt><dd>2025</dd></div>
+              <div><dt class="meta-label">Live site</dt><dd><a href="https://mywallace.org/" class="meta-link" target="_blank" rel="noopener">mywallace.org</a></dd></div>
+            </dl>
+
+            <a href="portfolio-medical-dental.html" class="btn btn--dark feature__cta" target="_blank" rel="noopener">
+              <span>Explore Project<span class="sr-only"> (opens in a new tab)</span></span>
+              <span class="btn__icon" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M4.5 11.5l7-7M5.5 4.5h6v6"/></svg></span>
+            </a>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- ============ 03 PORTFOLIO FILTERS ============ -->
+    <section class="work-filters section" id="projects" aria-labelledby="projects-title">
+      <div class="container">
+        <header class="work-intro reveal">
+          <div>
+            <p class="eyebrow">Explore our projects</p>
+            <h2 id="projects-title" class="h2">A closer look at what we create.</h2>
+          </div>
+          <p class="work-intro__text">Different challenges. Different organizations. One commitment to thoughtful, effective digital work.</p>
+        </header>
+
+        <div class="filter-bar reveal">
+          <div class="filter-bar__scroller" id="workFilters" role="group" aria-label="Filter projects by category">
+            <button type="button" class="filter-btn" data-filter="all" aria-pressed="true" aria-controls="workGrid">All projects</button>
+            <button type="button" class="filter-btn" data-filter="websites" aria-pressed="false" aria-controls="workGrid">Websites</button>
+            <button type="button" class="filter-btn" data-filter="accessibility" aria-pressed="false" aria-controls="workGrid">Accessibility</button>
+            <button type="button" class="filter-btn" data-filter="branding" aria-pressed="false" aria-controls="workGrid">Branding &amp; Creative</button>
+            <button type="button" class="filter-btn" data-filter="marketing" aria-pressed="false" aria-controls="workGrid">Marketing</button>
+            <button type="button" class="filter-btn" data-filter="nonprofit" aria-pressed="false" aria-controls="workGrid">Nonprofit</button>
+          </div>
+          <p class="filter-bar__count" id="workCount" role="status" aria-live="polite">Showing 6 projects</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 04 SELECTED WORK GRID ============ -->
+    <section class="work-grid-section" aria-label="Selected projects">
+      <div class="container">
+        <ul class="work-grid" id="workGrid">
+
+          <!-- 01 The Children's Institute -->
+          <li class="work-card reveal" data-slot="0" data-cat="websites accessibility nonprofit">
+            <article class="work-card__inner">
+              <figure class="work-card__media">
+                <img src="assets/images/shared/childrens-inst-1024x683.png"
+                     alt="The Children's Institute website project" width="1024" height="683" loading="lazy">
+              </figure>
+              <div class="work-card__body">
+                <div class="work-card__top"><span class="work-card__num">01</span><span class="work-card__year">2024 — 25</span></div>
+                <div class="work-card__main">
+                  <div class="work-card__row">
+                    <h3 class="work-card__title"><a href="articles/2025-client-showcase-the-childrens-institute.html" target="_blank" rel="noopener">The Children's Institute<span class="sr-only"> (opens in a new tab)</span></a></h3>
+                    <span class="work-card__arrow" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M4.5 11.5l7-7M5.5 4.5h6v6"/></svg></span>
+                  </div>
+                  <p class="work-card__cats">Website Development / Accessibility / Nonprofit</p>
+                </div>
+                <p class="work-card__desc">Supporting a mission-driven organization's digital presence through thoughtful website development and improved accessibility.</p>
+              </div>
+            </article>
+          </li>
+
+          <!-- 02 Energy Trust of Oregon -->
+          <li class="work-card reveal" data-slot="1" data-cat="websites marketing nonprofit">
+            <article class="work-card__inner">
+              <figure class="work-card__media work-card__media--ink">
+                <img src="assets/images/shared/Blue-energy-trust.png"
+                     data-fallback="assets/images/shared/Blue-energy-trust-1024x538.png"
+                     alt="Energy Trust of Oregon project artwork" width="1200" height="630" loading="lazy">
+              </figure>
+              <div class="work-card__body">
+                <div class="work-card__top"><span class="work-card__num">02</span><span class="work-card__year">2024 — 25</span></div>
+                <div class="work-card__main">
+                  <div class="work-card__row">
+                    <h3 class="work-card__title"><a href="https://getlagosnow.com/featured_item/energy-trust-of-oregon/" target="_blank" rel="noopener">Energy Trust of Oregon<span class="sr-only"> (opens in a new tab)</span></a></h3>
+                    <span class="work-card__arrow" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M4.5 11.5l7-7M5.5 4.5h6v6"/></svg></span>
+                  </div>
+                  <p class="work-card__cats">Web Development / Digital Strategy / Marketing / Nonprofit</p>
+                </div>
+                <p class="work-card__desc">Digital work supporting programs and initiatives connected to energy efficiency and community impact.</p>
+              </div>
+            </article>
+          </li>
+
+          <!-- 03 Medical Teams International (wide feature) -->
+          <li class="work-card reveal" data-slot="2" data-cat="websites nonprofit">
+            <article class="work-card__inner">
+              <figure class="work-card__media">
+                <img src="assets/images/shared/Medical-team-2.jpg"
+                     data-fallback="assets/images/shared/Medical-team-2-1024x683.jpg"
+                     alt="A Medical Teams International care team, from the client showcase" width="1024" height="683" loading="lazy" style="object-position: 50% 30%;">
+                <span class="work-card__badge work-card__badge--light">
+                  <img src="assets/images/shared/medical-Teams-logo.png" alt="Medical Teams International logo" loading="lazy">
+                </span>
+              </figure>
+              <div class="work-card__body">
+                <div class="work-card__top"><span class="work-card__num">03</span><span class="work-card__year">2020 — 21</span></div>
+                <div class="work-card__main">
+                  <div class="work-card__row">
+                    <h3 class="work-card__title"><a href="articles/june-client-showcase-medical-team-international.html" target="_blank" rel="noopener">Medical Teams International<span class="sr-only"> (opens in a new tab)</span></a></h3>
+                    <span class="work-card__arrow" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M4.5 11.5l7-7M5.5 4.5h6v6"/></svg></span>
+                  </div>
+                  <p class="work-card__cats">Website Development / Systems Integrations / Nonprofit</p>
+                </div>
+                <p class="work-card__desc">Technical website development supporting an international humanitarian organization.</p>
+              </div>
+            </article>
+          </li>
+
+          <!-- 04 Lexicon Solutions -->
+          <li class="work-card reveal" data-slot="3" data-cat="websites branding">
+            <article class="work-card__inner">
+              <figure class="work-card__media work-card__media--asset">
+                <img src="assets/images/shared/lex.jpg"
+                     data-fallback="assets/images/shared/lex-300x298.jpg"
+                     alt="Lexicon Solutions project artwork" width="403" height="400" loading="lazy">
+              </figure>
+              <div class="work-card__body">
+                <div class="work-card__top"><span class="work-card__num">04</span><span class="work-card__year">Redesign</span></div>
+                <div class="work-card__main">
+                  <div class="work-card__row">
+                    <h3 class="work-card__title"><a href="https://getlagosnow.com/featured_item/lexicon-solutions/" target="_blank" rel="noopener">Lexicon Solutions<span class="sr-only"> (opens in a new tab)</span></a></h3>
+                    <span class="work-card__arrow" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M4.5 11.5l7-7M5.5 4.5h6v6"/></svg></span>
+                  </div>
+                  <p class="work-card__cats">Website Redesign / Graphics</p>
+                </div>
+                <p class="work-card__desc">A comprehensive website refresh shaped around clearer brand communication and an improved digital experience.</p>
+              </div>
+            </article>
+          </li>
+
+          <!-- 05 OACD Website & Logo -->
+          <li class="work-card reveal" data-slot="4" data-cat="websites branding nonprofit">
+            <article class="work-card__inner">
+              <figure class="work-card__media">
+                <img src="assets/images/shared/farming-oacd-testimonial-1024x682.jpg"
+                     alt="Farmland scene from the Oregon Association of Conservation Districts client showcase" width="1024" height="682" loading="lazy">
+                <span class="work-card__badge work-card__badge--dark">
+                  <img src="assets/images/shared/OACD-Logo_White-300x300.png" alt="OACD logo" loading="lazy">
+                </span>
+              </figure>
+              <div class="work-card__body">
+                <div class="work-card__top"><span class="work-card__num">05</span><span class="work-card__year">2023</span></div>
+                <div class="work-card__main">
+                  <div class="work-card__row">
+                    <h3 class="work-card__title"><a href="articles/september-client-showcase-testimonial-oregon-association-of-conservation-districts-oacd.html" target="_blank" rel="noopener">OACD Website &amp; Logo<span class="sr-only"> (opens in a new tab)</span></a></h3>
+                    <span class="work-card__arrow" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M4.5 11.5l7-7M5.5 4.5h6v6"/></svg></span>
+                  </div>
+                  <p class="work-card__cats">Website Development / Logo &amp; Branding / Nonprofit</p>
+                </div>
+                <p class="work-card__desc">Website and logo work supporting a clear, recognizable organizational identity.</p>
+              </div>
+            </article>
+          </li>
+
+          <!-- 06 New Avenues for Youth (distinct presentation) -->
+          <li class="work-card reveal" data-slot="5" data-cat="marketing nonprofit">
+            <article class="work-card__inner">
+              <figure class="work-card__media work-card__media--asset">
+                <img src="assets/images/shared/new.jpg"
+                     data-fallback="assets/images/shared/new-300x298.jpg"
+                     alt="New Avenues for Youth campaign artwork" width="403" height="400" loading="lazy">
+              </figure>
+              <div class="work-card__body">
+                <div class="work-card__top"><span class="work-card__num">06</span><span class="work-card__year">2021</span></div>
+                <div class="work-card__main">
+                  <div class="work-card__row">
+                    <h3 class="work-card__title"><a href="https://getlagosnow.com/featured_item/new-avenues-for-youth/" target="_blank" rel="noopener">New Avenues for Youth<span class="sr-only"> (opens in a new tab)</span></a></h3>
+                    <span class="work-card__arrow" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M4.5 11.5l7-7M5.5 4.5h6v6"/></svg></span>
+                  </div>
+                  <p class="work-card__cats">Marketing &amp; Advertising / Nonprofit</p>
+                </div>
+                <p class="work-card__desc">Creative and marketing work associated with a youth-focused nonprofit organization.</p>
+              </div>
+            </article>
+          </li>
+        </ul>
+
+        <p class="work-empty" id="workEmpty" hidden>No projects are listed in this category yet.</p>
+      </div>
+    </section>
+
+    <!-- ============ 05 WORK WITH PURPOSE ============ -->
+    <section class="purpose" aria-labelledby="purpose-title">
+      <div class="container purpose__grid">
+        <div class="purpose__lead reveal">
+          <p class="eyebrow eyebrow--light">Beyond the deliverable</p>
+          <h2 id="purpose-title" class="purpose__title">Great work starts<br>with understanding<br>what matters.</h2>
+          <p class="purpose__text">Every organization has different goals, audiences, and challenges. We bring design, technology, and strategic thinking together to create work that serves people and supports meaningful progress.</p>
+        </div>
+        <ol class="purpose__list">
+          <li class="purpose__item reveal">
+            <span class="purpose__num">01</span>
+            <div>
+              <h3 class="purpose__item-title">Designed for People</h3>
+              <p>Inclusive, user-centered experiences.</p>
+            </div>
+          </li>
+          <li class="purpose__item reveal">
+            <span class="purpose__num">02</span>
+            <div>
+              <h3 class="purpose__item-title">Built with Purpose</h3>
+              <p>Thoughtful solutions shaped around real needs.</p>
+            </div>
+          </li>
+          <li class="purpose__item reveal">
+            <span class="purpose__num">03</span>
+            <div>
+              <h3 class="purpose__item-title">Made to Evolve</h3>
+              <p>Digital experiences designed for ongoing improvement.</p>
+            </div>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ 06 CLIENT TESTIMONIAL ============ -->
+    <section class="work-testimonial section" aria-labelledby="work-testi-title">
+      <div class="container">
+        <header class="section-head section-head--center reveal">
+          <p class="eyebrow">Client perspectives</p>
+          <h2 id="work-testi-title" class="h2">The relationships<br class="br-desk"> behind the work.</h2>
+        </header>
+
+        <div class="wt reveal">
+          <figure class="wt__quote">
+            <span class="wt__mark" aria-hidden="true">“</span>
+            <blockquote>
+              <p>They guided us through the process and made a full redesign pretty painless.</p>
+            </blockquote>
+            <figcaption>
+              <strong>Scott Thompson</strong>
+              <span>Lexicon Solutions</span>
+            </figcaption>
+          </figure>
+
+          <figure class="wt__plate">
+            <img src="assets/images/shared/Lexicon-High-Res-Logo-sm..png"
+                 alt="Lexicon Solutions logo" loading="lazy">
+            <figcaption class="wt__plate-bar"><span>Website redesign</span><span>Lexicon Solutions</span></figcaption>
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 07 FINAL CTA (shared component) ============ -->

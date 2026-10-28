@@ -1,0 +1,107 @@
+{
+  "primary": [
+    { "type": "link", "label": "Home", "href": "index.html", "key": "home" },
+    { "type": "link", "label": "Services", "href": "services.html", "key": "services" },
+    {
+      "type": "dropdown",
+      "label": "Portfolio",
+      "key": "work",
+      "desktopId": "navDropdownPortfolio",
+      "mobileId": "mobileSubPortfolio",
+      "items": [
+        { "label": "All Projects", "href": "work.html" },
+        { "label": "Energy Efficiency", "href": "portfolio-energy-efficiency.html" },
+        { "label": "Non-Profit", "href": "portfolio-nonprofit.html" },
+        { "label": "Medical & Dental", "href": "portfolio-medical-dental.html" },
+        { "label": "GLN Projects", "href": "portfolio-gln-projects.html" }
+      ]
+    },
+    { "type": "link", "label": "About", "href": "about.html", "key": "about" },
+    { "type": "link", "label": "Impact", "href": "impact.html", "key": "impact" },
+    { "type": "link", "label": "Blogs", "href": "insights.html", "key": "insights" },
+    {
+      "type": "dropdown",
+      "label": "Reports",
+      "key": "reports",
+      "desktopId": "navDropdownReports",
+      "mobileId": "mobileSubReports",
+      "grouped": true,
+      "library": { "label": "Reports library", "href": "reports.html" },
+      "groups": [
+        {
+          "title": "Annual Benefit Reports",
+          "items": [
+            { "label": "Annual Benefit Report 2025", "href": "reports/annual-benefit-2025.html" },
+            { "label": "Annual Benefit Report 2024", "href": "reports/annual-benefit-2024.html" },
+            { "label": "Annual Benefit Report 2023", "href": "reports/annual-benefit-2023.html" },
+            { "label": "Annual Benefit Report 2022", "href": "reports/annual-benefit-2022.html" },
+            { "label": "Annual Benefit Report 2021", "href": "reports/annual-benefit-2021.html" }
+          ]
+        },
+        {
+          "title": "Community & Environment",
+          "items": [
+            { "label": "E-Recycling PDX", "href": "reports/e-recycling-pdx.html" },
+            { "label": "Non-Profit Recipients", "href": "reports/non-profit-recipients.html" },
+            { "label": "E-Recycling PDX 2021", "href": "reports/e-recycling-2021.html" },
+            { "label": "E-Recycling Event 2022", "href": "reports/e-recycling-2022.html" },
+            { "label": "4th Annual E-Recycling PDX 2023", "href": "reports/e-recycling-2023.html" },
+            { "label": "5th Annual E-Recycling PDX 2024", "href": "reports/e-recycling-2024.html" }
+          ]
+        }
+      ]
+    }
+  ],
+  "footerColumns": [
+    {
+      "key": "explore",
+      "ariaLabel": "Footer — explore",
+      "head": "Explore",
+      "items": [
+        { "label": "Home", "href": "index.html" },
+        { "label": "Services", "href": "services.html" },
+        { "label": "Portfolio", "href": "work.html" },
+        { "label": "About", "href": "about.html" },
+        { "label": "Impact", "href": "impact.html" },
+        { "label": "Blogs", "href": "insights.html" },
+        { "label": "Contact", "href": "contact.html" }
+      ]
+    },
+    {
+      "key": "services",
+      "ariaLabel": "Footer — services",
+      "head": "Services & Sectors",
+      "items": [
+        { "label": "Web Design & Development", "href": "services.html#web-design" },
+        { "label": "Accessibility & SEO/AEO", "href": "services.html#accessibility-seo" },
+        { "label": "Branding & Creative", "href": "services.html#branding-creative" },
+        { "label": "Marketing & Strategy", "href": "services.html#marketing-strategy" },
+        { "label": "Energy Efficiency", "href": "portfolio-energy-efficiency.html" },
+        { "label": "Non-Profit", "href": "portfolio-nonprofit.html" },
+        { "label": "Medical & Dental", "href": "portfolio-medical-dental.html" }
+      ]
+    },
+    {
+      "key": "resources",
+      "ariaLabel": "Footer — resources",
+      "head": "Reports & Community",
+      "items": [
+        { "label": "Annual Benefit Report 2025", "href": "reports/annual-benefit-2025.html" },
+        { "label": "Annual Benefit Report 2024", "href": "reports/annual-benefit-2024.html" },
+        { "label": "Annual Benefit Report 2023", "href": "reports/annual-benefit-2023.html" },
+        { "label": "E-Recycling PDX", "href": "reports/e-recycling-pdx.html" },
+        { "label": "Non-Profit Recipients", "href": "reports/non-profit-recipients.html" }
+      ]
+    }
+  ],
+  "legalRow": [
+    { "label": "Privacy Policy", "href": "https://getlagosnow.com/privacy-policy/", "external": true },
+    { "label": "Accessibility", "href": "services.html#accessibility-seo" },
+    { "label": "AI Policy", "href": "index.html#ai-policy" }
+  ],
+  "socials": [
+    { "label": "LinkedIn", "short": "in" },
+    { "label": "Instagram", "short": "ig" },
+    { "label": "Facebook", "short": "fb" }
+  ]
+}

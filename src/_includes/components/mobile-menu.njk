@@ -1,0 +1,41 @@
+
+    <div class="mobile-menu" id="mobileMenu" hidden>
+      <nav aria-label="Mobile">
+        <ul>
+          {%- for item in navigation.primary %}
+          {%- if item.type == "link" %}
+          <li><a href="{{ prefix }}{{ item.href }}"{% if nav.mobile == item.key and nav.mobileClass %} class="is-active"{% endif %} data-nav="{{ item.key }}"{% if nav.mobile == item.key %} aria-current="page"{% endif %}>{{ item.label }}</a></li>
+          {%- else %}
+          <li>
+            <button type="button" class="mobile-sub-toggle{% if nav.dropdownToggle == item.key %} is-active{% endif %}" data-nav="{{ item.key }}" aria-expanded="false" aria-controls="{{ item.mobileId }}">
+              <span>{{ item.label }}</span>
+              <svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2.5 4.5L6 8l3.5-3.5"/></svg>
+            </button>
+            <ul class="mobile-submenu" id="{{ item.mobileId }}" hidden>
+              {%- if item.grouped %}
+              <li><a href="{{ prefix }}{{ item.library.href }}">{{ item.library.label }}</a></li>
+              {%- for group in item.groups %}
+              <li class="mobile-submenu__heading">{{ group.title }}</li>
+              {%- for sub in group.items %}
+              <li><a href="{{ prefix }}{{ sub.href }}">{{ sub.label }}</a></li>
+              {%- endfor %}
+              {%- endfor %}
+              {%- else %}
+              {%- for sub in item.items %}
+              <li><a href="{{ prefix }}{{ sub.href }}"{% if nav.dropdownCurrent == sub.href %} aria-current="page"{% endif %}>{{ sub.label }}</a></li>
+              {%- endfor %}
+              {%- endif %}
+            </ul>
+          </li>
+          {%- endif %}
+          {%- endfor %}
+        </ul>
+      </nav>
+      <div class="mobile-menu__foot">
+        <p>{{ site.mobileFootLine }}</p>
+        <a href="{{ prefix }}contact.html" class="btn btn--red"{% if nav.headerCtaActive %} aria-current="page"{% endif %}>
+          <span>Let's Talk</span>
+          <span class="btn__icon" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+        </a>
+      </div>
+    </div>

@@ -1,0 +1,22 @@
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ title }}</title>
+  <meta name="description" content="{{ description }}">
+  {%- if robots %}
+  <meta name="robots" content="{{ robots }}">
+  {%- endif %}
+  {%- if themeColor %}
+  <meta name="theme-color" content="{{ site.themeColor }}">
+  {%- endif %}
+  <link rel="icon" href="{{ prefix }}{{ site.faviconSrc }}">
+  {%- if preconnectFonts %}
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  {%- if preconnectSource %}
+  <link rel="preconnect" href="https://getlagosnow.com">
+  {%- endif %}
+  {%- endif %}
+  <link href="{{ site.fontsStylesheet }}" rel="stylesheet">
+  {%- for cssFile in css %}
+  <link rel="stylesheet" href="{{ prefix }}assets/css/{{ cssFile }}">
+  {%- endfor %}

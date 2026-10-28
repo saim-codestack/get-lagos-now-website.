@@ -1,0 +1,64 @@
+  <header class="site-header" id="siteHeader">
+    <div class="container header__inner">
+      <a class="header__logo" href="{{ prefix }}index.html" aria-label="Get Lagos Now — home"{% if nav.logoCurrent %} aria-current="page"{% endif %}>
+        <img src="{{ prefix }}{{ site.logoSrc }}" alt="Get Lagos Now" width="190" height="40">
+      </a>
+
+      <nav class="header__nav" aria-label="Primary">
+        <ul class="nav-pill">
+          {%- for item in navigation.primary %}
+          {%- if item.type == "link" %}
+          <li><a href="{{ prefix }}{{ item.href }}"{% if nav.desktop == item.key %} class="is-active"{% endif %} data-nav="{{ item.key }}"{% if nav.desktop == item.key %} aria-current="page"{% endif %}>{{ item.label }}</a></li>
+          {%- else %}
+          <li class="nav-item--dropdown">
+            <button type="button" class="nav-dropdown__toggle{% if nav.dropdownToggle == item.key %} is-active{% endif %}" data-nav="{{ item.key }}" aria-expanded="false" aria-controls="{{ item.desktopId }}">
+              <span>{{ item.label }}</span>
+              <svg class="nav-dropdown__chev" viewBox="0 0 12 12" aria-hidden="true"><path d="M2.5 4.5L6 8l3.5-3.5"/></svg>
+            </button>
+            {%- if item.grouped %}
+            <div class="nav-dropdown nav-dropdown--grouped" id="{{ item.desktopId }}">
+              <div>
+                <a class="nav-dropdown__group-title" href="{{ prefix }}{{ item.library.href }}">{{ item.library.label }}</a><span class="nav-dropdown__group-title">{{ item.groups[0].title }}</span>
+                <ul>
+                  {%- for sub in item.groups[0].items %}
+                  <li><a href="{{ prefix }}{{ sub.href }}">{{ sub.label }}</a></li>
+                  {%- endfor %}
+                </ul>
+              </div>
+              <div>
+                <span class="nav-dropdown__group-title">{{ item.groups[1].title }}</span>
+                <ul>
+                  {%- for sub in item.groups[1].items %}
+                  <li><a href="{{ prefix }}{{ sub.href }}">{{ sub.label }}</a></li>
+                  {%- endfor %}
+                </ul>
+              </div>
+            </div>
+            {%- else %}
+            <div class="nav-dropdown" id="{{ item.desktopId }}">
+              <ul>
+                {%- for sub in item.items %}
+                <li><a href="{{ prefix }}{{ sub.href }}"{% if nav.dropdownCurrent == sub.href %} aria-current="page"{% endif %}>{{ sub.label }}</a></li>
+                {%- endfor %}
+              </ul>
+            </div>
+            {%- endif %}
+          </li>
+          {%- endif %}
+          {%- endfor %}
+        </ul>
+      </nav>
+
+      <div class="header__actions">
+        <span class="header__label">{{ site.headerLabel }}</span>
+        <a href="{{ prefix }}contact.html" class="btn btn--dark{% if nav.headerCtaActive %} is-active-cta{% endif %}"{% if nav.headerCtaActive %} aria-current="page"{% endif %}>
+          <span>{{ site.headerCtaLabel }}</span>
+          <span class="btn__icon" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+        </a>
+        <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="mobileMenu" aria-label="Open menu">
+          <span></span><span></span>
+        </button>
+      </div>
+    </div>
+    {%- include "components/mobile-menu.njk" %}
+  </header>
