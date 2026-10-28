@@ -1,0 +1,876 @@
+{
+  "workCards": [
+    {
+      "slot": "0",
+      "cat": "websites accessibility nonprofit",
+      "catsLabel": "Website Development / Accessibility / Nonprofit",
+      "year": "2024 — 25",
+      "num": "01",
+      "mediaClass": "",
+      "media": {
+        "src": "assets/images/shared/childrens-inst-1024x683.png",
+        "alt": "The Children's Institute website project",
+        "width": 1024,
+        "height": 683,
+        "badge": null
+      },
+      "title": "The Children's Institute",
+      "href": "articles/2025-client-showcase-the-childrens-institute.html",
+      "desc": "Supporting a mission-driven organization's digital presence through thoughtful website development and improved accessibility.",
+      "comment": "01 The Children's Institute"
+    },
+    {
+      "slot": "1",
+      "cat": "websites marketing nonprofit",
+      "catsLabel": "Web Development / Digital Strategy / Marketing / Nonprofit",
+      "year": "2024 — 25",
+      "num": "02",
+      "mediaClass": "work-card__media--ink",
+      "media": {
+        "src": "assets/images/shared/Blue-energy-trust.png",
+        "fallback": "assets/images/shared/Blue-energy-trust-1024x538.png",
+        "alt": "Energy Trust of Oregon project artwork",
+        "width": 1200,
+        "height": 630,
+        "badge": null
+      },
+      "title": "Energy Trust of Oregon",
+      "href": "https://getlagosnow.com/featured_item/energy-trust-of-oregon/",
+      "desc": "Digital work supporting programs and initiatives connected to energy efficiency and community impact.",
+      "comment": "02 Energy Trust of Oregon"
+    },
+    {
+      "slot": "2",
+      "cat": "websites nonprofit",
+      "catsLabel": "Website Development / Systems Integrations / Nonprofit",
+      "year": "2020 — 21",
+      "num": "03",
+      "mediaClass": "",
+      "media": {
+        "src": "assets/images/shared/Medical-team-2.jpg",
+        "fallback": "assets/images/shared/Medical-team-2-1024x683.jpg",
+        "alt": "A Medical Teams International care team, from the client showcase",
+        "width": 1024,
+        "height": 683,
+        "style": "object-position: 50% 30%;",
+        "badge": {
+          "class": "work-card__badge work-card__badge--light",
+          "src": "assets/images/shared/medical-Teams-logo.png",
+          "alt": "Medical Teams International logo"
+        }
+      },
+      "title": "Medical Teams International",
+      "href": "articles/june-client-showcase-medical-team-international.html",
+      "desc": "Technical website development supporting an international humanitarian organization.",
+      "comment": "03 Medical Teams International (wide feature)"
+    },
+    {
+      "slot": "3",
+      "cat": "websites branding",
+      "catsLabel": "Website Redesign / Graphics",
+      "year": "Redesign",
+      "num": "04",
+      "mediaClass": "work-card__media--asset",
+      "media": {
+        "src": "assets/images/shared/lex.jpg",
+        "fallback": "assets/images/shared/lex-300x298.jpg",
+        "alt": "Lexicon Solutions project artwork",
+        "width": 403,
+        "height": 400,
+        "badge": null
+      },
+      "title": "Lexicon Solutions",
+      "href": "https://getlagosnow.com/featured_item/lexicon-solutions/",
+      "desc": "A comprehensive website refresh shaped around clearer brand communication and an improved digital experience.",
+      "comment": "04 Lexicon Solutions"
+    },
+    {
+      "slot": "4",
+      "cat": "websites branding nonprofit",
+      "catsLabel": "Website Development / Logo & Branding / Nonprofit",
+      "year": "2023",
+      "num": "05",
+      "mediaClass": "",
+      "media": {
+        "src": "assets/images/shared/farming-oacd-testimonial-1024x682.jpg",
+        "alt": "Farmland scene from the Oregon Association of Conservation Districts client showcase",
+        "width": 1024,
+        "height": 682,
+        "badge": {
+          "class": "work-card__badge work-card__badge--dark",
+          "src": "assets/images/shared/OACD-Logo_White-300x300.png",
+          "alt": "OACD logo"
+        }
+      },
+      "title": "OACD Website & Logo",
+      "href": "articles/september-client-showcase-testimonial-oregon-association-of-conservation-districts-oacd.html",
+      "desc": "Website and logo work supporting a clear, recognizable organizational identity.",
+      "comment": "05 OACD Website & Logo"
+    },
+    {
+      "slot": "5",
+      "cat": "marketing nonprofit",
+      "catsLabel": "Marketing & Advertising / Nonprofit",
+      "year": "2021",
+      "num": "06",
+      "mediaClass": "work-card__media--asset",
+      "media": {
+        "src": "assets/images/shared/new.jpg",
+        "fallback": "assets/images/shared/new-300x298.jpg",
+        "alt": "New Avenues for Youth campaign artwork",
+        "width": 403,
+        "height": 400,
+        "badge": null
+      },
+      "title": "New Avenues for Youth",
+      "href": "https://getlagosnow.com/featured_item/new-avenues-for-youth/",
+      "desc": "Creative and marketing work associated with a youth-focused nonprofit organization.",
+      "comment": "06 New Avenues for Youth (distinct presentation)"
+    }
+  ],
+  "categories": {
+    "energy-efficiency": {
+      "slug": "energy-efficiency",
+      "title": "Energy Efficiency — Get Lagos Now | Sustainable Web Design & Digital Strategy",
+      "description": "Energy efficiency portfolio: sustainable websites, digital strategy and branding for clean energy and conservation organizations including Energy Trust of Oregon, CLEAResult and ESS Inc.",
+      "dataPage": "portfolio-energy-efficiency",
+      "css": [
+        "style.css",
+        "responsive.css",
+        "portfolio-category.css"
+      ],
+      "js": [
+        "main.js",
+        "portfolio-library.js"
+      ],
+      "nav": {
+        "dropdownToggle": "work",
+        "dropdownCurrent": "portfolio-energy-efficiency.html",
+        "footerCurrent": {
+          "explore": "portfolio-energy-efficiency.html"
+        }
+      },
+      "cta": {
+        "sectionClass": "pc-cta",
+        "titleId": "cta-title-ee",
+        "title": "Let's Talk.",
+        "wrapper": "class",
+        "wrapperClass": "pc-cta__main",
+        "lineClass": "pc-cta__line",
+        "line": "Have a project in mind? Let's create something meaningful together.",
+        "href": "contact.html#contact-form",
+        "strong": "Start a project",
+        "sub": "Portland, Oregon"
+      },
+      "seo": {
+        "robots": null,
+        "themeColor": true,
+        "preconnectFonts": true,
+        "preconnectSource": false
+      },
+      "hero": {
+        "eyebrow": "Energy Efficiency",
+        "title": "Energy-Efficient Websites that Cut Costs & Carbon",
+        "text": "We design and build fast, accessible digital experiences for clean energy, conservation and climate-focused organizations — lightweight sites that reflect the efficiency you advocate for.",
+        "scrollCue": true
+      },
+      "intro": {
+        "heading": "Sustainable digital work, built to perform.",
+        "text": "From carbon-conscious website development to digital strategy for energy programs, we help mission-driven organizations reduce digital waste while growing their impact."
+      },
+      "featured": [
+        {
+          "tag": "001",
+          "client": "Energy Trust of Oregon",
+          "headline": "Digital experiences that put people first.",
+          "text": "A thoughtful approach to website design, accessibility, and multilingual digital experiences for a community-focused energy organization.",
+          "meta": [
+            {
+              "label": "Scope",
+              "value": "Website Design / Accessibility / Multilingual"
+            },
+            {
+              "label": "Year",
+              "value": "2025"
+            },
+            {
+              "label": "Live site",
+              "value": "https://energytrust.org/",
+              "linkText": "energytrust.org"
+            }
+          ],
+          "ctaHref": "https://energytrust.org/",
+          "ctaLabel": "Explore Project",
+          "media": {
+            "src": "assets/images/shared/DowntownRockwoodbuilding.jpg",
+            "fallback": "assets/images/shared/DowntownRockwoodbuilding-1024x683.jpg",
+            "alt": "",
+            "width": 1024,
+            "height": 683
+          }
+        },
+        {
+          "tag": "002",
+          "client": "CLEAResult",
+          "headline": "Strategy for a national energy efficiency leader.",
+          "text": "Digital strategy and website work supporting CLEAResult's energy efficiency programs and utility partnerships across North America.",
+          "meta": [
+            {
+              "label": "Scope",
+              "value": "Digital Strategy / Website Development"
+            },
+            {
+              "label": "Year",
+              "value": "2024"
+            },
+            {
+              "label": "Live site",
+              "value": "https://clearesult.com/",
+              "linkText": "clearesult.com"
+            }
+          ],
+          "ctaHref": "https://clearesult.com/",
+          "ctaLabel": "Explore Project",
+          "media": {
+            "src": "assets/images/shared/clearesult.jpg",
+            "fallback": "assets/images/shared/clearesult-1024x683.jpg",
+            "alt": "CLEAResult project artwork",
+            "width": 1024,
+            "height": 683
+          }
+        },
+        {
+          "tag": "003",
+          "client": "ESS Inc.",
+          "headline": "Energy storage for a cleaner grid.",
+          "text": "Website development and technical strategy for ESS Inc.'s iron flow battery technology, supporting long-duration energy storage and grid resilience.",
+          "meta": [
+            {
+              "label": "Scope",
+              "value": "Website Development / Technical Strategy"
+            },
+            {
+              "label": "Year",
+              "value": "2024"
+            },
+            {
+              "label": "Live site",
+              "value": "https://essinc.com/",
+              "linkText": "essinc.com"
+            }
+          ],
+          "ctaHref": "https://essinc.com/",
+          "ctaLabel": "Explore Project",
+          "media": {
+            "src": "assets/images/shared/ess-inc.jpg",
+            "fallback": "assets/images/shared/ess-inc-1024x683.jpg",
+            "alt": "ESS Inc. project artwork",
+            "width": 1024,
+            "height": 683
+          }
+        }
+      ],
+      "story": {
+        "title": "Client Story: OACD Carbon",
+        "text": "The Oregon Association of Conservation Districts needed a new ADA-compliant website to support its carbon emissions program — a clear, recognizable identity and a site built for conservation districts across the state.",
+        "link": "articles/september-client-showcase-testimonial-oregon-association-of-conservation-districts-oacd.html",
+        "linkLabel": "Read the OACD client story",
+        "media": {
+          "src": "assets/images/shared/farming-oacd-testimonial-1024x682.jpg",
+          "alt": "Farmland scene from the OACD client showcase",
+          "width": 1024,
+          "height": 682
+        }
+      },
+      "collection": [
+        {
+          "kind": "pair",
+          "items": [
+            {
+              "title": "Green NW",
+              "categories": "Clean Energy / Branding",
+              "image": "assets/images/portfolio/energy/green-nw.jpg",
+              "alt": "Green NW project artwork",
+              "href": "https://getlagosnow.com/featured_item/green-nw-logo/"
+            },
+            {
+              "title": "Braun Development Services",
+              "categories": "Website / Graphics",
+              "image": "assets/images/portfolio/energy/braun.jpg",
+              "alt": "Braun Development Services project artwork",
+              "href": "https://getlagosnow.com/featured_item/braun-development-services/"
+            }
+          ]
+        },
+        {
+          "kind": "wide",
+          "items": [
+            {
+              "title": "Pixel Interconnect",
+              "categories": "Tech Planning / Websites",
+              "image": "assets/images/portfolio/energy/pixel-interconnect.jpg",
+              "alt": "Pixel Interconnect project artwork",
+              "href": "https://getlagosnow.com/featured_item/pixel-interconnect/"
+            }
+          ]
+        }
+      ],
+      "rows": [
+        {
+          "title": "Earthfort",
+          "categories": "Soil Health / Websites",
+          "image": "assets/images/portfolio/energy/earthfort.jpg",
+          "alt": "Earthfort project artwork",
+          "href": "https://getlagosnow.com/featured_item/earthfort/"
+        },
+        {
+          "title": "ConGlobal",
+          "categories": "Logistics / Websites",
+          "image": "assets/images/portfolio/energy/conglobal.jpg",
+          "alt": "ConGlobal project artwork",
+          "href": "https://getlagosnow.com/featured_item/conglobal/"
+        },
+        {
+          "title": "Cleantech",
+          "categories": "Clean Technology / Websites",
+          "image": "assets/images/portfolio/energy/cleantech.jpg",
+          "alt": "Cleantech project artwork",
+          "href": "https://getlagosnow.com/featured_item/cleantech/"
+        },
+        {
+          "title": "Pacific Scale Co.",
+          "categories": "Scales / Websites",
+          "image": "assets/images/portfolio/energy/pacific-scale.jpg",
+          "alt": "Pacific Scale Co. project artwork",
+          "href": "https://getlagosnow.com/featured_item/pacific-scale-co/"
+        }
+      ],
+      "related": {
+        "heading": "Related sector work",
+        "items": [
+          {
+            "title": "Paramount Security Systems",
+            "categories": "Marketing / Tech Planning",
+            "href": "https://getlagosnow.com/featured_item/paramount-security-systems/"
+          },
+          {
+            "title": "Dialed-In Partners",
+            "categories": "Websites / SEO",
+            "href": "https://getlagosnow.com/featured_item/dialed-in-partners/"
+          },
+          {
+            "title": "Santiam Electrical Construction",
+            "categories": "Graphics / Tech Planning / Websites",
+            "href": "https://getlagosnow.com/featured_item/santiam-electrical-construction/"
+          }
+        ]
+      },
+      "sourceLinks": {
+        "heading": "Source links & references",
+        "links": [
+          {
+            "title": "Energy Trust of Oregon",
+            "href": "https://energytrust.org/"
+          },
+          {
+            "title": "CLEAResult",
+            "href": "https://clearesult.com/"
+          },
+          {
+            "title": "ESS Inc.",
+            "href": "https://essinc.com/"
+          },
+          {
+            "title": "OACD Carbon",
+            "href": "https://oacdcarbon.org/"
+          }
+        ]
+      },
+      "explore": {
+        "heading": "Explore more categories",
+        "items": [
+          {
+            "label": "Clean Energy",
+            "href": "#",
+            "count": 4
+          },
+          {
+            "label": "Energy Efficiency",
+            "href": "#",
+            "count": 6
+          },
+          {
+            "label": "Solar",
+            "href": "#",
+            "count": 3
+          },
+          {
+            "label": "Commercial",
+            "href": "#",
+            "count": 5
+          }
+        ]
+      }
+    },
+    "nonprofit": {
+      "slug": "nonprofit",
+      "title": "Nonprofit — Get Lagos Now | Websites, Branding & Marketing for Nonprofits",
+      "description": "Nonprofit portfolio: websites, branding and marketing for mission-driven nonprofits including The Wallace Foundation, Children's Institute, Medical Teams International and Energy Trust of Oregon.",
+      "dataPage": "portfolio-nonprofit",
+      "css": [
+        "style.css",
+        "responsive.css",
+        "portfolio-category.css"
+      ],
+      "js": [
+        "main.js",
+        "portfolio-library.js"
+      ],
+      "nav": {
+        "dropdownToggle": "work",
+        "dropdownCurrent": "portfolio-nonprofit.html",
+        "footerCurrent": {
+          "explore": "portfolio-nonprofit.html"
+        }
+      },
+      "cta": {
+        "sectionClass": "pc-cta",
+        "titleId": "cta-title-np",
+        "title": "Let's Talk.",
+        "wrapper": "class",
+        "wrapperClass": "pc-cta__main",
+        "lineClass": "pc-cta__line",
+        "line": "Have a project in mind? Let's create something meaningful together.",
+        "href": "contact.html#contact-form",
+        "strong": "Start a project",
+        "sub": "Portland, Oregon"
+      },
+      "seo": {
+        "robots": null,
+        "themeColor": true,
+        "preconnectFonts": true,
+        "preconnectSource": false
+      },
+      "hero": {
+        "eyebrow": "Nonprofit",
+        "title": "Websites, Branding & Marketing That Serve the Mission",
+        "text": "We partner with nonprofits and mission-driven organizations to build accessible websites, strong brands and effective marketing — digital work that helps them reach more people and do more good.",
+        "scrollCue": true
+      },
+      "intro": {
+        "heading": "Purpose-driven digital work for nonprofits.",
+        "text": "From healthcare and youth services to conservation and community aid, we create digital experiences that reflect your values and support your community."
+      },
+      "featured": [
+        {
+          "tag": "001",
+          "client": "Wallace Medical & Dental",
+          "headline": "Digital experiences that put people first.",
+          "text": "A thoughtful approach to website design, accessibility, and multilingual digital experiences for a community-focused healthcare organization.",
+          "meta": [
+            {
+              "label": "Scope",
+              "value": "Website Design / Accessibility / Multilingual"
+            },
+            {
+              "label": "Year",
+              "value": "2025"
+            },
+            {
+              "label": "Live site",
+              "value": "https://mywallace.org/",
+              "linkText": "mywallace.org"
+            }
+          ],
+          "ctaHref": "portfolio-medical-dental.html",
+          "ctaLabel": "Explore Project",
+          "media": {
+            "src": "assets/images/shared/DowntownRockwoodbuilding.jpg",
+            "fallback": "assets/images/shared/DowntownRockwoodbuilding-1024x683.jpg",
+            "alt": "",
+            "width": 1024,
+            "height": 683
+          }
+        },
+        {
+          "tag": "002",
+          "client": "Children's Institute",
+          "headline": "Supporting a mission-driven organization's digital presence.",
+          "text": "Website development and improved accessibility for The Children's Institute, helping them serve Oregon's children and families more effectively online.",
+          "meta": [
+            {
+              "label": "Scope",
+              "value": "Website Development / Accessibility"
+            },
+            {
+              "label": "Year",
+              "value": "2024 — 25"
+            },
+            {
+              "label": "Live site",
+              "value": "https://childinst.org/",
+              "linkText": "childinst.org"
+            }
+          ],
+          "ctaHref": "articles/2025-client-showcase-the-childrens-institute.html",
+          "ctaLabel": "Read the Showcase",
+          "media": {
+            "src": "assets/images/shared/childrens-inst-1024x683.png",
+            "alt": "The Children's Institute website project",
+            "width": 1024,
+            "height": 683
+          }
+        }
+      ],
+      "oacd": {
+        "kind": "dark",
+        "title": "OACD Carbon",
+        "text": "A new ADA-compliant website and brand identity for the Oregon Association of Conservation Districts' carbon emissions program — supporting conservation districts across Oregon.",
+        "link": "articles/september-client-showcase-testimonial-oregon-association-of-conservation-districts-oacd.html",
+        "linkLabel": "Read the OACD client story",
+        "media": {
+          "src": "assets/images/shared/farming-oacd-testimonial-1024x682.jpg",
+          "alt": "Farmland scene from the OACD client showcase",
+          "width": 1024,
+          "height": 682
+        }
+      },
+      "collection": [
+        {
+          "kind": "pair",
+          "items": [
+            {
+              "title": "Medical Teams International",
+              "categories": "Websites / Nonprofit",
+              "image": "assets/images/portfolio/nonprofit/medical-teams.jpg",
+              "alt": "Medical Teams International project artwork",
+              "href": "articles/june-client-showcase-medical-team-international.html"
+            },
+            {
+              "title": "Energy Trust of Oregon",
+              "categories": "Websites / Marketing / Nonprofit",
+              "image": "assets/images/portfolio/nonprofit/energy-trust.jpg",
+              "alt": "Energy Trust of Oregon project artwork",
+              "href": "https://getlagosnow.com/featured_item/energy-trust-of-oregon/"
+            }
+          ]
+        },
+        {
+          "kind": "wide",
+          "items": [
+            {
+              "title": "New Avenues for Youth",
+              "categories": "Marketing / Nonprofit",
+              "image": "assets/images/portfolio/nonprofit/new-avenues.jpg",
+              "alt": "New Avenues for Youth project artwork",
+              "href": "https://getlagosnow.com/featured_item/new-avenues-for-youth/"
+            }
+          ]
+        },
+        {
+          "kind": "pair--medium",
+          "items": [
+            {
+              "title": "Oregon Safe Schools & Communities Coalition",
+              "categories": "Graphics / Tech Planning / Websites",
+              "image": "assets/images/portfolio/nonprofit/oregonsafeschools.jpg",
+              "alt": "OSSCC project artwork",
+              "href": "https://getlagosnow.com/featured_item/oregon-safe-school-communities-coalition/"
+            },
+            {
+              "title": "Green NW",
+              "categories": "Clean Energy / Branding",
+              "image": "assets/images/portfolio/nonprofit/green-nw.jpg",
+              "alt": "Green NW project artwork",
+              "href": "https://getlagosnow.com/featured_item/green-nw-logo/"
+            }
+          ]
+        }
+      ],
+      "rows": [
+        {
+          "title": "KindRaiser",
+          "categories": "Graphics",
+          "image": "assets/images/portfolio/nonprofit/kindraiser.jpg",
+          "alt": "KindRaiser project artwork",
+          "href": "https://getlagosnow.com/featured_item/3741/"
+        },
+        {
+          "title": "Audubon Society of Portland",
+          "categories": "Conservation / Nonprofit",
+          "image": "assets/images/portfolio/nonprofit/audubon.jpg",
+          "alt": "Audubon project artwork",
+          "href": "https://getlagosnow.com/featured_item/audubon/"
+        },
+        {
+          "title": "SOLVE",
+          "categories": "Environment / Nonprofit",
+          "image": "assets/images/portfolio/nonprofit/solve.jpg",
+          "alt": "SOLVE project artwork",
+          "href": "https://getlagosnow.com/featured_item/solve/"
+        },
+        {
+          "title": "Breast Friends",
+          "categories": "Health / Nonprofit",
+          "image": "assets/images/portfolio/nonprofit/breast-friends.jpg",
+          "alt": "Breast Friends project artwork",
+          "href": "https://getlagosnow.com/featured_item/breast-friends/"
+        },
+        {
+          "title": "Blanchet House",
+          "categories": "Hospitality / Nonprofit",
+          "image": "assets/images/portfolio/nonprofit/blanchet.jpg",
+          "alt": "Blanchet House project artwork",
+          "href": "https://getlagosnow.com/featured_item/blanchet-house/"
+        },
+        {
+          "title": "White Coat Waste",
+          "categories": "Advocacy / Nonprofit",
+          "image": "assets/images/portfolio/nonprofit/white-coat-waste.jpg",
+          "alt": "White Coat Waste project artwork",
+          "href": "https://getlagosnow.com/featured_item/white-coat-waste/"
+        }
+      ],
+      "perspective": {
+        "heading": "Client perspective",
+        "quote": "They guided us through the process and made a full redesign pretty painless.",
+        "author": "Scott Thompson",
+        "org": "Lexicon Solutions",
+        "media": {
+          "src": "assets/images/shared/Lexicon-High-Res-Logo-sm..png",
+          "alt": "Lexicon Solutions logo",
+          "captionLine1": "Website redesign",
+          "captionLine2": "Lexicon Solutions"
+        }
+      },
+      "sourceLinks": {
+        "heading": "Source links & references",
+        "links": [
+          {
+            "title": "Wallace Medical & Dental",
+            "href": "https://mywallace.org/"
+          },
+          {
+            "title": "Children's Institute",
+            "href": "https://childinst.org/"
+          },
+          {
+            "title": "Medical Teams International",
+            "href": "https://medicalteams.org/"
+          },
+          {
+            "title": "Energy Trust of Oregon",
+            "href": "https://energytrust.org/"
+          },
+          {
+            "title": "OACD Carbon",
+            "href": "https://oacdcarbon.org/"
+          }
+        ]
+      },
+      "explore": {
+        "heading": "Explore more categories",
+        "items": [
+          {
+            "label": "Healthcare",
+            "href": "#",
+            "count": 5
+          },
+          {
+            "label": "Youth Services",
+            "href": "#",
+            "count": 4
+          },
+          {
+            "label": "Conservation",
+            "href": "#",
+            "count": 4
+          },
+          {
+            "label": "Community Aid",
+            "href": "#",
+            "count": 5
+          }
+        ]
+      }
+    },
+    "medical-dental": {
+      "slug": "medical-dental",
+      "title": "Medical & Dental — Get Lagos Now | Healthcare Websites & Branding",
+      "description": "Medical & dental portfolio: accessible healthcare websites and branding for medical and dental practices including Wallace Medical & Dental, Medical Teams International and Portland Family Dental.",
+      "dataPage": "portfolio-medical-dental",
+      "css": [
+        "style.css",
+        "responsive.css",
+        "portfolio-complete.css"
+      ],
+      "js": [
+        "main.js",
+        "portfolio-library.js"
+      ],
+      "nav": {
+        "dropdownToggle": "work",
+        "dropdownCurrent": "portfolio-medical-dental.html",
+        "footerCurrent": {
+          "explore": "portfolio-medical-dental.html"
+        }
+      },
+      "cta": {
+        "sectionClass": "pc-cta",
+        "titleId": "cta-title-md",
+        "title": "Let's Talk.",
+        "wrapper": "class",
+        "wrapperClass": "pc-cta__main",
+        "lineClass": "pc-cta__line",
+        "line": "Have a project in mind? Let's create something meaningful together.",
+        "href": "contact.html#contact-form",
+        "strong": "Start a project",
+        "sub": "Portland, Oregon"
+      },
+      "seo": {
+        "robots": null,
+        "themeColor": true,
+        "preconnectFonts": true,
+        "preconnectSource": false
+      },
+      "hero": {
+        "eyebrow": "Medical & Dental",
+        "title": "Accessible Websites & Branding for Healthcare",
+        "text": "We design HIPAA-minded, accessible digital experiences for medical and dental organizations — from community clinics to dental practices — built for patients, providers and peace of mind.",
+        "scrollCue": true
+      },
+      "intro": {
+        "heading": "Healthcare digital work, done with care.",
+        "text": "From multilingual clinic websites to patient-focused branding, we help medical and dental organizations communicate clearly and serve their communities online."
+      },
+      "featured": [
+        {
+          "tag": "001",
+          "client": "Wallace Medical & Dental",
+          "headline": "Digital experiences that put people first.",
+          "text": "A thoughtful approach to website design, accessibility, and multilingual digital experiences for a community-focused healthcare organization.",
+          "meta": [
+            {
+              "label": "Scope",
+              "value": "Website Design / Accessibility / Multilingual"
+            },
+            {
+              "label": "Year",
+              "value": "2025"
+            },
+            {
+              "label": "Live site",
+              "value": "https://mywallace.org/",
+              "linkText": "mywallace.org"
+            }
+          ],
+          "ctaHref": "portfolio-medical-dental.html",
+          "ctaLabel": "Explore Project",
+          "media": {
+            "src": "assets/images/shared/DowntownRockwoodbuilding.jpg",
+            "fallback": "assets/images/shared/DowntownRockwoodbuilding-1024x683.jpg",
+            "alt": "",
+            "width": 1024,
+            "height": 683
+          }
+        }
+      ],
+      "clientBand": {
+        "title": "Medical Teams International",
+        "text": "Website development supporting an international humanitarian medical organization.",
+        "media": {
+          "src": "assets/images/shared/Medical-team-2.jpg",
+          "fallback": "assets/images/shared/Medical-team-2-1024x683.jpg",
+          "alt": "A Medical Teams International care team",
+          "width": 1024,
+          "height": 683,
+          "logo": {
+            "src": "assets/images/shared/medical-Teams-logo.png",
+            "alt": "Medical Teams International logo"
+          }
+        }
+      },
+      "clients": [
+        {
+          "title": "Portland Family Dental",
+          "categories": "Dental / Websites",
+          "image": "assets/images/portfolio/medical/portland-family-dental.jpg",
+          "alt": "Portland Family Dental project artwork",
+          "href": "https://getlagosnow.com/featured_item/portland-family-dentistry/"
+        },
+        {
+          "title": "HSU Wellness",
+          "categories": "Wellness / Websites",
+          "image": "assets/images/portfolio/medical/hsu-wellness.jpg",
+          "alt": "HSU Wellness project artwork",
+          "href": "https://getlagosnow.com/featured_item/hsu-wellness/"
+        },
+        {
+          "title": "Bayberry Clinic",
+          "categories": "Clinic / Websites",
+          "image": "assets/images/portfolio/medical/bayberry-clinic.jpg",
+          "alt": "Bayberry Clinic project artwork",
+          "href": "https://getlagosnow.com/featured_item/bayberry-clinic/"
+        },
+        {
+          "title": "Dr. Noel Thomas",
+          "categories": "Dental / Websites",
+          "image": "assets/images/portfolio/medical/dr-noel-thomas.jpg",
+          "alt": "Dr. Noel Thomas project artwork",
+          "href": "https://getlagosnow.com/featured_item/dr-noel-thomas/"
+        }
+      ],
+      "testimonial": {
+        "quote": "They guided us through the process and made a full redesign pretty painless.",
+        "author": "Scott Thompson",
+        "org": "Lexicon Solutions",
+        "media": {
+          "src": "assets/images/shared/Lexicon-High-Res-Logo-sm..png",
+          "alt": "Lexicon Solutions logo"
+        }
+      },
+      "sourceLinks": {
+        "heading": "Source links & references",
+        "links": [
+          {
+            "title": "Wallace Medical & Dental",
+            "href": "https://mywallace.org/"
+          },
+          {
+            "title": "Medical Teams International",
+            "href": "https://medicalteams.org/"
+          },
+          {
+            "title": "Portland Family Dental",
+            "href": "https://getlagosnow.com/featured_item/portland-family-dentistry/"
+          }
+        ]
+      },
+      "explore": {
+        "heading": "Explore more categories",
+        "items": [
+          {
+            "label": "Medical",
+            "href": "#",
+            "count": 4
+          },
+          {
+            "label": "Dental",
+            "href": "#",
+            "count": 3
+          },
+          {
+            "label": "Wellness",
+            "href": "#",
+            "count": 2
+          },
+          {
+            "label": "Clinics",
+            "href": "#",
+            "count": 3
+          }
+        ]
+      }
+    }
+  }
+}

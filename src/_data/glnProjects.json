@@ -1,0 +1,458 @@
+[
+  {
+    "id": "wildroot-salon",
+    "title": "Wildroot Salon",
+    "categories": [
+      "websites"
+    ],
+    "image": "assets/images/portfolio/gln/wildroot-salon-detail.jpg",
+    "alt": "Wildroot Salon project artwork from Get Lagos Now’s original portfolio",
+    "description": "Website Development &amp; Designer SEO/Social Media Strategy – Michelle Lagos",
+    "sourceUrl": "https://getlagosnow.com/featured_item/wildroot-salon/"
+  },
+  {
+    "id": "what-is-thought-leadership",
+    "title": "What is Thought Leadership?!",
+    "categories": [
+      "marketing",
+      "tech"
+    ],
+    "image": "assets/images/portfolio/gln/what-is-thought-leadership-detail.jpg",
+    "alt": "What is Thought Leadership?! project artwork from Get Lagos Now’s original portfolio",
+    "description": "Thought Leadership refers to the position of being recognized as an authority or expert in a particular field or industry.",
+    "sourceUrl": "https://getlagosnow.com/featured_item/what-is-thought-leadership/"
+  },
+  {
+    "id": "vibe-method-logo",
+    "title": "Vibe Method Logo",
+    "categories": [
+      "graphics",
+      "marketing"
+    ],
+    "image": "assets/images/portfolio/gln/vibe-method-logo-detail.png",
+    "alt": "Vibe Method Logo project artwork from Get Lagos Now’s original portfolio",
+    "description": "",
+    "sourceUrl": "https://getlagosnow.com/featured_item/vibe-method-logo/"
+  },
+  {
+    "id": "ur-home-property-management",
+    "title": "UR Home Property Management",
+    "categories": [
+      "graphics",
+      "marketing",
+      "tech",
+      "websites"
+    ],
+    "image": "assets/images/portfolio/gln/ur-home-property-management-detail.png",
+    "alt": "UR Home Property Management project artwork from Get Lagos Now’s original portfolio",
+    "description": "Website",
+    "sourceUrl": "https://getlagosnow.com/featured_item/ur-home-property-management/"
+  },
+  {
+    "id": "ups",
+    "title": "UPS",
+    "categories": [
+      "marketing"
+    ],
+    "image": "assets/images/portfolio/gln/ups-detail.jpg",
+    "alt": "UPS project artwork from Get Lagos Now’s original portfolio",
+    "description": "Washington Square UPS Marketing &amp; Advertising Services",
+    "sourceUrl": "https://getlagosnow.com/featured_item/ups/"
+  },
+  {
+    "id": "tatu-protein-drink",
+    "title": "TATU Protein Drink",
+    "categories": [
+      "tech",
+      "websites"
+    ],
+    "image": "assets/images/portfolio/gln/tatu-protein-drink-detail.png",
+    "alt": "TATU Protein Drink project artwork from Get Lagos Now’s original portfolio",
+    "description": "Michelle – New website development/design/content/system integrations. Launch 2/2023",
+    "sourceUrl": "https://getlagosnow.com/featured_item/tatu-protein-drink/"
+  },
+  {
+    "id": "strategic-it",
+    "title": "Strategic IT",
+    "categories": [
+      "websites"
+    ],
+    "image": "assets/images/portfolio/gln/strategic-it-detail.jpg",
+    "alt": "Strategic IT project artwork from Get Lagos Now’s original portfolio",
+    "description": "Gary Dunsworth Owner of Strategic IT Website development/design, content, optimization, UX/UI Michelle Lagos &amp; Aaron Yeagle",
+    "sourceUrl": "https://getlagosnow.com/featured_item/strategic-it/"
+  },
+  {
+    "id": "stokes-pie",
+    "title": "Stokes Pie",
+    "categories": [
+      "marketing"
+    ],
+    "image": "assets/images/portfolio/gln/stokes-pie-detail.png",
+    "alt": "Stokes Pie project artwork from Get Lagos Now’s original portfolio",
+    "description": "Google Campaigns – Content Ads, Display ads and Redirect Campaigns",
+    "sourceUrl": "https://getlagosnow.com/featured_item/stokes-pie/"
+  },
+  {
+    "id": "seattle-space-needle",
+    "title": "Seattle Space Needle",
+    "categories": [
+      "marketing"
+    ],
+    "image": "assets/images/portfolio/gln/seattle-space-needle-detail.jpg",
+    "alt": "Seattle Space Needle project artwork from Get Lagos Now’s original portfolio",
+    "description": "Photography, Social Media Ads – Michelle Lagos",
+    "sourceUrl": "https://getlagosnow.com/featured_item/seattle-space-needle/"
+  },
+  {
+    "id": "seattle-chihuly",
+    "title": "Seattle Chihuly",
+    "categories": [
+      "marketing"
+    ],
+    "image": "assets/images/portfolio/gln/seattle-chihuly-detail.jpg",
+    "alt": "Seattle Chihuly project artwork from Get Lagos Now’s original portfolio",
+    "description": "Photography, Social Media Ads – Michelle Lagos",
+    "sourceUrl": "https://getlagosnow.com/featured_item/seattle-chihuly/"
+  },
+  {
+    "id": "santiam-electrical-construction",
+    "title": "Santiam Electrical Construction",
+    "categories": [
+      "graphics",
+      "tech",
+      "websites"
+    ],
+    "image": "assets/images/portfolio/gln/santiam-electrical-construction-detail.jpg",
+    "alt": "Santiam Electrical Construction project artwork from Get Lagos Now’s original portfolio",
+    "description": "https://www.santiamec.net/",
+    "sourceUrl": "https://getlagosnow.com/featured_item/santiam-electrical-construction/"
+  },
+  {
+    "id": "red-rock-adventures-in-utah",
+    "title": "Red Rock Adventures in Utah",
+    "categories": [
+      "marketing"
+    ],
+    "image": "assets/images/portfolio/gln/red-rock-adventures-in-utah-detail.jpg",
+    "alt": "Red Rock Adventures in Utah project artwork from Get Lagos Now’s original portfolio",
+    "description": "",
+    "sourceUrl": "https://getlagosnow.com/featured_item/red-rock-adventures-in-utah/"
+  },
+  {
+    "id": "portland-family-dentistry",
+    "title": "Portland Family Dentistry",
+    "categories": [
+      "tech"
+    ],
+    "image": "assets/images/portfolio/gln/portland-family-dentistry-detail.jpg",
+    "alt": "Portland Family Dentistry project artwork from Get Lagos Now’s original portfolio",
+    "description": "",
+    "sourceUrl": "https://getlagosnow.com/featured_item/portland-family-dentistry/"
+  },
+  {
+    "id": "portfolio-template",
+    "title": "Pixel Interconnect",
+    "categories": [
+      "tech",
+      "websites"
+    ],
+    "image": "assets/images/portfolio/gln/portfolio-template.png",
+    "alt": "Pixel Interconnect project artwork from Get Lagos Now’s original portfolio",
+    "description": "Website development, website design, video editing consulting, visuals, content management, basic SEO",
+    "sourceUrl": "https://getlagosnow.com/featured_item/portfolio-template/"
+  },
+  {
+    "id": "pinzelik-law",
+    "title": "Pinzelik Law",
+    "categories": [
+      "graphics"
+    ],
+    "image": "assets/images/portfolio/gln/pinzelik-law-detail.png",
+    "alt": "Pinzelik Law project artwork from Get Lagos Now’s original portfolio",
+    "description": "",
+    "sourceUrl": "https://getlagosnow.com/featured_item/pinzelik-law/"
+  },
+  {
+    "id": "pdx-convention-center",
+    "title": "PDX Convention Center",
+    "categories": [
+      "marketing"
+    ],
+    "image": "assets/images/portfolio/gln/pdx-convention-center-detail.jpg",
+    "alt": "PDX Convention Center project artwork from Get Lagos Now’s original portfolio",
+    "description": "Staff Force LLC Social Media/Visuals – Michelle Lagos",
+    "sourceUrl": "https://getlagosnow.com/featured_item/pdx-convention-center/"
+  },
+  {
+    "id": "paramount-security-systems",
+    "title": "Paramount Security Systems",
+    "categories": [
+      "marketing",
+      "tech"
+    ],
+    "image": "assets/images/portfolio/gln/paramount-security-systems-detail.jpg",
+    "alt": "Paramount Security Systems project artwork from Get Lagos Now’s original portfolio",
+    "description": "Services Utilized: Website Optimization, Digital Advertising, Google Campaigns, Google Business Ads",
+    "sourceUrl": "https://getlagosnow.com/featured_item/paramount-security-systems/"
+  },
+  {
+    "id": "pacific-scale-co",
+    "title": "Pacific Scale Co.",
+    "categories": [
+      "graphics",
+      "tech",
+      "websites"
+    ],
+    "image": "assets/images/portfolio/gln/pacific-scale-co-detail.png",
+    "alt": "Pacific Scale Co. project artwork from Get Lagos Now’s original portfolio",
+    "description": "Website Design/Development/SEO/Graphic Design/Rebrand",
+    "sourceUrl": "https://getlagosnow.com/featured_item/pacific-scale-co/"
+  },
+  {
+    "id": "oregon-safe-school-communities-coalition",
+    "title": "Oregon Safe School &amp; Communities Coalition",
+    "categories": [
+      "graphics",
+      "tech",
+      "websites"
+    ],
+    "image": "assets/images/portfolio/gln/oregon-safe-school-communities-coalition-detail.png",
+    "alt": "Oregon Safe School &amp; Communities Coalition project artwork from Get Lagos Now’s original portfolio",
+    "description": "https://www.oregonsafeschools.org/",
+    "sourceUrl": "https://getlagosnow.com/featured_item/oregon-safe-school-communities-coalition/"
+  },
+  {
+    "id": "oacd-logo-website",
+    "title": "OACD Logo &amp; Website",
+    "categories": [
+      "graphics",
+      "tech",
+      "websites"
+    ],
+    "image": "assets/images/portfolio/gln/oacd-logo-website-detail.png",
+    "alt": "OACD Logo &amp; Website project artwork from Get Lagos Now’s original portfolio",
+    "description": "Logo redesign and the New ADA compliant OACD carbon emissions website. https://oacdcarbon.org/",
+    "sourceUrl": "https://getlagosnow.com/featured_item/oacd-logo-website/"
+  },
+  {
+    "id": "new-avenues-for-youth",
+    "title": "New Avenues for Youth",
+    "categories": [
+      "marketing"
+    ],
+    "image": "assets/images/portfolio/gln/new-avenues-for-youth-detail.png",
+    "alt": "New Avenues for Youth project artwork from Get Lagos Now’s original portfolio",
+    "description": "Digital Marketing Campaigns",
+    "sourceUrl": "https://getlagosnow.com/featured_item/new-avenues-for-youth/"
+  },
+  {
+    "id": "neea",
+    "title": "NEEA",
+    "categories": [
+      "tech"
+    ],
+    "image": "assets/images/portfolio/gln/neea-detail.jpg",
+    "alt": "NEEA project artwork from Get Lagos Now’s original portfolio",
+    "description": "Project Management – Michelle Lagos Project Concept – Aaron Yeagle",
+    "sourceUrl": "https://getlagosnow.com/featured_item/neea/"
+  },
+  {
+    "id": "music-fade-ad-1",
+    "title": "Music Fade Ad 1",
+    "categories": [
+      "marketing"
+    ],
+    "image": "assets/images/portfolio/gln/music-fade-ad-1-detail.png",
+    "alt": "Music Fade Ad 1 project artwork from Get Lagos Now’s original portfolio",
+    "description": "Digital Media Advertising Campaign",
+    "sourceUrl": "https://getlagosnow.com/featured_item/music-fade-ad-1/"
+  },
+  {
+    "id": "medical-teams-international",
+    "title": "Medical Teams International",
+    "categories": [
+      "websites"
+    ],
+    "image": "assets/images/portfolio/gln/medical-teams-international-detail.png",
+    "alt": "Medical Teams International project artwork from Get Lagos Now’s original portfolio",
+    "description": "Website Development – PHP Coding",
+    "sourceUrl": "https://getlagosnow.com/featured_item/medical-teams-international/"
+  },
+  {
+    "id": "matrix-networks",
+    "title": "Matrix Networks",
+    "categories": [
+      "websites"
+    ],
+    "image": "assets/images/portfolio/gln/matrix-networks-detail.png",
+    "alt": "Matrix Networks project artwork from Get Lagos Now’s original portfolio",
+    "description": "Creating Matrix responsive splash pages.",
+    "sourceUrl": "https://getlagosnow.com/featured_item/matrix-networks/"
+  },
+  {
+    "id": "lexicon-solutions",
+    "title": "Lexicon Solutions",
+    "categories": [
+      "graphics",
+      "websites"
+    ],
+    "image": "assets/images/portfolio/gln/lexicon-solutions-detail.png",
+    "alt": "Lexicon Solutions project artwork from Get Lagos Now’s original portfolio",
+    "description": "Lexicon Solution Logo, graphics, mobil app. plans, functionality, design, content &amp; website development/design",
+    "sourceUrl": "https://getlagosnow.com/featured_item/lexicon-solutions/"
+  },
+  {
+    "id": "jackie-woodside-author-tedx-speaker-podcast",
+    "title": "Jackie Woodside – Author + TedX Speaker + Podcast",
+    "categories": [
+      "graphics",
+      "marketing",
+      "tech",
+      "websites"
+    ],
+    "image": "assets/images/portfolio/gln/jackie-woodside-author-tedx-speaker-podcast.png",
+    "alt": "Jackie Woodside – Author + TedX Speaker + Podcast project artwork from Get Lagos Now’s original portfolio",
+    "description": "Content, advertising strategy, website development &amp; design, hosting, site functionality and UX/UI.",
+    "sourceUrl": "https://getlagosnow.com/featured_item/jackie-woodside-author-tedx-speaker-podcast/"
+  },
+  {
+    "id": "green-nw-logo",
+    "title": "Green NW Logo",
+    "categories": [
+      "graphics",
+      "tech"
+    ],
+    "image": "assets/images/portfolio/gln/green-nw-logo-detail.jpg",
+    "alt": "Green NW Logo project artwork from Get Lagos Now’s original portfolio",
+    "description": "",
+    "sourceUrl": "https://getlagosnow.com/featured_item/green-nw-logo/"
+  },
+  {
+    "id": "get-lagos-now-2",
+    "title": "Get Lagos Now",
+    "categories": [
+      "marketing"
+    ],
+    "image": "assets/images/portfolio/gln/get-lagos-now-2-detail.png",
+    "alt": "Get Lagos Now project artwork from Get Lagos Now’s original portfolio",
+    "description": "",
+    "sourceUrl": "https://getlagosnow.com/featured_item/get-lagos-now-2/"
+  },
+  {
+    "id": "friedas-hatch-chiles",
+    "title": "Frieda’s Hatch Chiles",
+    "categories": [
+      "marketing"
+    ],
+    "image": "assets/images/portfolio/gln/friedas-hatch-chiles-detail.png",
+    "alt": "Frieda’s Hatch Chiles project artwork from Get Lagos Now’s original portfolio",
+    "description": "Google Campaigns – Content Ads, Display ads and Redirect Campaigns",
+    "sourceUrl": "https://getlagosnow.com/featured_item/friedas-hatch-chiles/"
+  },
+  {
+    "id": "ess-inc",
+    "title": "ESS Inc.",
+    "categories": [
+      "tech",
+      "websites"
+    ],
+    "image": "assets/images/portfolio/gln/ess-inc-detail.png",
+    "alt": "ESS Inc. project artwork from Get Lagos Now’s original portfolio",
+    "description": "Website Hosting/Website Development/Website Design/Tech Palnning",
+    "sourceUrl": "https://getlagosnow.com/featured_item/ess-inc/"
+  },
+  {
+    "id": "energy-trust-of-oregon",
+    "title": "Energy Trust of Oregon",
+    "categories": [
+      "tech",
+      "websites"
+    ],
+    "image": "assets/images/portfolio/gln/energy-trust-of-oregon-detail.png",
+    "alt": "Energy Trust of Oregon project artwork from Get Lagos Now’s original portfolio",
+    "description": "Wordpress development/integrations/PHP",
+    "sourceUrl": "https://getlagosnow.com/featured_item/energy-trust-of-oregon/"
+  },
+  {
+    "id": "dialed-in-partners",
+    "title": "Dialed-In Partners",
+    "categories": [
+      "websites"
+    ],
+    "image": "assets/images/portfolio/gln/dialed-in-partners-detail.jpg",
+    "alt": "Dialed-In Partners project artwork from Get Lagos Now’s original portfolio",
+    "description": "Principal/Director Ken Fredrickson Website Design, SEO, Content, Visuals, Strategic Consulting Michelle Lagos",
+    "sourceUrl": "https://getlagosnow.com/featured_item/dialed-in-partners/"
+  },
+  {
+    "id": "david-hill-winery",
+    "title": "David Hill Winery",
+    "categories": [
+      "marketing"
+    ],
+    "image": "assets/images/portfolio/gln/david-hill-winery-detail.jpg",
+    "alt": "David Hill Winery project artwork from Get Lagos Now’s original portfolio",
+    "description": "Social Media Ads, Photography – Michelle Lagos",
+    "sourceUrl": "https://getlagosnow.com/featured_item/david-hill-winery/"
+  },
+  {
+    "id": "braun-development-services",
+    "title": "Braun Development Services",
+    "categories": [
+      "graphics",
+      "websites"
+    ],
+    "image": "assets/images/portfolio/gln/braun-development-services-detail.png",
+    "alt": "Braun Development Services project artwork from Get Lagos Now’s original portfolio",
+    "description": "Braundevelopmentservices.com Website Development/Content &amp; Visual Management – Michelle Lagos Logo Design – Get Lagos Now Team",
+    "sourceUrl": "https://getlagosnow.com/featured_item/braun-development-services/"
+  },
+  {
+    "id": "barbur-vista-care-center",
+    "title": "Barbur Vista Care Center",
+    "categories": [
+      "graphics",
+      "tech",
+      "websites"
+    ],
+    "image": "assets/images/portfolio/gln/barbur-vista-care-center-detail.jpg",
+    "alt": "Barbur Vista Care Center project artwork from Get Lagos Now’s original portfolio",
+    "description": "Custom built and designed website. All content, graphics, layout planning, functionality and hosted provided. www.BarburVistaCare.com",
+    "sourceUrl": "https://getlagosnow.com/featured_item/barbur-vista-care-center/"
+  },
+  {
+    "id": "artic-cool-closeout",
+    "title": "Arctic Cool CloseOut",
+    "categories": [
+      "marketing",
+      "websites"
+    ],
+    "image": "assets/images/portfolio/gln/artic-cool-closeout-detail.jpg",
+    "alt": "Arctic Cool CloseOut project artwork from Get Lagos Now’s original portfolio",
+    "description": "PND/Arctic Cool Website development/marketing strategies/debugging",
+    "sourceUrl": "https://getlagosnow.com/featured_item/artic-cool-closeout/"
+  },
+  {
+    "id": "ab-revenue-solutions",
+    "title": "A&amp;B Revenue Solutions",
+    "categories": [
+      "graphics"
+    ],
+    "image": "assets/images/portfolio/gln/ab-revenue-solutions-detail.jpg",
+    "alt": "A&amp;B Revenue Solutions project artwork from Get Lagos Now’s original portfolio",
+    "description": "New Logo Design",
+    "sourceUrl": "https://getlagosnow.com/featured_item/ab-revenue-solutions/"
+  },
+  {
+    "id": "3741",
+    "title": "KindRaiser Logo – Kindness counts",
+    "categories": [
+      "graphics"
+    ],
+    "image": "assets/images/portfolio/gln/3741-detail.png",
+    "alt": "KindRaiser Logo – Kindness counts project artwork from Get Lagos Now’s original portfolio",
+    "description": "",
+    "sourceUrl": "https://getlagosnow.com/featured_item/3741/"
+  }
+]

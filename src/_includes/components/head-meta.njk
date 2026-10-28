@@ -20,6 +20,8 @@
   {%- endif %}
   {%- endif %}
   <link href="{{ site.fontsStylesheet }}" rel="stylesheet">
-  {%- for cssFile in css %}
-  <link rel="stylesheet" href="{{ prefix }}assets/css/{{ cssFile }}">
-  {%- endfor %}
+{%- if headExtra %}{{ headExtra | safe }}{% endif %}
+{%- for cssFile in css %}
+<link rel="stylesheet" href="{{ prefix }}assets/css/{{ cssFile }}">
+{%- endfor %}
+{%- if headClose %}{{ headClose | safe }}{% endif %}
