@@ -1,0 +1,22 @@
+# Get Lagos Now — Netlify site configuration
+# Static site built with Eleventy (build-time only). No CMS, no paid services,
+# no frontend frameworks, no production runtime dependencies.
+
+[build]
+  command = "npm run build"
+  publish = "_site"
+  # Node.js version matched to local development (v22 LTS).
+
+[build.environment]
+  NODE_VERSION = "22"
+
+# Cache static assets aggressively; HTML pages are revalidated on each deploy.
+[[headers]]
+  for = "/assets/*"
+  [headers.values]
+    Cache-Control = "public, max-age=31536000, immutable"
+
+[[headers]]
+  for = "/*.html"
+  [headers.values]
+    Cache-Control = "public, max-age=0, must-revalidate"
