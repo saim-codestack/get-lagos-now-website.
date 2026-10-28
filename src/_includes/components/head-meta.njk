@@ -1,13 +1,16 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{{ title }}</title>
-  <meta name="description" content="{{ description }}">
-  {%- if robots %}
-  <meta name="robots" content="{{ robots }}">
-  {%- endif %}
-  {%- if themeColor %}
-  <meta name="theme-color" content="{{ site.themeColor }}">
-  {%- endif %}
+  <title>{{ title | safe }}</title>
+  {%- set _metaOrder = headMetaOrder | default(["description","robots","articleTime","themeColor"]) %}
+  {%- for _key in _metaOrder %}
+    {%- if _key == "description" %}<meta name="description" content="{{ description | safe }}">{%- endif %}
+    {%- if _key == "robots" and robots %}<meta name="robots" content="{{ robots }}">{%- endif %}
+    {%- if _key == "articleTime" and article and article.publishedTime %}
+    <meta property="article:published_time" content="{{ article.publishedTime }}">
+    <meta property="article:modified_time" content="{{ article.modifiedTime }}">
+    {%- endif %}
+    {%- if _key == "themeColor" and themeColor %}<meta name="theme-color" content="{{ site.themeColor }}">{%- endif %}
+  {%- endfor %}
   <link rel="icon" href="{{ prefix }}{{ site.faviconSrc }}">
   {%- if preconnectFonts %}
   <link rel="preconnect" href="https://fonts.googleapis.com">

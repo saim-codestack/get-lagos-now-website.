@@ -4,14 +4,22 @@
       src/about.njk        -> /about.html
       src/articles/x.njk   -> /articles/x.html   (Phase 3)
    2. `prefix` gives the asset/link path prefix per output depth
-      ("" at root, "../" inside articles/ or reports/) so nested pages
-      emit the same relative paths the hand-built site uses. */
+      ("" at root, "../" per nesting level) so nested pages
+      emit the same relative paths the hand-built site uses.
+   3. `article` looks the current page up in src/_data/articles.json
+      by slug (Phase 3 article templates); null for non-article pages. */
 export default {
   eleventyComputed: {
     permalink: (data) => `${data.page.filePathStem}.html`,
     prefix: (data) => {
       const depth = Math.max(0, (data.page.filePathStem.match(/\//g) || []).length - 1);
       return "../".repeat(depth);
+    },
+    article: (data) => {
+      if (data.slug && Array.isArray(data.articles)) {
+        return data.articles.find((a) => a.slug === data.slug) || null;
+      }
+      return null;
     },
   },
 };

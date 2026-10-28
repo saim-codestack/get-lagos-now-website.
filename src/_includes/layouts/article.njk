@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en" data-page="insights">
+<head>
+{%- set title = article.title ~ " | Get Lagos Now" %}
+{%- set description = article.description %}
+{%- set robots = article.robots %}
+{%- set css = ["style.css", "responsive.css", "insights.css", "articles.css"] %}
+{%- set js = ["main.js"] %}
+{%- set dataPage = "insights" %}
+{%- set themeColor = article.themeColor %}
+{%- set preconnectFonts = article.preconnectFonts %}
+{%- set preconnectSource = article.preconnectSource %}
+{%- set headMetaOrder = ["robots","description","themeColor","articleTime"] %}
+{%- include "components/head-meta.njk" %}
+{%- set nav = {
+  desktop: "insights",
+  mobile: "insights",
+  mobileClass: true,
+  footerCurrent: { explore: "insights.html" }
+} %}
+</head>
+<body class="article-page">
+  <a class="skip-link" href="#main">Skip to main content</a>
+{%- include "components/site-header.njk" %}
+  <main id="main">
+    <header class="article-heading container">
+      <a class="article-back" href="{{ prefix }}insights.html">← Back to Blogs</a>
+      <p class="eyebrow">{{ article.categoryLabel | safe }}</p>
+      <h1>{{ article.title | safe }}</h1>
+      <div class="article-meta">
+        <time datetime="{{ article.date }}">Published {{ article.date }}</time>
+        <span>Updated {{ article.modified }}</span>
+        <span>By {{ article.author | safe }}</span>
+      </div>
+    </header>
+    {% if article.featuredImage %}
+    <figure class="article-featured"><img src="{{ prefix }}{{ article.featuredImage }}" alt="{{ article.featuredAlt | safe }}" width="{{ article.featuredWidth }}" height="{{ article.featuredHeight }}">{% if article.featuredCaption %}<figcaption>{{ article.featuredCaption | safe }}</figcaption>{% endif %}</figure>
+    {% endif %}
+    <div class="article-reading">
+      {% if article.archiveNoteText %}<aside class="article-archive-note">{{ article.archiveNoteText | safe }}</aside>{% endif %}
+      <article class="article-body">{{ article.bodyHtml | safe }}</article>
+      <div class="article-source">{{ article.articleSourceHtml | safe }}</div>
+      <nav class="article-related" aria-label="Related articles"><h2>Keep exploring.</h2><ul>{% for rel in article.related %}<li><a href="{{ rel.href }}">{{ rel.text | safe }}</a></li>{% endfor %}</ul><a class="article-back" href="{{ prefix }}insights.html">← All articles</a></nav>
+    </div>
+    {%- set cta = {
+      sectionClass: "journal-cta",
+      titleId: "cta-title",
+      title: "Let's Talk.",
+      wrapper: true,
+      lineClass: "journal-cta__line",
+      line: "Great ideas deserve great execution. Let's create something meaningful together.",
+      href: "contact.html#contact-form",
+      strong: "Start a project",
+      sub: "Portland, Oregon"
+    } %}
+    {%- include "components/cta-banner.njk" %}
+  </main>
+{%- set footerCredit = "Editorial photography via Pexels. Project imagery © respective clients." %}
+{%- include "components/site-footer.njk" %}
+<script src="{{ prefix }}assets/js/main.js" defer></script>
+</body>
+</html>
