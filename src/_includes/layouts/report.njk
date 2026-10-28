@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en" data-page="reports">
+<head>
+{%- set title = report.title ~ " | Get Lagos Now" %}
+{%- set description = report.description %}
+{%- set robots = report.robots %}
+{%- set css = ["style.css", "responsive.css", "portfolio-category.css", "reports.css"] %}
+{%- set js = ["main.js"] %}
+{%- set dataPage = "reports" %}
+{%- set themeColor = report.themeColor %}
+{%- set preconnectFonts = report.preconnectFonts %}
+{%- set preconnectSource = report.preconnectSource %}
+{%- include "components/head-meta.njk" %}
+{%- set nav = {
+  mobileClass: true,
+  footerCurrent: { services: "portfolio-nonprofit.html" }
+} %}
+</head>
+<body class="reports-page">
+  <a class="skip-link" href="#main">Skip to main content</a>
+{%- include "components/site-header.njk" %}
+  <main id="main">
+    <header class="report-heading container">
+      <a class="pc-text-link" href="{{ prefix }}reports.html">← Reports &amp; community</a>
+      <p class="eyebrow">{{ report.eyebrow | safe }}</p>
+      <h1>{{ report.title | safe }}</h1>
+      <p class="report-deck">{{ report.deck | safe }}</p>
+      <div class="report-source"><a data-original-source href="{{ report.sourceUrl }}">Read the published original &#8599;</a><span>Historical source material</span></div>{% if report.headingNote %}<p>{{ report.headingNote | safe }}</p>{% endif %}
+    </header>
+    <div class="report-reading">
+      {{ report.bodyHtml | safe }}
+    </div>
+    <nav class="report-next container" aria-label="Report navigation"><a href="{{ prefix }}reports.html">&#8592; All reports &amp; community resources</a><a href="{{ prefix }}impact.html">Our impact &#8599;</a></nav>
+    {%- set cta = {
+      sectionClass: "pc-cta",
+      titleId: "cta-title",
+      title: "Let's Talk.",
+      wrapper: true,
+      lineClass: "pc-cta__line",
+      line: "Have a project in mind? Let's create something meaningful together.",
+      href: "contact.html",
+      strong: "Start a project",
+      sub: "Portland, Oregon"
+    } %}
+    {%- include "components/cta-banner.njk" %}
+  </main>
+{%- set footerCredit = "Editorial photography via Pexels. Project imagery © respective clients." %}
+{%- include "components/site-footer.njk" %}
+<script src="{{ prefix }}assets/js/main.js" defer></script>
+</body>
+</html>

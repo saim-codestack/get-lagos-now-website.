@@ -13,7 +13,7 @@
             </button>
             <ul class="mobile-submenu" id="{{ item.mobileId }}" hidden>
               {%- if item.grouped %}
-              <li><a href="{{ prefix }}{{ item.library.href }}">{{ item.library.label }}</a></li>
+              <li><a href="{{ prefix }}{{ item.library.href }}"{% if nav.libraryCurrent == item.key %} aria-current="page"{% endif %}>{{ item.library.label }}</a></li>
               {%- for group in item.groups %}
               <li class="mobile-submenu__heading">{{ group.title }}</li>
               {%- for sub in group.items %}

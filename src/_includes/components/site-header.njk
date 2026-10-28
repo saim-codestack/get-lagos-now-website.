@@ -18,7 +18,7 @@
             {%- if item.grouped %}
             <div class="nav-dropdown nav-dropdown--grouped" id="{{ item.desktopId }}">
               <div>
-                <a class="nav-dropdown__group-title" href="{{ prefix }}{{ item.library.href }}">{{ item.library.label }}</a><span class="nav-dropdown__group-title">{{ item.groups[0].title }}</span>
+                <a class="nav-dropdown__group-title" href="{{ prefix }}{{ item.library.href }}"{% if nav.libraryCurrent == item.key %} aria-current="page"{% endif %}>{{ item.library.label }}</a><span class="nav-dropdown__group-title">{{ item.groups[0].title }}</span>
                 <ul>
                   {%- for sub in item.groups[0].items %}
                   <li><a href="{{ prefix }}{{ sub.href }}">{{ sub.label }}</a></li>
