@@ -1,0 +1,854 @@
+[
+  {
+    "file": "about.html",
+    "viewports": [
+      {
+        "width": 1920,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 1440,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 1280,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 1024,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 768,
+        "overflow": false,
+        "wide": [
+          {
+            "tag": "IMG",
+            "cls": "",
+            "text": "",
+            "width": 457
+          }
+        ]
+      },
+      {
+        "width": 390,
+        "overflow": false,
+        "wide": [
+          {
+            "tag": "IMG",
+            "cls": "",
+            "text": "",
+            "width": 316
+          }
+        ]
+      },
+      {
+        "width": 360,
+        "overflow": false,
+        "wide": [
+          {
+            "tag": "IMG",
+            "cls": "",
+            "text": "",
+            "width": 290
+          }
+        ]
+      }
+    ],
+    "broken": [],
+    "errors": [],
+    "h1": 1
+  },
+  {
+    "file": "contact.html",
+    "viewports": [
+      {
+        "width": 1920,
+        "overflow": false,
+        "wide": [
+          {
+            "tag": "LABEL",
+            "cls": "",
+            "text": "Leave this field empty",
+            "width": 48
+          },
+          {
+            "tag": "INPUT",
+            "cls": "",
+            "text": "",
+            "width": 223
+          }
+        ]
+      },
+      {
+        "width": 1440,
+        "overflow": false,
+        "wide": [
+          {
+            "tag": "LABEL",
+            "cls": "",
+            "text": "Leave this field empty",
+            "width": 48
+          },
+          {
+            "tag": "INPUT",
+            "cls": "",
+            "text": "",
+            "width": 223
+          }
+        ]
+      },
+      {
+        "width": 1280,
+        "overflow": false,
+        "wide": [
+          {
+            "tag": "LABEL",
+            "cls": "",
+            "text": "Leave this field empty",
+            "width": 48
+          },
+          {
+            "tag": "INPUT",
+            "cls": "",
+            "text": "",
+            "width": 223
+          }
+        ]
+      },
+      {
+        "width": 1024,
+        "overflow": false,
+        "wide": [
+          {
+            "tag": "LABEL",
+            "cls": "",
+            "text": "Leave this field empty",
+            "width": 48
+          },
+          {
+            "tag": "INPUT",
+            "cls": "",
+            "text": "",
+            "width": 223
+          }
+        ]
+      },
+      {
+        "width": 768,
+        "overflow": false,
+        "wide": [
+          {
+            "tag": "LABEL",
+            "cls": "",
+            "text": "Leave this field empty",
+            "width": 48
+          },
+          {
+            "tag": "INPUT",
+            "cls": "",
+            "text": "",
+            "width": 223
+          }
+        ]
+      },
+      {
+        "width": 390,
+        "overflow": false,
+        "wide": [
+          {
+            "tag": "LABEL",
+            "cls": "",
+            "text": "Leave this field empty",
+            "width": 45
+          },
+          {
+            "tag": "INPUT",
+            "cls": "",
+            "text": "",
+            "width": 206
+          }
+        ]
+      },
+      {
+        "width": 360,
+        "overflow": false,
+        "wide": [
+          {
+            "tag": "LABEL",
+            "cls": "",
+            "text": "Leave this field empty",
+            "width": 45
+          },
+          {
+            "tag": "INPUT",
+            "cls": "",
+            "text": "",
+            "width": 206
+          }
+        ]
+      }
+    ],
+    "broken": [],
+    "errors": [],
+    "h1": 1
+  },
+  {
+    "file": "impact.html",
+    "viewports": [
+      {
+        "width": 1920,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 1440,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 1280,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 1024,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 854,
+        "overflow": false,
+        "wide": [
+          {
+            "tag": "IMG",
+            "cls": "",
+            "text": "",
+            "width": 457
+          }
+        ]
+      },
+      {
+        "width": 443,
+        "overflow": false,
+        "wide": [
+          {
+            "tag": "IMG",
+            "cls": "",
+            "text": "",
+            "width": 316
+          }
+        ]
+      },
+      {
+        "width": 443,
+        "overflow": false,
+        "wide": [
+          {
+            "tag": "IMG",
+            "cls": "",
+            "text": "",
+            "width": 290
+          }
+        ]
+      }
+    ],
+    "broken": [],
+    "errors": [],
+    "h1": 1
+  },
+  {
+    "file": "index.html",
+    "viewports": [
+      {
+        "width": 1920,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 1440,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 1280,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 1024,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 768,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 390,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 390,
+        "overflow": false,
+        "wide": []
+      }
+    ],
+    "broken": [],
+    "errors": [],
+    "h1": 1
+  },
+  {
+    "file": "insights.html",
+    "viewports": [
+      {
+        "width": 1920,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 1440,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 1280,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 1024,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 768,
+        "overflow": false,
+        "wide": [
+          {
+            "tag": "IMG",
+            "cls": "",
+            "text": "",
+            "width": 457
+          }
+        ]
+      },
+      {
+        "width": 390,
+        "overflow": false,
+        "wide": [
+          {
+            "tag": "IMG",
+            "cls": "",
+            "text": "",
+            "width": 316
+          },
+          {
+            "tag": "BUTTON",
+            "cls": "",
+            "text": "SEO & AI",
+            "width": 88
+          },
+          {
+            "tag": "BUTTON",
+            "cls": "",
+            "text": "Marketing",
+            "width": 110
+          },
+          {
+            "tag": "BUTTON",
+            "cls": "",
+            "text": "Branding",
+            "width": 100
+          }
+        ]
+      },
+      {
+        "width": 360,
+        "overflow": false,
+        "wide": [
+          {
+            "tag": "IMG",
+            "cls": "",
+            "text": "",
+            "width": 290
+          },
+          {
+            "tag": "BUTTON",
+            "cls": "",
+            "text": "Accessibility",
+            "width": 130
+          },
+          {
+            "tag": "BUTTON",
+            "cls": "",
+            "text": "SEO & AI",
+            "width": 88
+          },
+          {
+            "tag": "BUTTON",
+            "cls": "",
+            "text": "Marketing",
+            "width": 110
+          },
+          {
+            "tag": "BUTTON",
+            "cls": "",
+            "text": "Branding",
+            "width": 100
+          }
+        ]
+      }
+    ],
+    "broken": [],
+    "errors": [],
+    "h1": 1
+  },
+  {
+    "file": "portfolio-energy-efficiency.html",
+    "viewports": [
+      {
+        "width": 1920,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 1440,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 1280,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 1024,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 768,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 390,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 360,
+        "overflow": false,
+        "wide": []
+      }
+    ],
+    "broken": [],
+    "errors": [],
+    "h1": 1
+  },
+  {
+    "file": "portfolio-nonprofit.html",
+    "viewports": [
+      {
+        "width": 1920,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 1440,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 1280,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 1024,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 768,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 390,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 360,
+        "overflow": false,
+        "wide": []
+      }
+    ],
+    "broken": [],
+    "errors": [],
+    "h1": 1
+  },
+  {
+    "file": "privacy-policy.html",
+    "viewports": [
+      {
+        "width": 1920,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 1440,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 1280,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 1024,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 768,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 390,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 360,
+        "overflow": false,
+        "wide": []
+      }
+    ],
+    "broken": [],
+    "errors": [],
+    "h1": 1
+  },
+  {
+    "file": "reports.html",
+    "viewports": [
+      {
+        "width": 1920,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 1440,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 1280,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 1024,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 768,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 390,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 360,
+        "overflow": false,
+        "wide": []
+      }
+    ],
+    "broken": [],
+    "errors": [],
+    "h1": 1
+  },
+  {
+    "file": "services.html",
+    "viewports": [
+      {
+        "width": 1920,
+        "overflow": false,
+        "wide": [
+          {
+            "tag": "DIV",
+            "cls": "approach-cursor__inner",
+            "text": "",
+            "width": 272
+          },
+          {
+            "tag": "IMG",
+            "cls": "",
+            "text": "",
+            "width": 272
+          }
+        ]
+      },
+      {
+        "width": 1440,
+        "overflow": false,
+        "wide": [
+          {
+            "tag": "DIV",
+            "cls": "approach-cursor__inner",
+            "text": "",
+            "width": 272
+          },
+          {
+            "tag": "IMG",
+            "cls": "",
+            "text": "",
+            "width": 272
+          }
+        ]
+      },
+      {
+        "width": 1280,
+        "overflow": false,
+        "wide": [
+          {
+            "tag": "DIV",
+            "cls": "approach-cursor__inner",
+            "text": "",
+            "width": 272
+          },
+          {
+            "tag": "IMG",
+            "cls": "",
+            "text": "",
+            "width": 272
+          }
+        ]
+      },
+      {
+        "width": 1024,
+        "overflow": false,
+        "wide": [
+          {
+            "tag": "DIV",
+            "cls": "approach-cursor__inner",
+            "text": "",
+            "width": 221
+          },
+          {
+            "tag": "IMG",
+            "cls": "",
+            "text": "",
+            "width": 221
+          }
+        ]
+      },
+      {
+        "width": 768,
+        "overflow": false,
+        "wide": [
+          {
+            "tag": "IMG",
+            "cls": "",
+            "text": "",
+            "width": 457
+          },
+          {
+            "tag": "DIV",
+            "cls": "approach-cursor__inner",
+            "text": "",
+            "width": 221
+          },
+          {
+            "tag": "IMG",
+            "cls": "",
+            "text": "",
+            "width": 221
+          }
+        ]
+      },
+      {
+        "width": 390,
+        "overflow": false,
+        "wide": [
+          {
+            "tag": "IMG",
+            "cls": "",
+            "text": "",
+            "width": 316
+          },
+          {
+            "tag": "DIV",
+            "cls": "approach-cursor__inner",
+            "text": "",
+            "width": 187
+          },
+          {
+            "tag": "IMG",
+            "cls": "",
+            "text": "",
+            "width": 187
+          }
+        ]
+      },
+      {
+        "width": 360,
+        "overflow": false,
+        "wide": [
+          {
+            "tag": "IMG",
+            "cls": "",
+            "text": "",
+            "width": 290
+          },
+          {
+            "tag": "DIV",
+            "cls": "approach-cursor__inner",
+            "text": "",
+            "width": 187
+          },
+          {
+            "tag": "IMG",
+            "cls": "",
+            "text": "",
+            "width": 187
+          }
+        ]
+      }
+    ],
+    "broken": [
+      {
+        "src": null,
+        "alt": ""
+      }
+    ],
+    "errors": [],
+    "h1": 1
+  },
+  {
+    "file": "work.html",
+    "viewports": [
+      {
+        "width": 1920,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 1440,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 1280,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 1024,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 768,
+        "overflow": false,
+        "wide": [
+          {
+            "tag": "IMG",
+            "cls": "",
+            "text": "",
+            "width": 457
+          },
+          {
+            "tag": "BUTTON",
+            "cls": "filter-btn",
+            "text": "Nonprofit",
+            "width": 127
+          }
+        ]
+      },
+      {
+        "width": 390,
+        "overflow": false,
+        "wide": [
+          {
+            "tag": "IMG",
+            "cls": "",
+            "text": "",
+            "width": 316
+          },
+          {
+            "tag": "BUTTON",
+            "cls": "filter-btn",
+            "text": "Branding & Creative",
+            "width": 202
+          },
+          {
+            "tag": "BUTTON",
+            "cls": "filter-btn",
+            "text": "Marketing",
+            "width": 129
+          },
+          {
+            "tag": "BUTTON",
+            "cls": "filter-btn",
+            "text": "Nonprofit",
+            "width": 127
+          }
+        ]
+      },
+      {
+        "width": 360,
+        "overflow": false,
+        "wide": [
+          {
+            "tag": "IMG",
+            "cls": "",
+            "text": "",
+            "width": 290
+          },
+          {
+            "tag": "BUTTON",
+            "cls": "filter-btn",
+            "text": "Accessibility",
+            "width": 150
+          },
+          {
+            "tag": "BUTTON",
+            "cls": "filter-btn",
+            "text": "Branding & Creative",
+            "width": 202
+          },
+          {
+            "tag": "BUTTON",
+            "cls": "filter-btn",
+            "text": "Marketing",
+            "width": 129
+          },
+          {
+            "tag": "BUTTON",
+            "cls": "filter-btn",
+            "text": "Nonprofit",
+            "width": 127
+          }
+        ]
+      }
+    ],
+    "broken": [],
+    "errors": [],
+    "h1": 1
+  }
+]

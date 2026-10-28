@@ -1,0 +1,47 @@
+[
+  {
+    "count": "Showing 12 of 39 projects",
+    "visible": 12,
+    "pressed": "true",
+    "loaded": 39,
+    "category": "all",
+    "expected": 39,
+    "pass": true
+  },
+  {
+    "count": "Showing 12 of 14 projects",
+    "visible": 12,
+    "pressed": "true",
+    "loaded": 14,
+    "category": "graphics",
+    "expected": 14,
+    "pass": true
+  },
+  {
+    "count": "Showing 12 of 17 projects",
+    "visible": 12,
+    "pressed": "true",
+    "loaded": 17,
+    "category": "marketing",
+    "expected": 17,
+    "pass": true
+  },
+  {
+    "count": "Showing 12 of 16 projects",
+    "visible": 12,
+    "pressed": "true",
+    "loaded": 16,
+    "category": "tech",
+    "expected": 16,
+    "pass": true
+  },
+  {
+    "count": "Showing 12 of 19 projects",
+    "visible": 12,
+    "pressed": "true",
+    "loaded": 19,
+    "category": "websites",
+    "expected": 19,
+    "pass": true
+  }
+]

@@ -1,0 +1,45 @@
+﻿/* Shared by the two completed portfolio categories only. */
+.portfolio-complete .pc-photo {display:block;}
+.portfolio-complete .inner-page-hero__detail img {transform:none;object-fit:contain;background:var(--white);}
+.portfolio-complete .pc-intro {padding-bottom:0;}
+.portfolio-complete .project-shot {display:block;aspect-ratio:16/10;background:var(--white);overflow:hidden;border-radius:var(--r-sm);}
+.portfolio-complete .project-shot img {width:100%;height:100%;object-fit:contain;}
+.medical-wallace {display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr);gap:clamp(28px,5vw,72px);align-items:center;}
+.medical-wallace__photo {aspect-ratio:4/3;}
+.medical-client-band {padding:var(--section) 0;background:var(--ink);color:var(--white);}
+.medical-client-band .pc-feature__copy p {color:var(--muted-light);}
+.medical-client-band .pc-caption {color:var(--muted-light);}
+.medical-client-band .pc-photo {aspect-ratio:4/3;}
+.medical-client-band .pc-quote {border-color:var(--line-light);}
+.medical-client-band .pc-quote figcaption span {color:var(--muted-light);}
+.medical-clients {display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:0 clamp(24px,5vw,72px);}
+.medical-client {padding:30px 0;border-top:1px solid var(--line);}
+.medical-client h3 {font-family:var(--f-head);font-size:clamp(25px,2.5vw,36px);line-height:1.2;letter-spacing:-.04em;}
+.medical-client h3 a {display:flex;align-items:center;justify-content:space-between;gap:20px;}
+.medical-client p {font-size:14px;line-height:1.7;color:var(--body);margin-top:16px;max-width:450px;}
+.medical-quote {max-width:850px;}
+.medical-quote blockquote {font-family:var(--f-head);font-size:clamp(28px,4vw,52px);line-height:1.2;letter-spacing:-.04em;}
+.medical-quote figcaption {margin-top:24px;line-height:1.7;font-size:13px;color:var(--body);}
+.gln-featured {display:grid;grid-template-columns:minmax(0,1.2fr) minmax(0,.8fr);gap:clamp(28px,4vw,56px);align-items:center;}
+.gln-featured .pc-project:nth-child(2) {padding-top:70px;}
+.gln-featured .project-shot {aspect-ratio:4/3;}
+.gln-controls {display:flex;flex-wrap:wrap;gap:8px;border-block:1px solid var(--line);padding:20px 0;margin-bottom:22px;}
+.gln-filter {font-family:var(--f-body);font-size:11px;font-weight:600;letter-spacing:.035em;padding:13px 16px;background:transparent;color:var(--ink);border:1px solid var(--line);border-radius:2px;min-height:44px;cursor:pointer;}
+.gln-filter[aria-pressed="true"] {background:var(--ink);color:var(--white);border-color:var(--ink);}
+.gln-filter:hover {border-color:var(--ink);}
+.gln-filter:focus-visible,.gln-more:focus-visible {outline:2px solid var(--red);outline-offset:4px;}
+.gln-count {font-size:12px;color:var(--body);margin-bottom:30px;}
+.gln-grid {display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:48px 28px;}
+.gln-grid .pc-project {min-width:0;}
+.gln-grid .pc-project[hidden] {display:none;}
+.gln-grid .project-shot {aspect-ratio:4/3;padding:14px;}
+.gln-grid .pc-project h3 {font-size:clamp(23px,2vw,29px);}
+.gln-grid .pc-project__meta {line-height:1.7;min-height:34px;justify-content:start;}
+.gln-grid .pc-project h3 a {align-items:center;gap:14px;}
+.gln-grid .pc-arrow {width:44px;height:44px;}
+.gln-more-wrap {margin-top:48px;text-align:center;}
+.gln-more[hidden] {display:none;}
+@media(max-width:1024px){.gln-grid{grid-template-columns:repeat(2,minmax(0,1fr));}.medical-wallace{gap:32px;}}
+@media(max-width:768px){.medical-wallace,.gln-featured,.medical-clients{grid-template-columns:minmax(0,1fr);gap:30px;}.gln-featured .pc-project:nth-child(2){padding-top:0;}.medical-clients{gap:0;}.gln-grid{gap:36px 22px;}.gln-grid .pc-project__meta{min-height:0;}.gln-filter{font-size:10px;padding:12px;}}
+@media(max-width:480px){.gln-grid{grid-template-columns:minmax(0,1fr);}.gln-grid .project-shot{aspect-ratio:3/2;}.gln-controls{gap:7px;}.gln-grid .pc-project h3{font-size:27px;}}
+.medical-client-band .pc-feature__copy > p:not(.eyebrow):not(.pc-period):not(.pc-service-line) {color:var(--muted-light);}

@@ -1,0 +1,96 @@
+[
+  {
+    "id": 3955,
+    "date": "2024-04-30T16:52:25",
+    "date_gmt": "2024-04-30T16:52:25",
+    "guid": {
+      "rendered": "https://getlagosnow.com/?page_id=3955"
+    },
+    "modified": "2024-04-30T23:15:22",
+    "modified_gmt": "2024-04-30T23:15:22",
+    "slug": "5th-annual-e-recycling-pdx-event-2024",
+    "status": "publish",
+    "type": "page",
+    "link": "https://getlagosnow.com/5th-annual-e-recycling-pdx-event-2024/",
+    "title": {
+      "rendered": "5th Annual E-Recycling PDX Event 2024"
+    },
+    "content": {
+      "rendered": "<p>&nbsp;</p>\n<p style=\"text-align: center;\"> <span style=\"font-size: 160%;\">        Come join us for the 5th Annual E-Recycling PDX Event on September 7th at Rose Haven in NW Portland! </span></p>\n<p style=\"text-align: center;\"><span style=\"font-size: 160%;\"> Learn more details at <a href=\"http://www.E-REcyclingPDX.com\"><span style=\"color: #0000ff;\"><strong>E-RecyclingPDX.com </strong></span></a></span></p>\n<h2 style=\"text-align: center;\"><a href=\"https://www.e-recyclingpdx.com/become-a-supporter\">Become a Supporter Today!</a></h2>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p><img loading=\"lazy\" decoding=\"async\" class=\" wp-image-3784 aligncenter\" src=\"https://getlagosnow.com/wp-content/uploads/2023/09/donors-2023-1024x768.jpg\" alt=\"\" width=\"680\" height=\"510\" srcset=\"https://getlagosnow.com/wp-content/uploads/2023/09/donors-2023-1024x768.jpg 1024w, https://getlagosnow.com/wp-content/uploads/2023/09/donors-2023-300x225.jpg 300w, https://getlagosnow.com/wp-content/uploads/2023/09/donors-2023-768x576.jpg 768w, https://getlagosnow.com/wp-content/uploads/2023/09/donors-2023-1536x1152.jpg 1536w, https://getlagosnow.com/wp-content/uploads/2023/09/donors-2023.jpg 2048w\" sizes=\"auto, (max-width: 680px) 100vw, 680px\" /></p>\n<p>&nbsp;</p>\n<p><img loading=\"lazy\" decoding=\"async\" class=\"alignnone wp-image-3781 aligncenter\" src=\"https://getlagosnow.com/wp-content/uploads/2023/09/Rainezra-2023-777x1024.jpg\" alt=\"\" width=\"557\" height=\"734\" srcset=\"https://getlagosnow.com/wp-content/uploads/2023/09/Rainezra-2023-777x1024.jpg 777w, https://getlagosnow.com/wp-content/uploads/2023/09/Rainezra-2023-228x300.jpg 228w, https://getlagosnow.com/wp-content/uploads/2023/09/Rainezra-2023-768x1012.jpg 768w, https://getlagosnow.com/wp-content/uploads/2023/09/Rainezra-2023-1166x1536.jpg 1166w, https://getlagosnow.com/wp-content/uploads/2023/09/Rainezra-2023.jpg 1170w\" sizes=\"auto, (max-width: 557px) 100vw, 557px\" /></p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p>&nbsp;</p>\n<p style=\"text-align: center;\"><img loading=\"lazy\" decoding=\"async\" class=\"alignnone size-full wp-image-3543\" src=\"https://getlagosnow.com/wp-content/uploads/2023/03/Michelle-Raphael-donation-rotated.jpg\" alt=\"\" width=\"480\" height=\"640\" srcset=\"https://getlagosnow.com/wp-content/uploads/2023/03/Michelle-Raphael-donation-rotated.jpg 480w, https://getlagosnow.com/wp-content/uploads/2023/03/Michelle-Raphael-donation-225x300.jpg 225w\" sizes=\"auto, (max-width: 480px) 100vw, 480px\" /> <img loading=\"lazy\" decoding=\"async\" class=\"alignnone size-full wp-image-3788\" src=\"https://getlagosnow.com/wp-content/uploads/2023/09/Gary-and-michelle-donate-BH-2023.jpeg\" alt=\"\" width=\"640\" height=\"505\" srcset=\"https://getlagosnow.com/wp-content/uploads/2023/09/Gary-and-michelle-donate-BH-2023.jpeg 640w, https://getlagosnow.com/wp-content/uploads/2023/09/Gary-and-michelle-donate-BH-2023-300x237.jpeg 300w\" sizes=\"auto, (max-width: 640px) 100vw, 640px\" /></p>\n",
+      "protected": false
+    },
+    "excerpt": {
+      "rendered": "<p>&nbsp;          Come join us for the 5th Annual E-Recycling PDX Event on September 7th at Rose Haven in NW Portland!  Learn more details at E-RecyclingPDX.com  Become a Supporter Today! &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;</p>\n",
+      "protected": false
+    },
+    "author": 8,
+    "featured_media": 0,
+    "parent": 0,
+    "menu_order": 0,
+    "comment_status": "closed",
+    "ping_status": "closed",
+    "template": "",
+    "meta": {
+      "footnotes": ""
+    },
+    "class_list": [
+      "post-3955",
+      "page",
+      "type-page",
+      "status-publish",
+      "hentry"
+    ],
+    "_links": {
+      "self": [
+        {
+          "href": "https://getlagosnow.com/wp-json/wp/v2/pages/3955",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://getlagosnow.com/wp-json/wp/v2/pages"
+        }
+      ],
+      "about": [
+        {
+          "href": "https://getlagosnow.com/wp-json/wp/v2/types/page"
+        }
+      ],
+      "author": [
+        {
+          "embeddable": true,
+          "href": "https://getlagosnow.com/wp-json/wp/v2/users/8"
+        }
+      ],
+      "replies": [
+        {
+          "embeddable": true,
+          "href": "https://getlagosnow.com/wp-json/wp/v2/comments?post=3955"
+        }
+      ],
+      "version-history": [
+        {
+          "count": 0,
+          "href": "https://getlagosnow.com/wp-json/wp/v2/pages/3955/revisions"
+        }
+      ],
+      "wp:attachment": [
+        {
+          "href": "https://getlagosnow.com/wp-json/wp/v2/media?parent=3955"
+        }
+      ],
+      "curies": [
+        {
+          "name": "wp",
+          "href": "https://api.w.org/{rel}",
+          "templated": true
+        }
+      ]
+    }
+  }
+]

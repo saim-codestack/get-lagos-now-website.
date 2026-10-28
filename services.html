@@ -1,0 +1,544 @@
+<!DOCTYPE html>
+<html lang="en" data-page="services">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Services — Get Lagos Now | Digital Design, Accessibility, Branding &amp; Marketing</title>
+  <meta name="description" content="Explore Get Lagos Now services: accessible website design and development, accessibility &amp; SEO/AEO, branding &amp; creative, and digital marketing strategy.">
+  <meta name="theme-color" content="#F5F3F0">
+  <link rel="icon" href="assets/images/shared/gln.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+  <link rel="stylesheet" href="assets/css/services.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- ============ NAVIGATION ============ -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header__inner">
+      <a class="header__logo" href="index.html" aria-label="Get Lagos Now — home">
+        <img src="assets/images/shared/gln.png" alt="Get Lagos Now" width="190" height="40">
+      </a>
+
+      <nav class="header__nav" aria-label="Primary">
+        <ul class="nav-pill">
+          <li><a href="index.html" data-nav="home">Home</a></li>
+          <li><a href="services.html" class="is-active" data-nav="services" aria-current="page">Services</a></li>
+          <li class="nav-item--dropdown">
+            <button type="button" class="nav-dropdown__toggle" data-nav="work" aria-expanded="false" aria-controls="navDropdownPortfolio">
+              <span>Portfolio</span>
+              <svg class="nav-dropdown__chev" viewBox="0 0 12 12" aria-hidden="true"><path d="M2.5 4.5L6 8l3.5-3.5"/></svg>
+            </button>
+            <div class="nav-dropdown" id="navDropdownPortfolio">
+              <ul>
+                <li><a href="work.html">All Projects</a></li>
+                <li><a href="portfolio-energy-efficiency.html">Energy Efficiency</a></li>
+                <li><a href="portfolio-nonprofit.html">Non-Profit</a></li>
+                <li><a href="portfolio-medical-dental.html">Medical &amp; Dental</a></li>
+                <li><a href="portfolio-gln-projects.html">GLN Projects</a></li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="about.html" data-nav="about">About</a></li>
+          <li><a href="impact.html" data-nav="impact">Impact</a></li>
+          <li><a href="insights.html" data-nav="insights">Blogs</a></li>
+          <li class="nav-item--dropdown">
+            <button type="button" class="nav-dropdown__toggle" data-nav="reports" aria-expanded="false" aria-controls="navDropdownReports">
+              <span>Reports</span>
+              <svg class="nav-dropdown__chev" viewBox="0 0 12 12" aria-hidden="true"><path d="M2.5 4.5L6 8l3.5-3.5"/></svg>
+            </button>
+            <div class="nav-dropdown nav-dropdown--grouped" id="navDropdownReports">
+              <div>
+                <a class="nav-dropdown__group-title" href="reports.html">Reports library</a><span class="nav-dropdown__group-title">Annual Benefit Reports</span>
+                <ul>
+                  <li><a href="reports/annual-benefit-2025.html">Annual Benefit Report 2025</a></li>
+                  <li><a href="reports/annual-benefit-2024.html">Annual Benefit Report 2024</a></li>
+                  <li><a href="reports/annual-benefit-2023.html">Annual Benefit Report 2023</a></li>
+                  <li><a href="reports/annual-benefit-2022.html">Annual Benefit Report 2022</a></li>
+                  <li><a href="reports/annual-benefit-2021.html">Annual Benefit Report 2021</a></li>
+                </ul>
+              </div>
+              <div>
+                <span class="nav-dropdown__group-title">Community &amp; Environment</span>
+                <ul>
+                  <li><a href="reports/e-recycling-pdx.html">E-Recycling PDX</a></li>
+                  <li><a href="reports/non-profit-recipients.html">Non-Profit Recipients</a></li>
+                  <li><a href="reports/e-recycling-2021.html">E-Recycling PDX 2021</a></li>
+                  <li><a href="reports/e-recycling-2022.html">E-Recycling Event 2022</a></li>
+                  <li><a href="reports/e-recycling-2023.html">4th Annual E-Recycling PDX 2023</a></li>
+                  <li><a href="reports/e-recycling-2024.html">5th Annual E-Recycling PDX 2024</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header__actions">
+        <span class="header__label">Have a project?</span>
+        <a href="contact.html" class="btn btn--dark">
+          <span>Let's Talk</span>
+          <span class="btn__icon" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+        </a>
+        <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="mobileMenu" aria-label="Open menu">
+          <span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <div class="mobile-menu" id="mobileMenu" hidden>
+      <nav aria-label="Mobile">
+        <ul>
+          <li><a href="index.html" data-nav="home">Home</a></li>
+          <li><a href="services.html" data-nav="services" aria-current="page">Services</a></li>
+          <li>
+            <button type="button" class="mobile-sub-toggle" data-nav="work" aria-expanded="false" aria-controls="mobileSubPortfolio">
+              <span>Portfolio</span>
+              <svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2.5 4.5L6 8l3.5-3.5"/></svg>
+            </button>
+            <ul class="mobile-submenu" id="mobileSubPortfolio" hidden>
+              <li><a href="work.html">All Projects</a></li>
+              <li><a href="portfolio-energy-efficiency.html">Energy Efficiency</a></li>
+              <li><a href="portfolio-nonprofit.html">Non-Profit</a></li>
+              <li><a href="portfolio-medical-dental.html">Medical &amp; Dental</a></li>
+              <li><a href="portfolio-gln-projects.html">GLN Projects</a></li>
+            </ul>
+          </li>
+          <li><a href="about.html" data-nav="about">About</a></li>
+          <li><a href="impact.html" data-nav="impact">Impact</a></li>
+          <li><a href="insights.html" data-nav="insights">Blogs</a></li>
+          <li>
+            <button type="button" class="mobile-sub-toggle" data-nav="reports" aria-expanded="false" aria-controls="mobileSubReports">
+              <span>Reports</span>
+              <svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2.5 4.5L6 8l3.5-3.5"/></svg>
+            </button>
+            <ul class="mobile-submenu" id="mobileSubReports" hidden>
+              <li><a href="reports.html">Reports library</a></li>
+              <li class="mobile-submenu__heading">Annual Benefit Reports</li>
+              <li><a href="reports/annual-benefit-2025.html">Annual Benefit Report 2025</a></li>
+              <li><a href="reports/annual-benefit-2024.html">Annual Benefit Report 2024</a></li>
+              <li><a href="reports/annual-benefit-2023.html">Annual Benefit Report 2023</a></li>
+              <li><a href="reports/annual-benefit-2022.html">Annual Benefit Report 2022</a></li>
+              <li><a href="reports/annual-benefit-2021.html">Annual Benefit Report 2021</a></li>
+              <li class="mobile-submenu__heading">Community &amp; Environment</li>
+              <li><a href="reports/e-recycling-pdx.html">E-Recycling PDX</a></li>
+              <li><a href="reports/non-profit-recipients.html">Non-Profit Recipients</a></li>
+              <li><a href="reports/e-recycling-2021.html">E-Recycling PDX 2021</a></li>
+              <li><a href="reports/e-recycling-2022.html">E-Recycling Event 2022</a></li>
+              <li><a href="reports/e-recycling-2023.html">4th Annual E-Recycling PDX 2023</a></li>
+              <li><a href="reports/e-recycling-2024.html">5th Annual E-Recycling PDX 2024</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <div class="mobile-menu__foot">
+        <p>Portland, Oregon · Since 2010</p>
+        <a href="contact.html" class="btn btn--red">
+          <span>Let's Talk</span>
+          <span class="btn__icon" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ 01 HERO ============ -->
+    <section class="inner-page-hero" aria-labelledby="svc-hero-title">
+      <div class="container inner-page-hero__grid">
+        <div class="inner-page-hero__content reveal">
+          <p class="eyebrow">What we do</p>
+          <h1 id="svc-hero-title" class="inner-page-hero__title">Digital solutions.<br>Built around people.</h1>
+          <p class="inner-page-hero__text">From accessible websites to creative branding and digital marketing, we combine thoughtful strategy with technical expertise to help organizations grow, connect, and make a meaningful impact.</p>
+          <div class="inner-page-hero__cta">
+            <a href="#service-index" class="btn btn--dark">
+              <span>Explore Our Services</span>
+              <span class="btn__icon" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M8 3v10M3 8h10"/></svg></span>
+            </a>
+          </div>
+        </div>
+
+        <div class="inner-page-hero__visual">
+          <figure class="inner-page-hero__primary">
+            <img src="https://images.pexels.com/photos/7181116/pexels-photo-7181116.jpeg?auto=compress&cs=tinysrgb&w=1600"
+                 alt="A team collaborating on a product design project with a laptop and materials on the table"
+                 width="1600" height="1067" fetchpriority="high" decoding="async">
+          </figure>
+          <figure class="inner-page-hero__detail">
+            <img src="https://images.pexels.com/photos/196645/pexels-photo-196645.jpeg?auto=compress&cs=tinysrgb&w=1400"
+                 alt="Hand-drawn website wireframe sketches on a designer's desk"
+                 width="1400" height="933" loading="lazy" decoding="async">
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 02 SERVICE INDEX ============ -->
+    <nav class="service-index" id="service-index" aria-label="Service categories">
+      <div class="container">
+        <ul class="service-index__list">
+          <li><a href="#web-design"><span class="service-index__num">01</span><span class="service-index__label">Web Design</span></a></li>
+          <li><a href="#accessibility-seo"><span class="service-index__num">02</span><span class="service-index__label">Accessibility &amp; SEO</span></a></li>
+          <li><a href="#branding-creative"><span class="service-index__num">03</span><span class="service-index__label">Branding</span></a></li>
+          <li><a href="#marketing-strategy"><span class="service-index__num">04</span><span class="service-index__label">Digital Marketing</span></a></li>
+        </ul>
+      </div>
+    </nav>
+
+    <!-- ============ 03 WEB DESIGN ============ -->
+    <section class="svc-block" id="web-design" aria-labelledby="web-design-title">
+      <div class="container svc-block__grid">
+        <figure class="svc-block__media reveal">
+          <img src="https://images.pexels.com/photos/196645/pexels-photo-196645.jpeg?auto=compress&cs=tinysrgb&w=1400"
+               alt="Hand-drawn website wireframe sketches on paper" loading="lazy">
+        </figure>
+        <div class="svc-block__content reveal">
+          <p class="eyebrow">01 / Digital experiences</p>
+          <h2 id="web-design-title" class="h2">Websites designed to connect. Built to perform.</h2>
+          <p class="svc-block__text">We create responsive, accessible, and thoughtfully designed websites that bring brands and audiences together. From the first user journey to the final development detail, every decision is guided by usability, performance, and purpose.</p>
+          <ul class="cap-list" aria-label="Capabilities">
+            <li>Website design and development</li>
+            <li>UX/UI design</li>
+            <li>Responsive website redesign</li>
+            <li>WordPress development</li>
+            <li>Website optimization</li>
+            <li>Multilingual digital experiences</li>
+          </ul>
+          <a href="contact.html#contact-form" class="btn btn--dark">
+            <span>Let's Build Your Website</span>
+            <span class="btn__icon" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 04 ACCESSIBILITY & SEO ============ -->
+    <section class="svc-block svc-block--tint" id="accessibility-seo" aria-labelledby="a11y-title">
+      <div class="container svc-block__grid svc-block__grid--reverse">
+        <div class="svc-block__content reveal">
+          <div class="svc-meta">
+            <span>Inclusive by design</span>
+            <span aria-hidden="true">·</span>
+            <span>ADA · WCAG · SEO · AEO</span>
+          </div>
+          <p class="eyebrow">02 / Inclusive digital</p>
+          <h2 id="a11y-title" class="h2">Better experiences. For everyone.</h2>
+          <p class="svc-block__text">An effective digital experience should be inclusive, discoverable, and easy to use. We help organizations improve accessibility, strengthen search visibility, and create online experiences that serve a wider audience.</p>
+          <ul class="cap-list" aria-label="Capabilities">
+            <li>Website accessibility improvements</li>
+            <li>ADA and WCAG-focused website reviews</li>
+            <li>Technical SEO</li>
+            <li>Search engine optimization</li>
+            <li>AI and answer-engine visibility</li>
+            <li>User experience improvements</li>
+          </ul>
+          <a href="contact.html#contact-form" class="btn btn--dark">
+            <span>Explore Optimization</span>
+            <span class="btn__icon" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+          </a>
+        </div>
+        <figure class="svc-block__media reveal">
+          <img src="https://images.pexels.com/photos/7446646/pexels-photo-7446646.jpeg?auto=compress&cs=tinysrgb&w=1400"
+               alt="A woman using a wheelchair working on a laptop and taking notes" loading="lazy">
+        </figure>
+      </div>
+    </section>
+
+    <!-- ============ 05 BRANDING & CREATIVE ============ -->
+    <section class="svc-block" id="branding-creative" aria-labelledby="branding-title">
+      <div class="container">
+        <div class="svc-brand">
+          <div class="svc-brand__visuals reveal">
+            <figure class="svc-brand__primary">
+              <img src="https://images.pexels.com/photos/7598020/pexels-photo-7598020.jpeg?auto=compress&cs=tinysrgb&w=1400"
+                   alt="A brand strategy moodboard with design references taped to a wall" loading="lazy">
+            </figure>
+            <figure class="svc-brand__detail">
+              <img src="https://images.pexels.com/photos/37947526/pexels-photo-37947526.jpeg?auto=compress&cs=tinysrgb&w=800"
+                   alt="Color swatches arranged for brand identity work" loading="lazy">
+            </figure>
+          </div>
+          <div class="svc-brand__content reveal">
+            <p class="eyebrow">03 / Creative thinking</p>
+            <h2 id="branding-title" class="h2">Make your brand impossible to overlook.</h2>
+            <p class="svc-block__text">Strong brands communicate clearly and connect emotionally. We develop thoughtful visual identities, compelling creative assets, and brand experiences that express what makes an organization distinctive.</p>
+            <ul class="cap-list" aria-label="Capabilities">
+              <li>Brand identity</li>
+              <li>Graphic design</li>
+              <li>Visual communication</li>
+              <li>Creative direction</li>
+              <li>Content development</li>
+              <li>Copywriting</li>
+            </ul>
+            <a href="contact.html#contact-form" class="btn btn--red">
+              <span>Let's Create Something</span>
+              <span class="btn__icon" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 06 DIGITAL MARKETING ============ -->
+    <section class="svc-block" id="marketing-strategy" aria-labelledby="marketing-title">
+      <div class="container">
+        <figure class="svc-wide-media reveal">
+          <img src="https://images.pexels.com/photos/7688102/pexels-photo-7688102.jpeg?auto=compress&cs=tinysrgb&w=2200"
+               alt="A team reviewing marketing strategy charts and notes during a meeting" loading="lazy">
+        </figure>
+        <div class="svc-split reveal">
+          <div class="svc-split__left">
+            <p class="eyebrow">04 / Strategic growth</p>
+            <h2 id="marketing-title" class="h2">Smarter strategies. Meaningful growth.</h2>
+          </div>
+          <div class="svc-split__right">
+            <p class="svc-block__text">We connect research, creativity, and digital strategy to help organizations reach the right people. Our approach focuses on thoughtful communication, audience development, and measurable opportunities for growth.</p>
+            <ul class="cap-list" aria-label="Capabilities">
+              <li>Digital marketing strategy</li>
+              <li>Campaign planning</li>
+              <li>Digital advertising</li>
+              <li>Audience research</li>
+              <li>Content strategy</li>
+              <li>Marketing consulting</li>
+            </ul>
+            <a href="contact.html#contact-form" class="btn btn--dark">
+              <span>Discuss Your Goals</span>
+              <span class="btn__icon" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 07 APPROACH ============ -->
+    <section class="svc-approach" aria-labelledby="approach-title">
+      <div class="container">
+        <header class="svc-approach__head reveal">
+          <p class="eyebrow eyebrow--light">How we work</p>
+          <h2 id="approach-title" class="h2 h2--light">Thoughtful from start to finish.</h2>
+          <p class="svc-approach__text">Every great project begins with understanding people, goals, and opportunities. Our approach brings strategy and creativity together to create effective digital solutions.</p>
+        </header>
+        <ol class="approach-list" id="approachList">
+          <li class="approach-item reveal" data-cursor-img="https://images.pexels.com/photos/17724731/pexels-photo-17724731.jpeg?auto=compress&cs=tinysrgb&w=680">
+            <span class="approach-item__num">01</span>
+            <div class="approach-item__body">
+              <h3 class="approach-item__title">Discover</h3>
+              <p>Understand your business, audience, challenges, and goals.</p>
+            </div>
+          </li>
+          <li class="approach-item reveal" data-cursor-img="https://images.pexels.com/photos/39190488/pexels-photo-39190488.jpeg?auto=compress&cs=tinysrgb&w=680">
+            <span class="approach-item__num">02</span>
+            <div class="approach-item__body">
+              <h3 class="approach-item__title">Strategize</h3>
+              <p>Define a focused direction aligned with your needs.</p>
+            </div>
+          </li>
+          <li class="approach-item reveal" data-cursor-img="https://images.pexels.com/photos/36747234/pexels-photo-36747234.jpeg?auto=compress&cs=tinysrgb&w=680">
+            <span class="approach-item__num">03</span>
+            <div class="approach-item__body">
+              <h3 class="approach-item__title">Create</h3>
+              <p>Design, develop, and refine the right solution.</p>
+            </div>
+          </li>
+          <li class="approach-item reveal" data-cursor-img="https://images.pexels.com/photos/7108946/pexels-photo-7108946.jpeg?auto=compress&cs=tinysrgb&w=680">
+            <span class="approach-item__num">04</span>
+            <div class="approach-item__body">
+              <h3 class="approach-item__title">Evolve</h3>
+              <p>Evaluate opportunities and support ongoing improvement.</p>
+            </div>
+          </li>
+        </ol>
+        <p class="svc-approach__note reveal">Proposed website messaging — not a verified internal company methodology.</p>
+      </div>
+      <div class="approach-cursor" id="approachCursor" aria-hidden="true">
+        <div class="approach-cursor__inner">
+          <img id="approachCursorImg" src="https://images.pexels.com/photos/17724731/pexels-photo-17724731.jpeg?auto=compress&amp;cs=tinysrgb&amp;w=680" alt="">
+          <span class="approach-cursor__accent"></span>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 08 RELATED WORK ============ -->
+    <section class="svc-work section" aria-labelledby="svc-work-title">
+      <div class="container">
+        <header class="section-head section-head--split reveal">
+          <div>
+            <p class="eyebrow">Our work</p>
+            <h2 id="svc-work-title" class="h2">See our expertise in action.</h2>
+          </div>
+          <a href="work.html" class="link-arrow">
+            View more work
+            <span class="link-arrow__icon" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+          </a>
+        </header>
+
+        <div class="svc-projects">
+          <article class="project reveal">
+            <div class="project__meta">
+              <div>
+                <span class="meta-label">Year</span>
+                <span class="meta-value">2025</span>
+              </div>
+              <div>
+                <span class="meta-label">Live site</span>
+                <a href="https://mywallace.org/" class="meta-link" target="_blank" rel="noopener">mywallace.org</a>
+              </div>
+            </div>
+            <a href="portfolio-medical-dental.html" class="project__media" aria-label="View Wallace Medical &amp; Dental project">
+              <img src="assets/images/shared/DowntownRockwoodbuilding-1024x683.jpg" alt="Wallace Medical &amp; Dental's Downtown Rockwood building" loading="lazy">
+            </a>
+            <div class="project__info">
+              <div>
+                <span class="meta-label">Category</span>
+                <p class="project__cats">Web Design / Accessibility / Multilingual</p>
+              </div>
+              <h3 class="project__title">Wallace Medical &amp; Dental</h3>
+              <a href="portfolio-medical-dental.html" class="btn btn--dark">
+                <span>View Project</span>
+                <span class="btn__icon" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+              </a>
+            </div>
+          </article>
+
+          <article class="project reveal">
+            <div class="project__meta">
+              <div>
+                <span class="meta-label">Year</span>
+                <span class="meta-value">2024</span>
+              </div>
+              <div>
+                <span class="meta-label">Live site</span>
+                <a href="https://childinst.org/" class="meta-link" target="_blank" rel="noopener">childinst.org</a>
+              </div>
+            </div>
+            <a href="articles/2025-client-showcase-the-childrens-institute.html" class="project__media" aria-label="View The Children's Institute project">
+              <img src="assets/images/shared/childrens-inst-1024x683.png" alt="The Children's Institute website project" loading="lazy">
+            </a>
+            <div class="project__info">
+              <div>
+                <span class="meta-label">Category</span>
+                <p class="project__cats">Website Development / UX/UI / Optimization</p>
+              </div>
+              <h3 class="project__title">The Children's Institute</h3>
+              <a href="articles/2025-client-showcase-the-childrens-institute.html" class="btn btn--dark">
+                <span>View Project</span>
+                <span class="btn__icon" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 09 FINAL CTA ============ -->
+    <section class="cta svc-cta" aria-labelledby="svc-cta-title">
+      <div class="container">
+        <div class="cta__banner svc-cta__banner">
+          <div class="svc-cta__content reveal">
+            <p class="eyebrow eyebrow--light">Have a project in mind?</p>
+            <h2 id="svc-cta-title" class="cta__title cta__title--long">Let's make your next digital move count.</h2>
+            <p class="svc-cta__text">Whether you're building something new or improving what already exists, let's explore what's possible together.</p>
+          </div>
+          <a href="contact.html#contact-form" class="cta__action">
+            <span class="cta__action-mark" aria-hidden="true">
+              <img src="https://images.pexels.com/photos/16752907/pexels-photo-16752907.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&fit=crop" alt="" loading="lazy">
+            </span>
+            <span class="cta__action-text">
+              <strong>Start a Conversation</strong>
+              <span>Portland, Oregon</span>
+            </span>
+            <span class="sq-btn sq-btn--red" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ FOOTER ============ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__top">
+          <div class="footer__brand">
+            <a href="index.html" class="footer__logo" aria-label="Get Lagos Now — home">
+              <img src="assets/images/shared/gln.png" alt="Get Lagos Now" width="190" height="40" loading="lazy">
+            </a>
+            <p class="footer__tagline">Human-centered.<br>Strategic innovation.<br>High touch.</p>
+            <p class="footer__desc">A PDX-based, purpose-driven Benefit Company creating inclusive, accessible digital experiences since 2010.</p>
+            <p class="footer__loc"><span class="dot-red" aria-hidden="true"></span> Portland, Oregon</p>
+            <ul class="socials" aria-label="Social media">
+              <li><span class="social-placeholder" aria-label="LinkedIn (link to be confirmed)">in</span></li>
+              <li><span class="social-placeholder" aria-label="Instagram (link to be confirmed)">ig</span></li>
+              <li><span class="social-placeholder" aria-label="Facebook (link to be confirmed)">fb</span></li>
+            </ul>
+          </div>
+
+          <div class="footer__right">
+            <div class="footer__cols">
+              <nav aria-label="Footer — explore">
+                <p class="footer__head">Explore</p>
+                <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="services.html">Services</a></li>
+                  <li><a href="work.html">Portfolio</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="impact.html">Impact</a></li>
+                  <li><a href="insights.html">Blogs</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                </ul>
+              </nav>
+              <nav aria-label="Footer — services">
+                <p class="footer__head">Services &amp; Sectors</p>
+                <ul>
+                  <li><a href="services.html#web-design">Web Design &amp; Development</a></li>
+                  <li><a href="services.html#accessibility-seo">Accessibility &amp; SEO/AEO</a></li>
+                  <li><a href="services.html#branding-creative">Branding &amp; Creative</a></li>
+                  <li><a href="services.html#marketing-strategy">Marketing &amp; Strategy</a></li>
+                  <li><a href="portfolio-energy-efficiency.html">Energy Efficiency</a></li>
+                  <li><a href="portfolio-nonprofit.html">Non-Profit</a></li>
+                  <li><a href="portfolio-medical-dental.html">Medical &amp; Dental</a></li>
+                </ul>
+              </nav>
+              <nav aria-label="Footer — resources">
+                <p class="footer__head">Reports &amp; Community</p>
+                <ul>
+                  <li><a href="reports/annual-benefit-2025.html">Annual Benefit Report 2025</a></li>
+                  <li><a href="reports/annual-benefit-2024.html">Annual Benefit Report 2024</a></li>
+                  <li><a href="reports/annual-benefit-2023.html">Annual Benefit Report 2023</a></li>
+                  <li><a href="reports/e-recycling-pdx.html">E-Recycling PDX</a></li>
+                  <li><a href="reports/non-profit-recipients.html">Non-Profit Recipients</a></li>
+                </ul>
+              </nav>
+            </div>
+
+            <form class="newsletter" id="newsletterForm" novalidate>
+              <label class="footer__head" for="nlEmail">Newsletter</label>
+              <div class="newsletter__row">
+                <input type="email" id="nlEmail" placeholder="Enter your email" autocomplete="email" aria-describedby="nlStatus">
+                <button type="submit" class="btn btn--red btn--sm">Subscribe</button>
+              </div>
+              <p class="newsletter__status" id="nlStatus" aria-live="polite">Prototype — newsletter sign-up is not yet connected.</p>
+            </form>
+          </div>
+        </div>
+
+        <div class="footer__bottom">
+          <p>© <span id="year">2026</span> Lagos Consulting LLC. All rights reserved.</p>
+          <ul>
+            <li><a href="https://getlagosnow.com/privacy-policy/">Privacy Policy</a></li>
+            <li><a href="services.html#accessibility-seo">Accessibility</a></li>
+            <li><a href="index.html#ai-policy">AI Policy</a></li>
+          </ul>
+          <p class="footer__credit">Editorial photography via Pexels. Project imagery © respective clients.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>

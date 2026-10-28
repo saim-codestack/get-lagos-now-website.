@@ -1,0 +1,11 @@
+/* Shared restrained reading layout; approved marketing layouts are unchanged. */
+.reading-header { padding-top:clamp(136px,13vw,190px); padding-bottom:48px; border-bottom:1px solid var(--line); }
+.reading-header h1 { max-width:1000px; font-family:var(--f-head); font-size:clamp(40px,6vw,78px); line-height:1.08; letter-spacing:-.045em; margin:18px 0 24px; overflow-wrap:anywhere; }
+.reading-header>p:last-child { max-width:680px; font-size:18px; line-height:1.75; color:var(--body); }
+.reading-body { max-width:850px; margin:0 auto; padding-top:52px; padding-bottom:var(--section); }
+.reading-body section+section { margin-top:42px; padding-top:32px; border-top:1px solid var(--line); }
+.reading-body h2 { font-family:var(--f-head); font-size:clamp(26px,3vw,34px); line-height:1.2; letter-spacing:-.035em; margin-bottom:20px; }
+.reading-body p { color:var(--body); margin-bottom:20px; line-height:1.85; }
+.reading-body a:not(.btn) { color:var(--red); text-decoration:underline; text-underline-offset:4px; }
+.reading-body .btn { gap:20px; white-space:normal; }
+@media(max-width:480px){.reading-header{padding-top:120px}.reading-body{padding-top:32px}.reading-header>p:last-child{font-size:16px}}

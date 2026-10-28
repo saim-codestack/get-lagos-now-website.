@@ -1,0 +1,3 @@
+﻿import fs from 'node:fs';
+const slugs=['annual-benefit-report','annual-benefit-report-2022','annual-benefit-report-2023','annual-benefit-report-2024','annual-benefit-report-year-2025','e-recycling','non-profit-recipients','e-recycling-2021','e-recycling-aug-11th-2022','4th-annual-e-recycling-pdx-event-aug-26-2023','5th-annual-e-recycling-pdx-event-2024'];
+for(const slug of slugs){try{const r=await fetch('https://getlagosnow.com/wp-json/wp/v2/pages?slug='+slug);if(!r.ok)throw Error(r.status);const a=await r.json();fs.writeFileSync('tools/source/report-'+slug+'.json',JSON.stringify(a,null,2));console.log(slug,a.length,a[0]?.content.rendered.length)}catch(e){console.log(slug,e.message)}}

@@ -1,0 +1,137 @@
+{
+  "results": [
+    {
+      "file": "about.html",
+      "unlabelledFields": [],
+      "emptyLinks": [],
+      "unnamedButtons": [],
+      "main": 1,
+      "lang": "en",
+      "skip": true,
+      "reducedMotion": false
+    },
+    {
+      "file": "contact.html",
+      "unlabelledFields": [],
+      "emptyLinks": [],
+      "unnamedButtons": [],
+      "main": 1,
+      "lang": "en",
+      "skip": true,
+      "reducedMotion": false
+    },
+    {
+      "file": "impact.html",
+      "unlabelledFields": [],
+      "emptyLinks": [],
+      "unnamedButtons": [],
+      "main": 1,
+      "lang": "en",
+      "skip": true,
+      "reducedMotion": false
+    },
+    {
+      "file": "index.html",
+      "unlabelledFields": [],
+      "emptyLinks": [],
+      "unnamedButtons": [],
+      "main": 1,
+      "lang": "en",
+      "skip": true,
+      "reducedMotion": false
+    },
+    {
+      "file": "insights.html",
+      "unlabelledFields": [],
+      "emptyLinks": [],
+      "unnamedButtons": [],
+      "main": 1,
+      "lang": "en",
+      "skip": true,
+      "reducedMotion": false
+    },
+    {
+      "file": "portfolio-energy-efficiency.html",
+      "unlabelledFields": [],
+      "emptyLinks": [],
+      "unnamedButtons": [],
+      "main": 1,
+      "lang": "en",
+      "skip": true,
+      "reducedMotion": false
+    },
+    {
+      "file": "portfolio-nonprofit.html",
+      "unlabelledFields": [],
+      "emptyLinks": [],
+      "unnamedButtons": [],
+      "main": 1,
+      "lang": "en",
+      "skip": true,
+      "reducedMotion": false
+    },
+    {
+      "file": "privacy-policy.html",
+      "unlabelledFields": [],
+      "emptyLinks": [],
+      "unnamedButtons": [],
+      "main": 1,
+      "lang": "en",
+      "skip": true,
+      "reducedMotion": false
+    },
+    {
+      "file": "reports.html",
+      "unlabelledFields": [],
+      "emptyLinks": [],
+      "unnamedButtons": [],
+      "main": 1,
+      "lang": "en",
+      "skip": true,
+      "reducedMotion": false
+    },
+    {
+      "file": "services.html",
+      "unlabelledFields": [],
+      "emptyLinks": [],
+      "unnamedButtons": [],
+      "main": 1,
+      "lang": "en",
+      "skip": true,
+      "reducedMotion": false
+    },
+    {
+      "file": "work.html",
+      "unlabelledFields": [],
+      "emptyLinks": [],
+      "unnamedButtons": [],
+      "main": 1,
+      "lang": "en",
+      "skip": true,
+      "reducedMotion": false
+    }
+  ],
+  "contrast": [
+    {
+      "name": "body on cream",
+      "ratio": 7.12,
+      "minimum": 4.5
+    },
+    {
+      "name": "red on cream",
+      "ratio": 5.7,
+      "minimum": 4.5
+    },
+    {
+      "name": "white on red",
+      "ratio": 6.32,
+      "minimum": 4.5
+    },
+    {
+      "name": "muted on ink",
+      "ratio": 9.76,
+      "minimum": 4.5
+    }
+  ],
+  "scope": "Targeted DOM labels, accessible names, landmarks, skip links and primary-token contrast; not a full WCAG conformance certification."
+}

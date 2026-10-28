@@ -1,0 +1,545 @@
+<!DOCTYPE html>
+<html lang="en" data-page="about">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>About Us | Get Lagos Now &mdash; Purpose-Driven Digital Agency</title>
+  <meta name="description" content="Meet Michelle Lagos, MBA, and the people behind Get Lagos Now, a Portland-based digital agency operating since 2010. Discover our story, inclusive approach, and commitment to people and planet.">
+  <meta name="theme-color" content="#F5F3F0">
+  <link rel="icon" href="assets/images/shared/gln.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://getlagosnow.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+  <link rel="stylesheet" href="assets/css/about.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <header class="site-header" id="siteHeader">
+    <div class="container header__inner">
+      <a class="header__logo" href="index.html" aria-label="Get Lagos Now - home">
+        <img src="assets/images/shared/gln.png" alt="Get Lagos Now" width="190" height="40">
+      </a>
+
+      <nav class="header__nav" aria-label="Primary">
+        <ul class="nav-pill">
+          <li><a href="index.html" data-nav="home">Home</a></li>
+          <li><a href="services.html" data-nav="services">Services</a></li>
+          <li class="nav-item--dropdown">
+            <button type="button" class="nav-dropdown__toggle" data-nav="work" aria-expanded="false" aria-controls="navDropdownPortfolio">
+              <span>Portfolio</span>
+              <svg class="nav-dropdown__chev" viewBox="0 0 12 12" aria-hidden="true"><path d="M2.5 4.5L6 8l3.5-3.5"/></svg>
+            </button>
+            <div class="nav-dropdown" id="navDropdownPortfolio">
+              <ul>
+                <li><a href="work.html">All Projects</a></li>
+                <li><a href="portfolio-energy-efficiency.html">Energy Efficiency</a></li>
+                <li><a href="portfolio-nonprofit.html">Non-Profit</a></li>
+                <li><a href="portfolio-medical-dental.html">Medical &amp; Dental</a></li>
+                <li><a href="portfolio-gln-projects.html">GLN Projects</a></li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="about.html" class="is-active" data-nav="about" aria-current="page">About</a></li>
+          <li><a href="impact.html" data-nav="impact">Impact</a></li>
+          <li><a href="insights.html" data-nav="insights">Blogs</a></li>
+          <li class="nav-item--dropdown">
+            <button type="button" class="nav-dropdown__toggle" data-nav="reports" aria-expanded="false" aria-controls="navDropdownReports">
+              <span>Reports</span>
+              <svg class="nav-dropdown__chev" viewBox="0 0 12 12" aria-hidden="true"><path d="M2.5 4.5L6 8l3.5-3.5"/></svg>
+            </button>
+            <div class="nav-dropdown nav-dropdown--grouped" id="navDropdownReports">
+              <div>
+                <a class="nav-dropdown__group-title" href="reports.html">Reports library</a><span class="nav-dropdown__group-title">Annual Benefit Reports</span>
+                <ul>
+                  <li><a href="reports/annual-benefit-2025.html">Annual Benefit Report 2025</a></li>
+                  <li><a href="reports/annual-benefit-2024.html">Annual Benefit Report 2024</a></li>
+                  <li><a href="reports/annual-benefit-2023.html">Annual Benefit Report 2023</a></li>
+                  <li><a href="reports/annual-benefit-2022.html">Annual Benefit Report 2022</a></li>
+                  <li><a href="reports/annual-benefit-2021.html">Annual Benefit Report 2021</a></li>
+                </ul>
+              </div>
+              <div>
+                <span class="nav-dropdown__group-title">Community &amp; Environment</span>
+                <ul>
+                  <li><a href="reports/e-recycling-pdx.html">E-Recycling PDX</a></li>
+                  <li><a href="reports/non-profit-recipients.html">Non-Profit Recipients</a></li>
+                  <li><a href="reports/e-recycling-2021.html">E-Recycling PDX 2021</a></li>
+                  <li><a href="reports/e-recycling-2022.html">E-Recycling Event 2022</a></li>
+                  <li><a href="reports/e-recycling-2023.html">4th Annual E-Recycling PDX 2023</a></li>
+                  <li><a href="reports/e-recycling-2024.html">5th Annual E-Recycling PDX 2024</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header__actions">
+        <span class="header__label">Have a project?</span>
+        <a href="contact.html" class="btn btn--dark">
+          <span>Let's Talk</span>
+          <span class="btn__icon" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+        </a>
+        <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="mobileMenu" aria-label="Open menu">
+          <span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <div class="mobile-menu" id="mobileMenu" hidden>
+      <nav aria-label="Mobile">
+        <ul>
+          <li><a href="index.html" data-nav="home">Home</a></li>
+          <li><a href="services.html" data-nav="services">Services</a></li>
+          <li>
+            <button type="button" class="mobile-sub-toggle" data-nav="work" aria-expanded="false" aria-controls="mobileSubPortfolio">
+              <span>Portfolio</span>
+              <svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2.5 4.5L6 8l3.5-3.5"/></svg>
+            </button>
+            <ul class="mobile-submenu" id="mobileSubPortfolio" hidden>
+              <li><a href="work.html">All Projects</a></li>
+              <li><a href="portfolio-energy-efficiency.html">Energy Efficiency</a></li>
+              <li><a href="portfolio-nonprofit.html">Non-Profit</a></li>
+              <li><a href="portfolio-medical-dental.html">Medical &amp; Dental</a></li>
+              <li><a href="portfolio-gln-projects.html">GLN Projects</a></li>
+            </ul>
+          </li>
+          <li><a href="about.html" class="is-active" data-nav="about" aria-current="page">About</a></li>
+          <li><a href="impact.html" data-nav="impact">Impact</a></li>
+          <li><a href="insights.html" data-nav="insights">Blogs</a></li>
+          <li>
+            <button type="button" class="mobile-sub-toggle" data-nav="reports" aria-expanded="false" aria-controls="mobileSubReports">
+              <span>Reports</span>
+              <svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2.5 4.5L6 8l3.5-3.5"/></svg>
+            </button>
+            <ul class="mobile-submenu" id="mobileSubReports" hidden>
+              <li><a href="reports.html">Reports library</a></li>
+              <li class="mobile-submenu__heading">Annual Benefit Reports</li>
+              <li><a href="reports/annual-benefit-2025.html">Annual Benefit Report 2025</a></li>
+              <li><a href="reports/annual-benefit-2024.html">Annual Benefit Report 2024</a></li>
+              <li><a href="reports/annual-benefit-2023.html">Annual Benefit Report 2023</a></li>
+              <li><a href="reports/annual-benefit-2022.html">Annual Benefit Report 2022</a></li>
+              <li><a href="reports/annual-benefit-2021.html">Annual Benefit Report 2021</a></li>
+              <li class="mobile-submenu__heading">Community &amp; Environment</li>
+              <li><a href="reports/e-recycling-pdx.html">E-Recycling PDX</a></li>
+              <li><a href="reports/non-profit-recipients.html">Non-Profit Recipients</a></li>
+              <li><a href="reports/e-recycling-2021.html">E-Recycling PDX 2021</a></li>
+              <li><a href="reports/e-recycling-2022.html">E-Recycling Event 2022</a></li>
+              <li><a href="reports/e-recycling-2023.html">4th Annual E-Recycling PDX 2023</a></li>
+              <li><a href="reports/e-recycling-2024.html">5th Annual E-Recycling PDX 2024</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <div class="mobile-menu__foot">
+        <p>Portland, Oregon &middot; Since 2010</p>
+        <a href="contact.html" class="btn btn--red">
+          <span>Let's Talk</span>
+          <span class="btn__icon" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+    <!-- ============ 01 HERO ============ -->
+    <section class="inner-page-hero" aria-labelledby="ab-hero-title">
+      <div class="container inner-page-hero__grid">
+        <div class="inner-page-hero__content reveal">
+          <p class="eyebrow">About Get Lagos Now</p>
+          <h1 id="ab-hero-title" class="inner-page-hero__title">Driven by purpose.<br>Built around people.</h1>
+          <p class="inner-page-hero__text">We're a Portland-based digital agency bringing people, strategy, and technology together to create meaningful experiences. Since 2010, we've helped organizations grow through thoughtful design, innovation, and purposeful collaboration.</p>
+          <div class="inner-page-hero__cta">
+            <a href="#our-story" class="btn btn--dark">
+              <span>Get to know us</span>
+              <span class="btn__icon" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M8 3v10M3 8h10"/></svg></span>
+            </a>
+          </div>
+        </div>
+
+        <div class="inner-page-hero__visual">
+          <figure class="inner-page-hero__primary">
+            <img src="assets/images/shared/Michelle-speaks-1024x683.jpeg"
+                 alt="Michelle Lagos speaking at the 2021 E-Recycling PDX event"
+                 width="1024" height="683" fetchpriority="high" decoding="async">
+          </figure>
+          <figure class="inner-page-hero__detail">
+            <img src="assets/images/shared/GLN-at-work.jpeg"
+                 alt="Get Lagos Now at work during the first E-Recycling PDX event"
+                 width="1024" height="681" loading="lazy" decoding="async">
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <section class="ab-story section" id="our-story" aria-labelledby="ab-story-title">
+      <div class="container">
+        <div class="ab-story__grid">
+          <figure class="ab-story__photo reveal">
+            <div class="ab-story__image">
+              <img src="assets/images/shared/GLN-at-work.jpeg"
+                   srcset="https://getlagosnow.com/wp-content/uploads/2020/07/GLN-at-work-768x511.jpeg 768w, https://getlagosnow.com/wp-content/uploads/2020/07/GLN-at-work.jpeg 1024w"
+                   sizes="(max-width: 768px) 92vw, 48vw"
+                   alt="Get Lagos Now at work during the first E-Recycling PDX community event"
+                   width="1024" height="681" loading="lazy" decoding="async">
+            </div>
+            <figcaption>First E-Recycling PDX event, 2020. Photography: Patrizia Photography.</figcaption>
+          </figure>
+          <div class="ab-story__content reveal">
+            <p class="eyebrow">Our journey</p>
+            <h2 id="ab-story-title" class="h2">A different kind<br>of digital agency.</h2>
+            <div class="ab-copy">
+              <p>Founded in 2010, Get Lagos Now was built around a straightforward belief: digital innovation should create meaningful value for people and organizations.</p>
+              <p>Today, the agency combines strategic thinking, creative development, marketing expertise, and inclusive technology to help organizations strengthen their digital presence.</p>
+              <p>From accessible websites to thoughtful digital strategies, the work reflects an ongoing commitment to collaboration, quality, and positive impact.</p>
+            </div>
+            <a href="services.html" class="link-arrow">
+              Discover our expertise
+              <span class="link-arrow__icon" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+            </a>
+          </div>
+        </div>
+        <dl class="ab-credentials reveal">
+          <div><dt>Operating since</dt><dd>2010</dd></div>
+          <div><dt>Our home base</dt><dd>Portland, OR</dd></div>
+          <div><dt>Our approach</dt><dd>Human-Centered</dd></div>
+        </dl>
+      </div>
+    </section>
+
+    <section class="ab-beliefs" aria-labelledby="ab-beliefs-title">
+      <div class="container ab-beliefs__grid">
+        <div class="ab-beliefs__lead">
+          <p class="eyebrow eyebrow--light reveal">What we believe</p>
+          <h2 id="ab-beliefs-title" class="ab-beliefs__title">
+            <span class="reveal">Good technology</span>
+            <span class="reveal">should make</span>
+            <span class="reveal">life better.</span>
+          </h2>
+        </div>
+        <div class="ab-beliefs__aside">
+          <p class="ab-beliefs__intro reveal">We believe meaningful digital experiences are built through empathy, thoughtful strategy, and a commitment to positive change. Technology should connect people, remove barriers, and create opportunities.</p>
+          <ol class="ab-beliefs__list">
+            <li class="reveal">
+              <span class="ab-beliefs__number" aria-hidden="true">01</span>
+              <div><h3>People</h3><p>We put human needs and inclusive experiences first.</p></div>
+            </li>
+            <li class="reveal">
+              <span class="ab-beliefs__number" aria-hidden="true">02</span>
+              <div><h3>Purpose</h3><p>We approach every project with intention and meaningful goals.</p></div>
+            </li>
+            <li class="reveal">
+              <span class="ab-beliefs__number" aria-hidden="true">03</span>
+              <div><h3>Progress</h3><p>We believe innovation should create lasting, positive outcomes.</p></div>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- Names, roles, portraits, and biography details: https://getlagosnow.com/team/ -->
+    <section class="ab-founder section" id="founder" aria-labelledby="ab-founder-title">
+      <div class="container ab-founder__grid">
+        <div class="ab-founder__content reveal">
+          <p class="eyebrow">The person behind the vision</p>
+          <h2 id="ab-founder-title" class="h2">Meet<br>Michelle Lagos.</h2>
+          <div class="ab-copy">
+            <p>Michelle brings a background in marketing, digital strategy, and business leadership to Get Lagos Now. Her approach puts quality service, innovation, and thoughtful collaboration at the heart of the work, connecting the ambitions of clients with the people behind every project.</p>
+            <p>Her commitment to positive contribution also extends into community leadership. Her nonprofit involvement includes board service with Blanchet House &amp; Farm and the League of Minority Voters, as well as past service on the New Avenues for Youth Employer Advisory Board.</p>
+          </div>
+          <div class="ab-founder__signature">
+            <p class="ab-founder__name">Michelle Lagos, MBA</p>
+            <p class="ab-founder__role">Founder &amp; Managing CEO</p>
+          </div>
+          <p class="ab-founder__education">MBA, Marketing focus &middot; Marylhurst University<br>BS, Social Science/Business &middot; Linfield University</p>
+        </div>
+        <figure class="ab-founder__portrait reveal">
+          <div class="ab-founder__image">
+            <img src="assets/images/shared/Michelle-Headshot-1024x1013.png"
+                 srcset="https://getlagosnow.com/wp-content/uploads/2025/05/Michelle-Headshot-768x759.png 768w, https://getlagosnow.com/wp-content/uploads/2025/05/Michelle-Headshot-1024x1013.png 1024w, https://getlagosnow.com/wp-content/uploads/2025/05/Michelle-Headshot.png 1349w"
+                 sizes="(max-width: 768px) 92vw, 42vw"
+                 alt="Michelle Lagos, MBA, Founder and Managing CEO of Get Lagos Now"
+                 width="1024" height="1013" loading="lazy" decoding="async">
+          </div>
+          <figcaption><span>Michelle Lagos</span><span>Founder &amp; Managing CEO</span></figcaption>
+        </figure>
+      </div>
+    </section>
+
+    <section class="ab-team section" id="team" aria-labelledby="ab-team-title">
+      <div class="container">
+        <header class="section-head section-head--split reveal">
+          <div>
+            <p class="eyebrow">Our team</p>
+            <h2 id="ab-team-title" class="h2">Different minds.<br>Shared purpose.</h2>
+          </div>
+          <p class="ab-team__intro">Our team brings together creative thinkers, developers, designers, and strategists with a shared commitment to thoughtful work and meaningful results.</p>
+        </header>
+
+        <ul class="ab-team__grid" aria-label="The people behind the work">
+          <li class="ab-person reveal">
+            <article aria-labelledby="aaron-name">
+              <figure class="ab-person__portrait ab-person__portrait--aaron">
+                <img src="assets/images/shared/AAron-Marty-768x687.png"
+                     srcset="https://getlagosnow.com/wp-content/uploads/2025/10/AAron-Marty-300x269.png 300w, https://getlagosnow.com/wp-content/uploads/2025/10/AAron-Marty-768x687.png 768w, https://getlagosnow.com/wp-content/uploads/2025/10/AAron-Marty-1024x917.png 1024w"
+                     sizes="(max-width: 540px) 92vw, (max-width: 1024px) 44vw, 30vw"
+                     alt="Aaron Marty" width="768" height="687" loading="lazy" decoding="async">
+              </figure>
+              <h3 id="aaron-name" class="ab-person__name">Aaron Marty</h3>
+              <p class="ab-person__role">Senior Website Development / Coding / Hosting Management</p>
+              <details class="ab-person__bio">
+                <summary aria-label="Read bio for Aaron Marty">Read bio<span class="ab-person__arrow" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M4 12l8-8M4 4h8v8"/></svg></span></summary>
+                <p>A full-stack developer working across responsive web applications, frontend development, and PHP-based backends. Aaron's experience spans the software lifecycle, from initial concept to deployment and optimization.</p>
+              </details>
+            </article>
+          </li>
+          <li class="ab-person reveal">
+            <article aria-labelledby="sam-name">
+              <figure class="ab-person__portrait ab-person__portrait--sam">
+                <img src="assets/images/shared/UNADJUSTEDNONRAW_thumb_11-768x512.jpg"
+                     srcset="https://getlagosnow.com/wp-content/uploads/2021/03/UNADJUSTEDNONRAW_thumb_11-768x512.jpg 768w, https://getlagosnow.com/wp-content/uploads/2021/03/UNADJUSTEDNONRAW_thumb_11-1024x683.jpg 1024w"
+                     sizes="(max-width: 540px) 92vw, (max-width: 1024px) 44vw, 30vw"
+                     alt="Sam Katz" width="768" height="512" loading="lazy" decoding="async">
+              </figure>
+              <h3 id="sam-name" class="ab-person__name">Sam Katz</h3>
+              <p class="ab-person__role">Web Developer &amp; Web Hosting Specialist</p>
+              <details class="ab-person__bio">
+                <summary aria-label="Read bio for Sam Katz">Read bio<span class="ab-person__arrow" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M4 12l8-8M4 4h8v8"/></svg></span></summary>
+                <p>Trained at Madison College, Sam specializes in PHP, HTML5, CSS3, WordPress, and Drupal. His work with websites, servers, and UI/UX is grounded in a belief in building on a solid foundation.</p>
+              </details>
+            </article>
+          </li>
+          <li class="ab-person reveal">
+            <article aria-labelledby="melanie-name">
+              <figure class="ab-person__portrait ab-person__portrait--melanie">
+                <img src="assets/images/shared/Melanie-headshot.jpg"
+                     alt="Melanie Wilson" width="400" height="400" loading="lazy" decoding="async">
+              </figure>
+              <h3 id="melanie-name" class="ab-person__name">Melanie Wilson</h3>
+              <p class="ab-person__role">Website Designer / Developer</p>
+              <details class="ab-person__bio">
+                <summary aria-label="Read bio for Melanie Wilson">Read bio<span class="ab-person__arrow" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M4 12l8-8M4 4h8v8"/></svg></span></summary>
+                <p>Melanie began designing and developing websites in 1999. Her background includes responsive development, WordPress, SEO, ADA accessibility, and user interface design for schools, nonprofits, artists, and businesses.</p>
+              </details>
+            </article>
+          </li>
+          <li class="ab-person reveal">
+            <article aria-labelledby="alex-name">
+              <figure class="ab-person__portrait ab-person__portrait--alex">
+                <img src="assets/images/shared/Alex_Headshot.jpeg"
+                     alt="Alex Haro" width="800" height="800" loading="lazy" decoding="async">
+              </figure>
+              <h3 id="alex-name" class="ab-person__name">Alex Haro</h3>
+              <p class="ab-person__role">Graphic Designer &amp; Art Director</p>
+              <details class="ab-person__bio">
+                <summary aria-label="Read bio for Alex Haro">Read bio<span class="ab-person__arrow" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M4 12l8-8M4 4h8v8"/></svg></span></summary>
+                <p>An Austin-based designer and art director with a BA in Graphic Design from Wichita State University. Alex works across brand identity, advertising, and campaigns, with a love of thoughtful typography.</p>
+              </details>
+            </article>
+          </li>
+          <li class="ab-person reveal">
+            <article aria-labelledby="alley-name">
+              <figure class="ab-person__portrait ab-person__portrait--alley">
+                <img src="assets/images/shared/alley-hector-1.jpg"
+                     alt="Alley Hector" width="500" height="500" loading="lazy" decoding="async">
+              </figure>
+              <h3 id="alley-name" class="ab-person__name">Alley Hector</h3>
+              <p class="ab-person__role">Senior Website Development / Design / Content Curator</p>
+              <details class="ab-person__bio">
+                <summary aria-label="Read bio for Alley Hector">Read bio<span class="ab-person__arrow" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M4 12l8-8M4 4h8v8"/></svg></span></summary>
+                <p>A Portland-based Smith College graduate, Alley brings together design, development, engineering, and writing. Their work spans UX, content strategy, and digital experiences that help clients connect with their audiences.</p>
+              </details>
+            </article>
+          </li>
+          <li class="ab-person reveal">
+            <article aria-labelledby="scott-name">
+              <figure class="ab-person__portrait ab-person__portrait--scott">
+                <img src="assets/images/shared/D_Scott_Smith.1-772x1024.jpg"
+                     alt="Scott Smith" width="772" height="1024" loading="lazy" decoding="async">
+              </figure>
+              <h3 id="scott-name" class="ab-person__name">Scott Smith</h3>
+              <p class="ab-person__role">Digital Media Strategist</p>
+              <details class="ab-person__bio">
+                <summary aria-label="Read bio for Scott Smith">Read bio<span class="ab-person__arrow" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M4 12l8-8M4 4h8v8"/></svg></span></summary>
+                <p>Scott works at the intersection of strategy and execution. His experience includes PPC, search marketing, audience development, paid social, and digital media buying and optimization for businesses and nonprofits.</p>
+              </details>
+            </article>
+          </li>
+        </ul>
+        <p class="ab-team__source">Portraits and roles from our <a href="about.html">published team page</a>.</p>
+      </div>
+    </section>
+
+    <section class="ab-commitments section" aria-labelledby="ab-commitments-title">
+      <div class="container">
+        <header class="ab-commitments__head reveal">
+          <div>
+            <p class="eyebrow">What sets us apart</p>
+            <h2 id="ab-commitments-title" class="h2">Business guided<br>by principles.</h2>
+          </div>
+          <p class="ab-commitments__intro">We believe the way we work matters just as much as what we create. Our business approach combines digital expertise with accountability, inclusion, and a commitment to positive impact.</p>
+        </header>
+        <ol class="ab-commitments__list">
+          <li class="reveal">
+            <span class="ab-commitments__number" aria-hidden="true">01</span>
+            <h3>Experience Since 2010</h3>
+            <p>Years of digital strategy, creative collaboration, and website development experience.</p>
+          </li>
+          <li class="reveal">
+            <span class="ab-commitments__number" aria-hidden="true">02</span>
+            <h3>Certified Woman-Owned Business</h3>
+            <p>Our published company credentials include Women Business Enterprise (WBE) certification.</p>
+          </li>
+          <li class="reveal">
+            <span class="ab-commitments__number" aria-hidden="true">03</span>
+            <h3>Purpose-Driven Benefit Company</h3>
+            <p>A commitment to considering the impact of business decisions on people, clients, communities, and the environment.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <section class="ab-impact" id="beyond-business" aria-labelledby="ab-impact-title">
+      <div class="container ab-impact__grid">
+        <figure class="ab-impact__photo reveal">
+          <div class="ab-impact__image">
+            <img src="assets/images/shared/Gary-and-Michelle-donate-1024x768.jpg"
+                 srcset="https://getlagosnow.com/wp-content/uploads/2021/01/Gary-and-Michelle-donate-768x576.jpg 768w, https://getlagosnow.com/wp-content/uploads/2021/01/Gary-and-Michelle-donate-1024x768.jpg 1024w, https://getlagosnow.com/wp-content/uploads/2021/01/Gary-and-Michelle-donate-1536x1152.jpg 1536w"
+                 sizes="(max-width: 768px) 92vw, 48vw"
+                 alt="Gary Dunsworth and Michelle Lagos donating technology to Rose Haven with Executive Director Katie O'Brien in January 2021"
+                 width="1024" height="768" loading="lazy" decoding="async">
+          </div>
+          <figcaption><span>Technology donations to Rose Haven</span><span>January 2021</span></figcaption>
+        </figure>
+        <div class="ab-impact__content reveal">
+          <p class="eyebrow">Purpose beyond profit</p>
+          <h2 id="ab-impact-title" class="h2">Creating impact<br>beyond the screen.</h2>
+          <div class="ab-copy">
+            <p>Our commitment goes beyond digital experiences. We believe businesses have a responsibility to contribute to healthier communities and a more sustainable future.</p>
+            <p>Through nonprofit partnerships, community involvement, and technology donations, Get Lagos Now works to turn its values into practical action.</p>
+          </div>
+          <div class="ab-impact__pledge">
+            <p class="ab-impact__amount">5%<span>+</span></p>
+            <div>
+              <p class="ab-impact__label">Our published annual commitment</p>
+              <p>Of profits toward local nonprofit support through cash and in-kind contributions. This is our published commitment, not an annual donation total.</p>
+            </div>
+          </div>
+          <p class="ab-impact__verification">Our <a href="reports/annual-benefit-2025.html">2025 Annual Benefit Report</a> records People and Planet First verification in March 2026, alongside community support, technology donations, e-recycling, and volunteer participation.</p>
+          <a href="impact.html" class="link-arrow">
+            Explore our impact
+            <span class="link-arrow__icon" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <section class="cta ab-cta" aria-labelledby="cta-title">
+      <div class="container">
+        <div class="cta__banner">
+          <div>
+            <h2 id="cta-title" class="cta__title">Let's Talk.</h2>
+            <p class="ab-cta__line">Let's create something meaningful together.</p>
+          </div>
+          <a href="contact.html#contact-form" class="cta__action">
+            <span class="cta__action-mark" aria-hidden="true">
+              <img src="https://images.pexels.com/photos/16752907/pexels-photo-16752907.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&fit=crop" alt="" loading="lazy">
+            </span>
+            <span class="cta__action-text">
+              <strong>Start a project</strong>
+              <span>Portland, Oregon</span>
+            </span>
+            <span class="sq-btn sq-btn--red" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__top">
+          <div class="footer__brand">
+            <a href="index.html" class="footer__logo" aria-label="Get Lagos Now - home">
+              <img src="assets/images/shared/gln.png" alt="Get Lagos Now" width="190" height="40" loading="lazy">
+            </a>
+            <p class="footer__tagline">Human-centered.<br>Strategic innovation.<br>High touch.</p>
+            <p class="footer__desc">A PDX-based, purpose-driven Benefit Company creating inclusive, accessible digital experiences since 2010.</p>
+            <p class="footer__loc"><span class="dot-red" aria-hidden="true"></span> Portland, Oregon</p>
+            <ul class="socials" aria-label="Social media">
+              <li><span class="social-placeholder" aria-label="LinkedIn (link to be confirmed)">in</span></li>
+              <li><span class="social-placeholder" aria-label="Instagram (link to be confirmed)">ig</span></li>
+              <li><span class="social-placeholder" aria-label="Facebook (link to be confirmed)">fb</span></li>
+            </ul>
+          </div>
+
+          <div class="footer__right">
+            <div class="footer__cols">
+              <nav aria-label="Footer - explore">
+                <p class="footer__head">Explore</p>
+                <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="services.html">Services</a></li>
+                  <li><a href="work.html">Portfolio</a></li>
+                  <li><a href="about.html" aria-current="page">About</a></li>
+                  <li><a href="impact.html">Impact</a></li>
+                  <li><a href="insights.html">Blogs</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                </ul>
+              </nav>
+              <nav aria-label="Footer - services">
+                <p class="footer__head">Services &amp; Sectors</p>
+                <ul>
+                  <li><a href="services.html#web-design">Web Design &amp; Development</a></li>
+                  <li><a href="services.html#accessibility-seo">Accessibility &amp; SEO/AEO</a></li>
+                  <li><a href="services.html#branding-creative">Branding &amp; Creative</a></li>
+                  <li><a href="services.html#marketing-strategy">Marketing &amp; Strategy</a></li>
+                  <li><a href="portfolio-energy-efficiency.html">Energy Efficiency</a></li>
+                  <li><a href="portfolio-nonprofit.html">Non-Profit</a></li>
+                  <li><a href="portfolio-medical-dental.html">Medical &amp; Dental</a></li>
+                </ul>
+              </nav>
+              <nav aria-label="Footer - resources">
+                <p class="footer__head">Reports &amp; Community</p>
+                <ul>
+                  <li><a href="reports/annual-benefit-2025.html">Annual Benefit Report 2025</a></li>
+                  <li><a href="reports/annual-benefit-2024.html">Annual Benefit Report 2024</a></li>
+                  <li><a href="reports/annual-benefit-2023.html">Annual Benefit Report 2023</a></li>
+                  <li><a href="reports/e-recycling-pdx.html">E-Recycling PDX</a></li>
+                  <li><a href="reports/non-profit-recipients.html">Non-Profit Recipients</a></li>
+                </ul>
+              </nav>
+            </div>
+
+            <form class="newsletter" id="newsletterForm" novalidate>
+              <label class="footer__head" for="nlEmail">Newsletter</label>
+              <div class="newsletter__row">
+                <input type="email" id="nlEmail" placeholder="Enter your email" autocomplete="email" aria-describedby="nlStatus">
+                <button type="submit" class="btn btn--red btn--sm">Subscribe</button>
+              </div>
+              <p class="newsletter__status" id="nlStatus" aria-live="polite">Prototype &mdash; newsletter sign-up is not yet connected.</p>
+            </form>
+          </div>
+        </div>
+
+        <div class="footer__bottom">
+          <p>&copy; <span id="year">2026</span> Lagos Consulting LLC. All rights reserved.</p>
+          <ul>
+            <li><a href="https://getlagosnow.com/privacy-policy/">Privacy Policy</a></li>
+            <li><a href="services.html#accessibility-seo">Accessibility</a></li>
+            <li><a href="index.html#ai-policy">AI Policy</a></li>
+          </ul>
+          <p class="footer__credit">Editorial photography via Pexels. Project imagery &copy; respective clients.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>

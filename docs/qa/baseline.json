@@ -1,0 +1,38 @@
+[
+  {
+    "file": "about.html",
+    "sha256": "6599cdd24a5dc37b6b07149f973fa832141fb440cb4179aa0d9cbab92eccb893"
+  },
+  {
+    "file": "contact.html",
+    "sha256": "55dc51aec13f4cc2d01b29f87b742caf32b2088d83464ba7f8e21251f6435f1f"
+  },
+  {
+    "file": "impact.html",
+    "sha256": "5d54ace5f06feb74951821f46a56d637fb5431f35262860c88ceb1b46bae9f0c"
+  },
+  {
+    "file": "index.html",
+    "sha256": "b7b626941356b39f33186bb65852a65d7bb38b48fd33a4177adb99a9f1355868"
+  },
+  {
+    "file": "insights.html",
+    "sha256": "fbd454a4cff26d850a26d8ba1b30f4e160b522260393c93d06f4f448e80b5a24"
+  },
+  {
+    "file": "portfolio-energy-efficiency.html",
+    "sha256": "e533ae099b76d1814040b380a98a61bab51bbf278d35276392893f08bd04f2ad"
+  },
+  {
+    "file": "portfolio-nonprofit.html",
+    "sha256": "b605a62532e2299e2718961aaa6c9c142bfc44ec116bd17a609903288d73dde8"
+  },
+  {
+    "file": "services.html",
+    "sha256": "584b56430925dfe7829a3790d919631a78968b7efc599b9196b78b9c93dd1c78"
+  },
+  {
+    "file": "work.html",
+    "sha256": "5c9966247b80f9b5f9c45932a0f75e4edd339681a3131facc9a9920e208e5473"
+  }
+]

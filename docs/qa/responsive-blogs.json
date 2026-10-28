@@ -1,0 +1,409 @@
+[
+  {
+    "file": "insights.html",
+    "viewports": [
+      {
+        "width": 1920,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 1440,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 1280,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 1024,
+        "overflow": false,
+        "wide": [
+          {
+            "tag": "BUTTON",
+            "cls": "",
+            "text": "Community & Sustainability",
+            "width": 248
+          }
+        ]
+      },
+      {
+        "width": 768,
+        "overflow": false,
+        "wide": [
+          {
+            "tag": "IMG",
+            "cls": "",
+            "text": "",
+            "width": 457
+          },
+          {
+            "tag": "BUTTON",
+            "cls": "",
+            "text": "Client Showcase",
+            "width": 156
+          },
+          {
+            "tag": "BUTTON",
+            "cls": "",
+            "text": "Community & Sustainability",
+            "width": 237
+          }
+        ]
+      },
+      {
+        "width": 390,
+        "overflow": false,
+        "wide": [
+          {
+            "tag": "IMG",
+            "cls": "",
+            "text": "",
+            "width": 316
+          },
+          {
+            "tag": "BUTTON",
+            "cls": "",
+            "text": "SEO & AI",
+            "width": 88
+          },
+          {
+            "tag": "BUTTON",
+            "cls": "",
+            "text": "Marketing",
+            "width": 110
+          },
+          {
+            "tag": "BUTTON",
+            "cls": "",
+            "text": "Branding",
+            "width": 100
+          },
+          {
+            "tag": "BUTTON",
+            "cls": "",
+            "text": "Client Showcase",
+            "width": 156
+          },
+          {
+            "tag": "BUTTON",
+            "cls": "",
+            "text": "Community & Sustainability",
+            "width": 237
+          }
+        ]
+      },
+      {
+        "width": 360,
+        "overflow": false,
+        "wide": [
+          {
+            "tag": "IMG",
+            "cls": "",
+            "text": "",
+            "width": 290
+          },
+          {
+            "tag": "BUTTON",
+            "cls": "",
+            "text": "Accessibility",
+            "width": 130
+          },
+          {
+            "tag": "BUTTON",
+            "cls": "",
+            "text": "SEO & AI",
+            "width": 88
+          },
+          {
+            "tag": "BUTTON",
+            "cls": "",
+            "text": "Marketing",
+            "width": 110
+          },
+          {
+            "tag": "BUTTON",
+            "cls": "",
+            "text": "Branding",
+            "width": 100
+          },
+          {
+            "tag": "BUTTON",
+            "cls": "",
+            "text": "Client Showcase",
+            "width": 156
+          },
+          {
+            "tag": "BUTTON",
+            "cls": "",
+            "text": "Community & Sustainability",
+            "width": 237
+          }
+        ]
+      }
+    ],
+    "broken": [],
+    "errors": [],
+    "h1": 1
+  },
+  {
+    "file": "articles/website-design-trends-in-2026-better-for-people-better-for-planet.html",
+    "viewports": [
+      {
+        "width": 1920,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 1440,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 1280,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 1024,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 768,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 390,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 360,
+        "overflow": false,
+        "wide": []
+      }
+    ],
+    "broken": [],
+    "errors": [],
+    "h1": 1
+  },
+  {
+    "file": "articles/how-important-are-ada-compliant-websites-now.html",
+    "viewports": [
+      {
+        "width": 1920,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 1440,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 1280,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 1024,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 768,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 390,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 360,
+        "overflow": false,
+        "wide": []
+      }
+    ],
+    "broken": [],
+    "errors": [],
+    "h1": 1
+  },
+  {
+    "file": "articles/lets-talk-seo-and-be-found.html",
+    "viewports": [
+      {
+        "width": 1920,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 1440,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 1280,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 1024,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 768,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 390,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 360,
+        "overflow": false,
+        "wide": []
+      }
+    ],
+    "broken": [],
+    "errors": [],
+    "h1": 1
+  },
+  {
+    "file": "articles/5-bcorp-computer-company-in-the-us-and-canada-in-2022.html",
+    "viewports": [
+      {
+        "width": 1920,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 1440,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 1280,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 1024,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 768,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 390,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 360,
+        "overflow": false,
+        "wide": []
+      }
+    ],
+    "broken": [],
+    "errors": [],
+    "h1": 1
+  },
+  {
+    "file": "articles/september-company-showcase-strategic-it.html",
+    "viewports": [
+      {
+        "width": 1920,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 1440,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 1280,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 1024,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 768,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 390,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 360,
+        "overflow": false,
+        "wide": []
+      }
+    ],
+    "broken": [],
+    "errors": [],
+    "h1": 1
+  },
+  {
+    "file": "articles/the-benefits-of-multi-lingual-websites.html",
+    "viewports": [
+      {
+        "width": 1920,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 1440,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 1280,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 1024,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 768,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 390,
+        "overflow": false,
+        "wide": []
+      },
+      {
+        "width": 360,
+        "overflow": false,
+        "wide": []
+      }
+    ],
+    "broken": [],
+    "errors": [],
+    "h1": 1
+  }
+]

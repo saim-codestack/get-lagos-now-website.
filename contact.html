@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en" data-page="contact">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Contact Us | Get Lagos Now — Start a Conversation</title>
+  <meta name="description" content="Tell Get Lagos Now what you're working on. Start a conversation about website design and development, accessibility, SEO and AI visibility, branding, or digital marketing.">
+  <meta name="theme-color" content="#F5F3F0">
+  <link rel="icon" href="assets/images/shared/gln.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://getlagosnow.com">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+  <link rel="stylesheet" href="assets/css/contact.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- ============ 01 NAVIGATION ============ -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header__inner">
+      <a class="header__logo" href="index.html" aria-label="Get Lagos Now — home">
+        <img src="assets/images/shared/gln.png" alt="Get Lagos Now" width="190" height="40">
+      </a>
+
+      <nav class="header__nav" aria-label="Primary">
+        <ul class="nav-pill">
+          <li><a href="index.html" data-nav="home">Home</a></li>
+          <li><a href="services.html" data-nav="services">Services</a></li>
+          <li class="nav-item--dropdown">
+            <button type="button" class="nav-dropdown__toggle" data-nav="work" aria-expanded="false" aria-controls="navDropdownPortfolio">
+              <span>Portfolio</span>
+              <svg class="nav-dropdown__chev" viewBox="0 0 12 12" aria-hidden="true"><path d="M2.5 4.5L6 8l3.5-3.5"/></svg>
+            </button>
+            <div class="nav-dropdown" id="navDropdownPortfolio">
+              <ul>
+                <li><a href="work.html">All Projects</a></li>
+                <li><a href="portfolio-energy-efficiency.html">Energy Efficiency</a></li>
+                <li><a href="portfolio-nonprofit.html">Non-Profit</a></li>
+                <li><a href="portfolio-medical-dental.html">Medical &amp; Dental</a></li>
+                <li><a href="portfolio-gln-projects.html">GLN Projects</a></li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="about.html" data-nav="about">About</a></li>
+          <li><a href="impact.html" data-nav="impact">Impact</a></li>
+          <li><a href="insights.html" data-nav="insights">Blogs</a></li>
+          <li class="nav-item--dropdown">
+            <button type="button" class="nav-dropdown__toggle" data-nav="reports" aria-expanded="false" aria-controls="navDropdownReports">
+              <span>Reports</span>
+              <svg class="nav-dropdown__chev" viewBox="0 0 12 12" aria-hidden="true"><path d="M2.5 4.5L6 8l3.5-3.5"/></svg>
+            </button>
+            <div class="nav-dropdown nav-dropdown--grouped" id="navDropdownReports">
+              <div>
+                <a class="nav-dropdown__group-title" href="reports.html">Reports library</a><span class="nav-dropdown__group-title">Annual Benefit Reports</span>
+                <ul>
+                  <li><a href="reports/annual-benefit-2025.html">Annual Benefit Report 2025</a></li>
+                  <li><a href="reports/annual-benefit-2024.html">Annual Benefit Report 2024</a></li>
+                  <li><a href="reports/annual-benefit-2023.html">Annual Benefit Report 2023</a></li>
+                  <li><a href="reports/annual-benefit-2022.html">Annual Benefit Report 2022</a></li>
+                  <li><a href="reports/annual-benefit-2021.html">Annual Benefit Report 2021</a></li>
+                </ul>
+              </div>
+              <div>
+                <span class="nav-dropdown__group-title">Community &amp; Environment</span>
+                <ul>
+                  <li><a href="reports/e-recycling-pdx.html">E-Recycling PDX</a></li>
+                  <li><a href="reports/non-profit-recipients.html">Non-Profit Recipients</a></li>
+                  <li><a href="reports/e-recycling-2021.html">E-Recycling PDX 2021</a></li>
+                  <li><a href="reports/e-recycling-2022.html">E-Recycling Event 2022</a></li>
+                  <li><a href="reports/e-recycling-2023.html">4th Annual E-Recycling PDX 2023</a></li>
+                  <li><a href="reports/e-recycling-2024.html">5th Annual E-Recycling PDX 2024</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header__actions">
+        <span class="header__label">Have a project?</span>
+        <a href="contact.html" class="btn btn--dark is-active-cta" aria-current="page">
+          <span>Let's Talk</span>
+          <span class="btn__icon" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+        </a>
+        <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="mobileMenu" aria-label="Open menu">
+          <span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <div class="mobile-menu" id="mobileMenu" hidden>
+      <nav aria-label="Mobile">
+        <ul>
+          <li><a href="index.html" data-nav="home">Home</a></li>
+          <li><a href="services.html" data-nav="services">Services</a></li>
+          <li>
+            <button type="button" class="mobile-sub-toggle" data-nav="work" aria-expanded="false" aria-controls="mobileSubPortfolio">
+              <span>Portfolio</span>
+              <svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2.5 4.5L6 8l3.5-3.5"/></svg>
+            </button>
+            <ul class="mobile-submenu" id="mobileSubPortfolio" hidden>
+              <li><a href="work.html">All Projects</a></li>
+              <li><a href="portfolio-energy-efficiency.html">Energy Efficiency</a></li>
+              <li><a href="portfolio-nonprofit.html">Non-Profit</a></li>
+              <li><a href="portfolio-medical-dental.html">Medical &amp; Dental</a></li>
+              <li><a href="portfolio-gln-projects.html">GLN Projects</a></li>
+            </ul>
+          </li>
+          <li><a href="about.html" data-nav="about">About</a></li>
+          <li><a href="impact.html" data-nav="impact">Impact</a></li>
+          <li><a href="insights.html" data-nav="insights">Blogs</a></li>
+          <li>
+            <button type="button" class="mobile-sub-toggle" data-nav="reports" aria-expanded="false" aria-controls="mobileSubReports">
+              <span>Reports</span>
+              <svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2.5 4.5L6 8l3.5-3.5"/></svg>
+            </button>
+            <ul class="mobile-submenu" id="mobileSubReports" hidden>
+              <li><a href="reports.html">Reports library</a></li>
+              <li class="mobile-submenu__heading">Annual Benefit Reports</li>
+              <li><a href="reports/annual-benefit-2025.html">Annual Benefit Report 2025</a></li>
+              <li><a href="reports/annual-benefit-2024.html">Annual Benefit Report 2024</a></li>
+              <li><a href="reports/annual-benefit-2023.html">Annual Benefit Report 2023</a></li>
+              <li><a href="reports/annual-benefit-2022.html">Annual Benefit Report 2022</a></li>
+              <li><a href="reports/annual-benefit-2021.html">Annual Benefit Report 2021</a></li>
+              <li class="mobile-submenu__heading">Community &amp; Environment</li>
+              <li><a href="reports/e-recycling-pdx.html">E-Recycling PDX</a></li>
+              <li><a href="reports/non-profit-recipients.html">Non-Profit Recipients</a></li>
+              <li><a href="reports/e-recycling-2021.html">E-Recycling PDX 2021</a></li>
+              <li><a href="reports/e-recycling-2022.html">E-Recycling Event 2022</a></li>
+              <li><a href="reports/e-recycling-2023.html">4th Annual E-Recycling PDX 2023</a></li>
+              <li><a href="reports/e-recycling-2024.html">5th Annual E-Recycling PDX 2024</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <div class="mobile-menu__foot">
+        <p>Portland, Oregon · Since 2010</p>
+        <a href="contact.html" class="btn btn--red" aria-current="page">
+          <span>Let's Talk</span>
+          <span class="btn__icon" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ 01 HERO (shared inner-page hero) ============ -->
+    <section class="inner-page-hero" aria-labelledby="contact-hero-title">
+      <div class="container inner-page-hero__grid">
+        <div class="inner-page-hero__content reveal">
+          <p class="eyebrow">Get in touch</p>
+          <h1 id="contact-hero-title" class="inner-page-hero__title">Great Things Start<br>With A Conversation.</h1>
+          <p class="inner-page-hero__text">Have a project in mind, a challenge to solve, or an idea worth exploring? We'd love to hear about it. Tell us what you're working on, and let's explore what's possible.</p>
+          <div class="inner-page-hero__cta">
+            <a href="#contact-form" class="btn btn--dark">
+              <span>Start Your Project</span>
+              <span class="btn__icon" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M8 3v10M4 9l4 4 4-4"/></svg></span>
+            </a>
+          </div>
+        </div>
+
+        <div class="inner-page-hero__visual reveal">
+          <figure class="inner-page-hero__primary">
+            <img src="https://images.pexels.com/photos/7674645/pexels-photo-7674645.jpeg?auto=compress&cs=tinysrgb&w=1400"
+                 alt="Creative team discussing a project around a table in a naturally lit studio"
+                 width="1400" height="933" fetchpriority="high" decoding="async">
+          </figure>
+          <figure class="inner-page-hero__detail">
+            <img src="https://images.pexels.com/photos/7257232/pexels-photo-7257232.jpeg?auto=compress&cs=tinysrgb&w=700"
+                 alt="Close-up of design notes and sketches on a studio desk"
+                 width="700" height="467" decoding="async">
+          </figure>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 02 MAIN PROJECT INQUIRY ============ -->
+    <section class="ct-inquiry section" id="contact-form" aria-labelledby="inquiry-title">
+      <div class="container">
+        <div class="panel panel--dark ct-inquiry__panel">
+          <div class="ct-inquiry__intro reveal">
+            <p class="eyebrow eyebrow--light">Let's get started</p>
+            <h2 id="inquiry-title" class="h2 h2--light">Tell us what<br>you're working on.</h2>
+            <p class="ct-inquiry__text">Every great project begins with understanding your ideas, goals, and challenges. Share a little about what you need, and let's start the conversation.</p>
+
+            <dl class="ct-inquiry__meta">
+              <div>
+                <dt>Direct phone</dt>
+                <dd><a href="tel:+18557398361">855.739.8361</a></dd>
+              </div>
+              <div>
+                <dt>Location</dt>
+                <dd>Portland, Oregon</dd>
+              </div>
+              <div>
+                <dt>Response time</dt>
+                <dd>Within 24 hours during normal operating hours</dd>
+              </div>
+            </dl>
+
+            <a href="#contact-faq" class="link-arrow link-arrow--light ct-inquiry__faq-link">
+              <span>Questions before starting? Read the FAQ</span>
+              <span class="link-arrow__icon" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M8 3v10M4 9l4 4 4-4"/></svg></span>
+            </a>
+          </div>
+
+          <form class="form ct-form reveal" id="projectInquiryForm" novalidate>
+            <div class="ct-hp" aria-hidden="true">
+              <label for="ctRole">Leave this field empty</label>
+              <input type="text" id="ctRole" name="organization_role" tabindex="-1" autocomplete="off">
+            </div>
+
+            <div class="form__row">
+              <div class="field">
+                <label for="ctName">01 — Full Name <span aria-hidden="true">*</span></label>
+                <input type="text" id="ctName" name="name" autocomplete="name" placeholder="Your full name" required aria-describedby="ctName-err">
+                <p class="field__error" id="ctName-err" aria-live="polite"></p>
+              </div>
+              <div class="field">
+                <label for="ctEmail">02 — Work Email <span aria-hidden="true">*</span></label>
+                <input type="email" id="ctEmail" name="email" autocomplete="email" placeholder="you@organization.org" required aria-describedby="ctEmail-err">
+                <p class="field__error" id="ctEmail-err" aria-live="polite"></p>
+              </div>
+            </div>
+
+            <div class="form__row">
+              <div class="field">
+                <label for="ctPhone">03 — Phone Number</label>
+                <input type="tel" id="ctPhone" name="phone" autocomplete="tel" placeholder="Optional">
+              </div>
+              <div class="field">
+                <label for="ctWebsite">04 — Current Website</label>
+                <input type="text" id="ctWebsite" name="website" inputmode="url" autocomplete="url" placeholder="example.org (optional)" aria-describedby="ctWebsite-err">
+                <p class="field__error" id="ctWebsite-err" aria-live="polite"></p>
+              </div>
+            </div>
+
+            <fieldset class="field ct-services" id="ctServicesGroup" aria-describedby="ctServices-err">
+              <legend>05 — What Do You Need Help With? <span aria-hidden="true">*</span></legend>
+              <div class="ct-services__grid">
+                <label class="ct-check">
+                  <input type="checkbox" name="services" value="Website Design & Development">
+                  <span>Website Design &amp; Development</span>
+                </label>
+                <label class="ct-check">
+                  <input type="checkbox" name="services" value="Website Redesign">
+                  <span>Website Redesign</span>
+                </label>
+                <label class="ct-check">
+                  <input type="checkbox" name="services" value="Accessibility & SEO">
+                  <span>Accessibility &amp; SEO</span>
+                </label>
+                <label class="ct-check">
+                  <input type="checkbox" name="services" value="Branding & Creative">
+                  <span>Branding &amp; Creative</span>
+                </label>
+                <label class="ct-check">
+                  <input type="checkbox" name="services" value="Digital Marketing">
+                  <span>Digital Marketing</span>
+                </label>
+                <label class="ct-check">
+                  <input type="checkbox" name="services" value="Strategy & Consulting">
+                  <span>Strategy &amp; Consulting</span>
+                </label>
+                <label class="ct-check">
+                  <input type="checkbox" name="services" value="Other">
+                  <span>Other</span>
+                </label>
+              </div>
+              <p class="field__error" id="ctServices-err" aria-live="polite"></p>
+            </fieldset>
+
+            <div class="field">
+              <label for="ctMessage">06 — Tell Us About Your Project <span aria-hidden="true">*</span></label>
+              <textarea id="ctMessage" name="message" rows="4" placeholder="Tell us about your goals, challenges, timeline, or the ideas you want to bring to life." required aria-describedby="ctMessage-err"></textarea>
+              <p class="field__error" id="ctMessage-err" aria-live="polite"></p>
+            </div>
+
+            <p class="ct-consent" id="ctConsent">
+              07 — We'll use the details you share only to respond to your inquiry, in accordance with our <a href="https://getlagosnow.com/privacy-policy/" target="_blank" rel="noopener">Privacy Policy</a>. Submitting this form does not subscribe you to a newsletter.
+            </p>
+
+            <div class="form__foot ct-form__foot">
+              <p class="form__note">Static frontend prototype — form delivery is not yet connected to a backend service.</p>
+              <button type="submit" class="btn btn--dark" id="ctSubmit" aria-describedby="ctConsent">
+                <span id="ctSubmitLabel">Send Inquiry</span>
+                <span class="btn__icon" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+              </button>
+            </div>
+
+            <p class="form__status ct-form__status" id="ctFormStatus" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 03 OTHER WAYS TO CONNECT ============ -->
+    <section class="ct-direct section" aria-labelledby="direct-title">
+      <div class="container ct-direct__grid">
+        <div class="ct-direct__intro reveal">
+          <p class="eyebrow">Reach out directly</p>
+          <h2 id="direct-title" class="h2">We're here when<br>you're ready.</h2>
+          <p>Prefer to connect another way? Reach out directly, and we'll help you take the next step.</p>
+        </div>
+
+        <div class="ct-direct__body">
+          <dl class="ct-direct__list">
+            <div class="ct-direct__row reveal">
+              <dt>Give us a call</dt>
+              <dd>
+                <a class="ct-direct__value" href="tel:+18557398361">855.739.8361</a>
+                <span>Published agency phone number</span>
+              </dd>
+              <a class="ct-direct__arrow" href="tel:+18557398361" aria-label="Call Get Lagos Now at 855.739.8361">
+                <svg viewBox="0 0 16 16"><path d="M4.5 11.5l7-7M5.5 4.5h6v6"/></svg>
+              </a>
+            </div>
+
+            <div class="ct-direct__row reveal">
+              <dt>Based in</dt>
+              <dd>
+                <strong class="ct-direct__value">Portland, Oregon</strong>
+                <span>Mailing address: PO Box 15164, Portland, OR 97293 (mailing address only, not a walk-in office)</span>
+              </dd>
+              <span class="ct-direct__arrow" aria-hidden="true">
+                <svg viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+              </span>
+            </div>
+
+            <div class="ct-direct__row reveal">
+              <dt>What to expect</dt>
+              <dd>
+                <strong class="ct-direct__value">Within 24 hours</strong>
+                <span>Messages are answered within 24 hours during normal operating hours (per published website).</span>
+              </dd>
+              <span class="ct-direct__arrow" aria-hidden="true">
+                <svg viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4"/></svg>
+              </span>
+            </div>
+          </dl>
+
+          <div class="ct-direct__socials reveal">
+            <span class="ct-direct__socials-label">Connect</span>
+            <ul class="socials socials--light" aria-label="Social media">
+              <li><span class="social-placeholder" aria-label="LinkedIn (link to be confirmed)">in</span></li>
+              <li><span class="social-placeholder" aria-label="Instagram (link to be confirmed)">ig</span></li>
+              <li><span class="social-placeholder" aria-label="Facebook (link to be confirmed)">fb</span></li>
+            </ul>
+            <p class="ct-direct__socials-note">Official social profile URLs to be confirmed before launch.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 04 WHAT HAPPENS NEXT? ============ -->
+    <section class="ct-process section" aria-labelledby="process-title">
+      <div class="container">
+        <header class="section-head section-head--split ct-process__head reveal">
+          <div>
+            <p class="eyebrow">Our process</p>
+            <h2 id="process-title" class="h2">Simple from the<br>very first step.</h2>
+          </div>
+          <p class="ct-process__intro">We've kept the first step straightforward. Tell us about your needs, and we'll begin exploring how we can help.</p>
+        </header>
+
+        <ol class="ct-process__list">
+          <li class="ct-process__item reveal">
+            <span class="ct-process__num">01</span>
+            <h3 class="ct-process__title">Send Your Inquiry</h3>
+            <p class="ct-process__desc">Share a little about your organization, your goals, and what you're hoping to achieve.</p>
+          </li>
+          <li class="ct-process__item reveal">
+            <span class="ct-process__num">02</span>
+            <h3 class="ct-process__title">Let's Connect</h3>
+            <p class="ct-process__desc">We'll review your message and discuss your needs, priorities, and potential opportunities.</p>
+          </li>
+          <li class="ct-process__item reveal">
+            <span class="ct-process__num">03</span>
+            <h3 class="ct-process__title">Explore the Possibilities</h3>
+            <p class="ct-process__desc">Together, we'll identify a direction and discuss the most appropriate next steps.</p>
+          </li>
+        </ol>
+      </div>
+    </section>
+
+    <!-- ============ 05 FREQUENTLY ASKED QUESTIONS ============ -->
+    <section class="ct-faq section" id="contact-faq" aria-labelledby="ct-faq-title">
+      <div class="container ct-faq__grid">
+        <div class="ct-faq__intro reveal">
+          <p class="eyebrow">Before we begin</p>
+          <h2 id="ct-faq-title" class="h2">A few things<br>you might want to know.</h2>
+          <p>Straightforward answers to common questions before starting a project conversation.</p>
+        </div>
+
+        <div class="accordion reveal">
+          <div class="acc-item is-open">
+            <h3 class="acc-head">
+              <button class="acc-btn" aria-expanded="true" aria-controls="ct-acc-1" id="ct-acc-btn-1">
+                <span>01 — What types of projects can I contact you about?</span>
+                <span class="acc-icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="acc-panel" id="ct-acc-1" role="region" aria-labelledby="ct-acc-btn-1">
+              <p>Get Lagos Now provides website design and development, digital accessibility, SEO and AI visibility services, branding, digital marketing, and strategic consulting.</p>
+            </div>
+          </div>
+
+          <div class="acc-item">
+            <h3 class="acc-head">
+              <button class="acc-btn" aria-expanded="false" aria-controls="ct-acc-2" id="ct-acc-btn-2">
+                <span>02 — Can you redesign our existing website?</span>
+                <span class="acc-icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="acc-panel" id="ct-acc-2" role="region" aria-labelledby="ct-acc-btn-2" hidden>
+              <p>Yes. Website redesign is among the agency's services. Share your current website and what you'd like to improve so the team can understand your requirements.</p>
+            </div>
+          </div>
+
+          <div class="acc-item">
+            <h3 class="acc-head">
+              <button class="acc-btn" aria-expanded="false" aria-controls="ct-acc-3" id="ct-acc-btn-3">
+                <span>03 — Do you offer ongoing support?</span>
+                <span class="acc-icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="acc-panel" id="ct-acc-3" role="region" aria-labelledby="ct-acc-btn-3" hidden>
+              <p>Get Lagos Now provides services including website optimization and digital marketing. Contact the team to discuss available ongoing support options.</p>
+            </div>
+          </div>
+
+          <div class="acc-item">
+            <h3 class="acc-head">
+              <button class="acc-btn" aria-expanded="false" aria-controls="ct-acc-4" id="ct-acc-btn-4">
+                <span>04 — How much will my project cost?</span>
+                <span class="acc-icon" aria-hidden="true"></span>
+              </button>
+            </h3>
+            <div class="acc-panel" id="ct-acc-4" role="region" aria-labelledby="ct-acc-btn-4" hidden>
+              <p>Every project has different requirements. Share your goals and project scope to begin discussing the most appropriate approach and possible pricing.</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 06 FINAL RED CTA (shared component) ============ -->
+    <section class="cta ct-cta" aria-labelledby="cta-title">
+      <div class="container">
+        <div class="cta__banner">
+          <div>
+            <h2 id="cta-title" class="cta__title">Let's Talk.</h2>
+            <p class="ct-cta__line">Ready to bring your ideas to life? We'd love to hear from you.</p>
+          </div>
+          <a href="#contact-form" class="cta__action">
+            <span class="cta__action-mark" aria-hidden="true">
+              <img src="https://images.pexels.com/photos/16752907/pexels-photo-16752907.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&fit=crop" alt="" loading="lazy">
+            </span>
+            <span class="cta__action-text">
+              <strong>Start a project</strong>
+              <span>Tell us about your idea.</span>
+            </span>
+            <span class="sq-btn sq-btn--red" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ 07 FOOTER (shared component) ============ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__top">
+          <div class="footer__brand">
+            <a href="index.html" class="footer__logo" aria-label="Get Lagos Now — home">
+              <img src="assets/images/shared/gln.png" alt="Get Lagos Now" width="190" height="40" loading="lazy">
+            </a>
+            <p class="footer__tagline">Human-centered.<br>Strategic innovation.<br>High touch.</p>
+            <p class="footer__desc">A PDX-based, purpose-driven Benefit Company creating inclusive, accessible digital experiences since 2010.</p>
+            <p class="footer__loc"><span class="dot-red" aria-hidden="true"></span> Portland, Oregon</p>
+            <ul class="socials" aria-label="Social media">
+              <li><span class="social-placeholder" aria-label="LinkedIn (link to be confirmed)">in</span></li>
+              <li><span class="social-placeholder" aria-label="Instagram (link to be confirmed)">ig</span></li>
+              <li><span class="social-placeholder" aria-label="Facebook (link to be confirmed)">fb</span></li>
+            </ul>
+          </div>
+
+          <div class="footer__right">
+            <div class="footer__cols">
+              <nav aria-label="Footer — explore">
+                <p class="footer__head">Explore</p>
+                <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="services.html">Services</a></li>
+                  <li><a href="work.html">Portfolio</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="impact.html">Impact</a></li>
+                  <li><a href="insights.html">Blogs</a></li>
+                  <li><a href="contact.html" aria-current="page">Contact</a></li>
+                </ul>
+              </nav>
+              <nav aria-label="Footer — services">
+                <p class="footer__head">Services &amp; Sectors</p>
+                <ul>
+                  <li><a href="services.html#web-design">Web Design &amp; Development</a></li>
+                  <li><a href="services.html#accessibility-seo">Accessibility &amp; SEO/AEO</a></li>
+                  <li><a href="services.html#branding-creative">Branding &amp; Creative</a></li>
+                  <li><a href="services.html#marketing-strategy">Marketing &amp; Strategy</a></li>
+                  <li><a href="portfolio-energy-efficiency.html">Energy Efficiency</a></li>
+                  <li><a href="portfolio-nonprofit.html">Non-Profit</a></li>
+                  <li><a href="portfolio-medical-dental.html">Medical &amp; Dental</a></li>
+                </ul>
+              </nav>
+              <nav aria-label="Footer — resources">
+                <p class="footer__head">Reports &amp; Community</p>
+                <ul>
+                  <li><a href="reports/annual-benefit-2025.html">Annual Benefit Report 2025</a></li>
+                  <li><a href="reports/annual-benefit-2024.html">Annual Benefit Report 2024</a></li>
+                  <li><a href="reports/annual-benefit-2023.html">Annual Benefit Report 2023</a></li>
+                  <li><a href="reports/e-recycling-pdx.html">E-Recycling PDX</a></li>
+                  <li><a href="reports/non-profit-recipients.html">Non-Profit Recipients</a></li>
+                </ul>
+              </nav>
+            </div>
+
+            <form class="newsletter" id="newsletterForm" novalidate>
+              <label class="footer__head" for="nlEmail">Newsletter</label>
+              <div class="newsletter__row">
+                <input type="email" id="nlEmail" placeholder="Enter your email" autocomplete="email" aria-describedby="nlStatus">
+                <button type="submit" class="btn btn--red btn--sm">Subscribe</button>
+              </div>
+              <p class="newsletter__status" id="nlStatus" aria-live="polite">Prototype — newsletter sign-up is not yet connected.</p>
+            </form>
+          </div>
+        </div>
+
+        <div class="footer__bottom">
+          <p>© <span id="year">2026</span> Lagos Consulting LLC. All rights reserved.</p>
+          <ul>
+            <li><a href="https://getlagosnow.com/privacy-policy/">Privacy Policy</a></li>
+            <li><a href="services.html#accessibility-seo">Accessibility</a></li>
+            <li><a href="index.html#ai-policy">AI Policy</a></li>
+          </ul>
+          <p class="footer__credit">Editorial photography via Pexels. Project imagery © respective clients.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>

@@ -1,0 +1,54 @@
+[
+  {
+    "name": "All49 static article records remain available",
+    "passed": true,
+    "detail": {
+      "unique": 49,
+      "records": 49,
+      "count": "Showing 12 of 49 articles. Featured stories remain available above."
+    }
+  },
+  {
+    "name": "Blog Load More reveals20 and focuses newly revealed article",
+    "passed": true,
+    "detail": {
+      "count": "Showing 20 of 49 articles. Featured stories remain available above.",
+      "focusInNewResults": true,
+      "href": "articles/september-client-showcase-testimonial-oregon-association-of-conservation-districts-oacd.html"
+    }
+  },
+  {
+    "name": "Blog category filter retains exact6client showcases",
+    "passed": true,
+    "detail": {
+      "count": "Showing 6 of 6 articles. Featured stories remain available above.",
+      "active": "true"
+    }
+  },
+  {
+    "name": "Project library retains39unique project records",
+    "passed": true,
+    "detail": {
+      "count": "Showing 12 of 39 projects",
+      "total": 39
+    }
+  },
+  {
+    "name": "Project Load More focuses new project",
+    "passed": true
+  },
+  {
+    "name": "Nested report navigation and original privacy destination",
+    "passed": true,
+    "detail": {
+      "logo": true,
+      "home": "../index.html",
+      "reports": true,
+      "policy": true
+    }
+  },
+  {
+    "name": "No feature-check runtime exceptions",
+    "passed": true
+  }
+]

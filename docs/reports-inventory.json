@@ -1,0 +1,233 @@
+[
+  {
+    "original_url": "https://getlagosnow.com/annual-benefit-report/",
+    "local_destination": "reports/annual-benefit-2021.html",
+    "title": "Annual Benefit Report 2021",
+    "category": "Annual reports",
+    "period": "2021",
+    "status": "Full legitimate body migrated; explicitly documented exclusions",
+    "source_fields": [
+      "title.rendered",
+      "content.rendered",
+      "date",
+      "modified",
+      "link"
+    ],
+    "published": "2021-11-02T17:40:21",
+    "modified": "2025-04-14T15:52:18",
+    "source_content_characters": 9063,
+    "local_content_characters": 4192,
+    "images": 6,
+    "redirect_required": true
+  },
+  {
+    "original_url": "https://getlagosnow.com/annual-benefit-report-2022/",
+    "local_destination": "reports/annual-benefit-2022.html",
+    "title": "Annual Benefit Report 2022",
+    "category": "Annual reports",
+    "period": "2022",
+    "status": "Full legitimate body migrated; explicitly documented exclusions",
+    "source_fields": [
+      "title.rendered",
+      "content.rendered",
+      "date",
+      "modified",
+      "link"
+    ],
+    "published": "2023-07-17T23:06:42",
+    "modified": "2025-04-15T22:10:58",
+    "source_content_characters": 9130,
+    "local_content_characters": 4793,
+    "images": 6,
+    "redirect_required": true
+  },
+  {
+    "original_url": "https://getlagosnow.com/annual-benefit-report-2023/",
+    "local_destination": "reports/annual-benefit-2023.html",
+    "title": "Annual Benefit Report 2023",
+    "category": "Annual reports",
+    "period": "2023",
+    "status": "Full legitimate body migrated; explicitly documented exclusions",
+    "source_fields": [
+      "title.rendered",
+      "content.rendered",
+      "date",
+      "modified",
+      "link"
+    ],
+    "published": "2024-03-28T22:17:29",
+    "modified": "2024-04-10T22:19:57",
+    "source_content_characters": 8843,
+    "local_content_characters": 4541,
+    "images": 6,
+    "redirect_required": true
+  },
+  {
+    "original_url": "https://getlagosnow.com/annual-benefit-report-2024/",
+    "local_destination": "reports/annual-benefit-2024.html",
+    "title": "Annual Benefit Report 2024",
+    "category": "Annual reports",
+    "period": "2024",
+    "status": "Full legitimate body migrated; explicitly documented exclusions",
+    "source_fields": [
+      "title.rendered",
+      "content.rendered",
+      "date",
+      "modified",
+      "link"
+    ],
+    "published": "2025-03-31T18:10:32",
+    "modified": "2025-04-14T15:54:24",
+    "source_content_characters": 21291,
+    "local_content_characters": 7245,
+    "images": 6,
+    "redirect_required": true
+  },
+  {
+    "original_url": "https://getlagosnow.com/annual-benefit-report-year-2025/",
+    "local_destination": "reports/annual-benefit-2025.html",
+    "title": "Annual Benefit Report Year 2025",
+    "category": "Annual reports",
+    "period": "2025",
+    "status": "Full rendered source body migrated",
+    "source_fields": [
+      "title.rendered",
+      "content.rendered",
+      "date",
+      "modified",
+      "link"
+    ],
+    "published": "2026-04-30T20:31:03",
+    "modified": "2026-08-25T16:43:21",
+    "source_content_characters": 13614,
+    "local_content_characters": 7024,
+    "images": 6,
+    "redirect_required": true
+  },
+  {
+    "original_url": "https://getlagosnow.com/e-recycling/",
+    "local_destination": "reports/e-recycling-pdx.html",
+    "title": "E Recycling PDX",
+    "category": "Community & environment",
+    "period": "Overview",
+    "status": "Full rendered source body migrated",
+    "source_fields": [
+      "title.rendered",
+      "content.rendered",
+      "date",
+      "modified",
+      "link"
+    ],
+    "published": "2020-03-04T16:57:05",
+    "modified": "2026-02-26T18:51:36",
+    "source_content_characters": 22475,
+    "local_content_characters": 8534,
+    "images": 35,
+    "redirect_required": true
+  },
+  {
+    "original_url": "https://getlagosnow.com/non-profit-recipients/",
+    "local_destination": "reports/non-profit-recipients.html",
+    "title": "Non-Profit Recipients",
+    "category": "Community & environment",
+    "period": "Recipients",
+    "status": "Full rendered source body migrated",
+    "source_fields": [
+      "title.rendered",
+      "content.rendered",
+      "date",
+      "modified",
+      "link"
+    ],
+    "published": "2021-04-21T22:56:31",
+    "modified": "2022-07-13T17:10:14",
+    "source_content_characters": 5319,
+    "local_content_characters": 3294,
+    "images": 4,
+    "redirect_required": true
+  },
+  {
+    "original_url": "https://getlagosnow.com/e-recycling-2021/",
+    "local_destination": "reports/e-recycling-2021.html",
+    "title": "E-Recycling PDX 2021",
+    "category": "Community & environment",
+    "period": "2021",
+    "status": "Full legitimate body migrated; explicitly documented exclusions",
+    "source_fields": [
+      "title.rendered",
+      "content.rendered",
+      "date",
+      "modified",
+      "link"
+    ],
+    "published": "2021-09-22T23:38:06",
+    "modified": "2026-03-27T00:02:58",
+    "source_content_characters": 20739,
+    "local_content_characters": 10141,
+    "images": 27,
+    "redirect_required": true
+  },
+  {
+    "original_url": "https://getlagosnow.com/e-recycling-aug-11th-2022/",
+    "local_destination": "reports/e-recycling-2022.html",
+    "title": "E-Recycling Aug. 11th, 2022!",
+    "category": "Community & environment",
+    "period": "2022",
+    "status": "Full legitimate body migrated; explicitly documented exclusions",
+    "source_fields": [
+      "title.rendered",
+      "content.rendered",
+      "date",
+      "modified",
+      "link"
+    ],
+    "published": "2022-02-10T23:16:28",
+    "modified": "2026-03-28T00:03:40",
+    "source_content_characters": 11644,
+    "local_content_characters": 4900,
+    "images": 14,
+    "redirect_required": true
+  },
+  {
+    "original_url": "https://getlagosnow.com/4th-annual-e-recycling-pdx-event-aug-26-2023/",
+    "local_destination": "reports/e-recycling-2023.html",
+    "title": "4th Annual E-Recycling PDX Event held Aug. 26, 2023",
+    "category": "Community & environment",
+    "period": "2023",
+    "status": "Full rendered source body migrated",
+    "source_fields": [
+      "title.rendered",
+      "content.rendered",
+      "date",
+      "modified",
+      "link"
+    ],
+    "published": "2023-03-16T23:59:40",
+    "modified": "2024-02-20T19:50:15",
+    "source_content_characters": 23526,
+    "local_content_characters": 9562,
+    "images": 17,
+    "redirect_required": true
+  },
+  {
+    "original_url": "https://getlagosnow.com/5th-annual-e-recycling-pdx-event-2024/",
+    "local_destination": "reports/e-recycling-2024.html",
+    "title": "5th Annual E-Recycling PDX Event 2024",
+    "category": "Community & environment",
+    "period": "2024",
+    "status": "Full rendered source body migrated",
+    "source_fields": [
+      "title.rendered",
+      "content.rendered",
+      "date",
+      "modified",
+      "link"
+    ],
+    "published": "2024-04-30T16:52:25",
+    "modified": "2024-04-30T23:15:22",
+    "source_content_characters": 2899,
+    "local_content_characters": 1103,
+    "images": 4,
+    "redirect_required": true
+  }
+]

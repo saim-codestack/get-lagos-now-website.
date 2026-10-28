@@ -1,0 +1,115 @@
+{
+  "method": "DOMParser text normalization; remove exact logged exclusions, source styles/scripts/iframes, duplicate report heading, decorative motto and generated review/video/image notes; ordered word LCS against local .report-body",
+  "results": [
+    {
+      "page": "reports/annual-benefit-2021.html",
+      "sourceWords": 335,
+      "localWords": 335,
+      "matchedWords": 335,
+      "sourceCoveragePercent": 100,
+      "removedWords": [],
+      "addedWords": [],
+      "normalizedExactMatch": true
+    },
+    {
+      "page": "reports/annual-benefit-2022.html",
+      "sourceWords": 405,
+      "localWords": 405,
+      "matchedWords": 405,
+      "sourceCoveragePercent": 100,
+      "removedWords": [],
+      "addedWords": [],
+      "normalizedExactMatch": true
+    },
+    {
+      "page": "reports/annual-benefit-2023.html",
+      "sourceWords": 363,
+      "localWords": 363,
+      "matchedWords": 363,
+      "sourceCoveragePercent": 100,
+      "removedWords": [],
+      "addedWords": [],
+      "normalizedExactMatch": true
+    },
+    {
+      "page": "reports/annual-benefit-2024.html",
+      "sourceWords": 690,
+      "localWords": 690,
+      "matchedWords": 690,
+      "sourceCoveragePercent": 100,
+      "removedWords": [],
+      "addedWords": [],
+      "normalizedExactMatch": true
+    },
+    {
+      "page": "reports/annual-benefit-2025.html",
+      "sourceWords": 750,
+      "localWords": 750,
+      "matchedWords": 750,
+      "sourceCoveragePercent": 100,
+      "removedWords": [],
+      "addedWords": [],
+      "normalizedExactMatch": true
+    },
+    {
+      "page": "reports/e-recycling-pdx.html",
+      "sourceWords": 202,
+      "localWords": 202,
+      "matchedWords": 202,
+      "sourceCoveragePercent": 100,
+      "removedWords": [],
+      "addedWords": [],
+      "normalizedExactMatch": true
+    },
+    {
+      "page": "reports/non-profit-recipients.html",
+      "sourceWords": 329,
+      "localWords": 329,
+      "matchedWords": 329,
+      "sourceCoveragePercent": 100,
+      "removedWords": [],
+      "addedWords": [],
+      "normalizedExactMatch": true
+    },
+    {
+      "page": "reports/e-recycling-2021.html",
+      "sourceWords": 547,
+      "localWords": 547,
+      "matchedWords": 547,
+      "sourceCoveragePercent": 100,
+      "removedWords": [],
+      "addedWords": [],
+      "normalizedExactMatch": true
+    },
+    {
+      "page": "reports/e-recycling-2022.html",
+      "sourceWords": 253,
+      "localWords": 253,
+      "matchedWords": 253,
+      "sourceCoveragePercent": 100,
+      "removedWords": [],
+      "addedWords": [],
+      "normalizedExactMatch": true
+    },
+    {
+      "page": "reports/e-recycling-2023.html",
+      "sourceWords": 272,
+      "localWords": 272,
+      "matchedWords": 272,
+      "sourceCoveragePercent": 100,
+      "removedWords": [],
+      "addedWords": [],
+      "normalizedExactMatch": true
+    },
+    {
+      "page": "reports/e-recycling-2024.html",
+      "sourceWords": 31,
+      "localWords": 31,
+      "matchedWords": 31,
+      "sourceCoveragePercent": 100,
+      "removedWords": [],
+      "addedWords": [],
+      "normalizedExactMatch": true
+    }
+  ]
+}

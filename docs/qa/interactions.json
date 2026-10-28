@@ -1,0 +1,90 @@
+[
+  {
+    "name": "Desktop Portfolio ArrowDown opens and focuses first link",
+    "passed": true,
+    "details": {
+      "expanded": "true",
+      "focus": "work.html"
+    }
+  },
+  {
+    "name": "Escape closes desktop dropdown and returns focus",
+    "passed": true,
+    "details": {
+      "expanded": "false",
+      "focus": "navDropdownPortfolio"
+    }
+  },
+  {
+    "name": "Reports toggle click opens",
+    "passed": true
+  },
+  {
+    "name": "Outside click closes dropdown",
+    "passed": true
+  },
+  {
+    "name": "Mobile menu opens and focuses first link",
+    "passed": true
+  },
+  {
+    "name": "Mobile Reports accordion expands",
+    "passed": true
+  },
+  {
+    "name": "Mobile reverse focus loop skips collapsed links",
+    "passed": true
+  },
+  {
+    "name": "Escape closes mobile menu and returns focus",
+    "passed": true
+  },
+  {
+    "name": "FAQ expands with correct ARIA",
+    "passed": true
+  },
+  {
+    "name": "Testimonials next button advances",
+    "passed": true
+  },
+  {
+    "name": "Homepage empty inquiry shows validation and focuses invalid field",
+    "passed": true
+  },
+  {
+    "name": "Valid homepage form explicitly states no message sent",
+    "passed": true
+  },
+  {
+    "name": "Newsletter reports incomplete integration",
+    "passed": true
+  },
+  {
+    "name": "Contact form validates without transmission",
+    "passed": true
+  },
+  {
+    "name": "Our Work filter produces matching cards",
+    "passed": true,
+    "details": {
+      "key": "websites",
+      "pressed": "true",
+      "visible": [
+        "websites accessibility nonprofit",
+        "websites marketing nonprofit",
+        "websites nonprofit",
+        "websites branding",
+        "websites branding nonprofit"
+      ]
+    }
+  },
+  {
+    "name": "Reduced motion reveals all content",
+    "passed": true
+  },
+  {
+    "name": "No runtime exceptions during interaction suite",
+    "passed": true,
+    "details": []
+  }
+]

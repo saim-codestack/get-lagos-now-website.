@@ -1,0 +1,1077 @@
+<!DOCTYPE html>
+<html lang="en" data-page="home">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Get Lagos Now — Human-Centered Digital Innovation | Portland, Oregon</title>
+  <meta name="description" content="Get Lagos Now is a Portland-based, purpose-driven digital agency creating accessible websites, strategic marketing, branding and SEO/AEO since 2010.">
+  <meta name="theme-color" content="#F5F3F0">
+  <link rel="icon" href="assets/images/shared/gln.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Manrope:wght@500;600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <link rel="stylesheet" href="assets/css/responsive.css">
+</head>
+<body>
+  <a class="skip-link" href="#main">Skip to main content</a>
+
+  <!-- ============ 01 NAVIGATION ============ -->
+  <header class="site-header" id="siteHeader">
+    <div class="container header__inner">
+      <a class="header__logo" href="index.html" aria-label="Get Lagos Now — home" aria-current="page">
+        <img src="assets/images/shared/gln.png" alt="Get Lagos Now" width="190" height="40">
+      </a>
+
+      <nav class="header__nav" aria-label="Primary">
+        <ul class="nav-pill">
+          <li><a href="index.html" class="is-active" data-nav="home" aria-current="page">Home</a></li>
+          <li><a href="services.html" data-nav="services">Services</a></li>
+          <li class="nav-item--dropdown">
+            <button type="button" class="nav-dropdown__toggle" data-nav="work" aria-expanded="false" aria-controls="navDropdownPortfolio">
+              <span>Portfolio</span>
+              <svg class="nav-dropdown__chev" viewBox="0 0 12 12" aria-hidden="true"><path d="M2.5 4.5L6 8l3.5-3.5"/></svg>
+            </button>
+            <div class="nav-dropdown" id="navDropdownPortfolio">
+              <ul>
+                <li><a href="work.html">All Projects</a></li>
+                <li><a href="portfolio-energy-efficiency.html">Energy Efficiency</a></li>
+                <li><a href="portfolio-nonprofit.html">Non-Profit</a></li>
+                <li><a href="portfolio-medical-dental.html">Medical &amp; Dental</a></li>
+                <li><a href="portfolio-gln-projects.html">GLN Projects</a></li>
+              </ul>
+            </div>
+          </li>
+          <li><a href="about.html" data-nav="about">About</a></li>
+          <li><a href="impact.html" data-nav="impact">Impact</a></li>
+          <li><a href="insights.html" data-nav="insights">Blogs</a></li>
+          <li class="nav-item--dropdown">
+            <button type="button" class="nav-dropdown__toggle" data-nav="reports" aria-expanded="false" aria-controls="navDropdownReports">
+              <span>Reports</span>
+              <svg class="nav-dropdown__chev" viewBox="0 0 12 12" aria-hidden="true"><path d="M2.5 4.5L6 8l3.5-3.5"/></svg>
+            </button>
+            <div class="nav-dropdown nav-dropdown--grouped" id="navDropdownReports">
+              <div>
+                <a class="nav-dropdown__group-title" href="reports.html">Reports library</a><span class="nav-dropdown__group-title">Annual Benefit Reports</span>
+                <ul>
+                  <li><a href="reports/annual-benefit-2025.html">Annual Benefit Report 2025</a></li>
+                  <li><a href="reports/annual-benefit-2024.html">Annual Benefit Report 2024</a></li>
+                  <li><a href="reports/annual-benefit-2023.html">Annual Benefit Report 2023</a></li>
+                  <li><a href="reports/annual-benefit-2022.html">Annual Benefit Report 2022</a></li>
+                  <li><a href="reports/annual-benefit-2021.html">Annual Benefit Report 2021</a></li>
+                </ul>
+              </div>
+              <div>
+                <span class="nav-dropdown__group-title">Community &amp; Environment</span>
+                <ul>
+                  <li><a href="reports/e-recycling-pdx.html">E-Recycling PDX</a></li>
+                  <li><a href="reports/non-profit-recipients.html">Non-Profit Recipients</a></li>
+                  <li><a href="reports/e-recycling-2021.html">E-Recycling PDX 2021</a></li>
+                  <li><a href="reports/e-recycling-2022.html">E-Recycling Event 2022</a></li>
+                  <li><a href="reports/e-recycling-2023.html">4th Annual E-Recycling PDX 2023</a></li>
+                  <li><a href="reports/e-recycling-2024.html">5th Annual E-Recycling PDX 2024</a></li>
+                </ul>
+              </div>
+            </div>
+          </li>
+        </ul>
+      </nav>
+
+      <div class="header__actions">
+        <span class="header__label">Have a project?</span>
+        <a href="contact.html" class="btn btn--dark">
+          <span>Let's Talk</span>
+          <span class="btn__icon" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+        </a>
+        <button class="menu-toggle" id="menuToggle" aria-expanded="false" aria-controls="mobileMenu" aria-label="Open menu">
+          <span></span><span></span>
+        </button>
+      </div>
+    </div>
+
+    <div class="mobile-menu" id="mobileMenu" hidden>
+      <nav aria-label="Mobile">
+        <ul>
+          <li><a href="index.html" data-nav="home" aria-current="page">Home</a></li>
+          <li><a href="services.html" data-nav="services">Services</a></li>
+          <li>
+            <button type="button" class="mobile-sub-toggle" data-nav="work" aria-expanded="false" aria-controls="mobileSubPortfolio">
+              <span>Portfolio</span>
+              <svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2.5 4.5L6 8l3.5-3.5"/></svg>
+            </button>
+            <ul class="mobile-submenu" id="mobileSubPortfolio" hidden>
+              <li><a href="work.html">All Projects</a></li>
+              <li><a href="portfolio-energy-efficiency.html">Energy Efficiency</a></li>
+              <li><a href="portfolio-nonprofit.html">Non-Profit</a></li>
+              <li><a href="portfolio-medical-dental.html">Medical &amp; Dental</a></li>
+              <li><a href="portfolio-gln-projects.html">GLN Projects</a></li>
+            </ul>
+          </li>
+          <li><a href="about.html" data-nav="about">About</a></li>
+          <li><a href="impact.html" data-nav="impact">Impact</a></li>
+          <li><a href="insights.html" data-nav="insights">Blogs</a></li>
+          <li>
+            <button type="button" class="mobile-sub-toggle" data-nav="reports" aria-expanded="false" aria-controls="mobileSubReports">
+              <span>Reports</span>
+              <svg viewBox="0 0 12 12" aria-hidden="true"><path d="M2.5 4.5L6 8l3.5-3.5"/></svg>
+            </button>
+            <ul class="mobile-submenu" id="mobileSubReports" hidden>
+              <li><a href="reports.html">Reports library</a></li>
+              <li class="mobile-submenu__heading">Annual Benefit Reports</li>
+              <li><a href="reports/annual-benefit-2025.html">Annual Benefit Report 2025</a></li>
+              <li><a href="reports/annual-benefit-2024.html">Annual Benefit Report 2024</a></li>
+              <li><a href="reports/annual-benefit-2023.html">Annual Benefit Report 2023</a></li>
+              <li><a href="reports/annual-benefit-2022.html">Annual Benefit Report 2022</a></li>
+              <li><a href="reports/annual-benefit-2021.html">Annual Benefit Report 2021</a></li>
+              <li class="mobile-submenu__heading">Community &amp; Environment</li>
+              <li><a href="reports/e-recycling-pdx.html">E-Recycling PDX</a></li>
+              <li><a href="reports/non-profit-recipients.html">Non-Profit Recipients</a></li>
+              <li><a href="reports/e-recycling-2021.html">E-Recycling PDX 2021</a></li>
+              <li><a href="reports/e-recycling-2022.html">E-Recycling Event 2022</a></li>
+              <li><a href="reports/e-recycling-2023.html">4th Annual E-Recycling PDX 2023</a></li>
+              <li><a href="reports/e-recycling-2024.html">5th Annual E-Recycling PDX 2024</a></li>
+            </ul>
+          </li>
+        </ul>
+      </nav>
+      <div class="mobile-menu__foot">
+        <p>Portland, Oregon · Since 2010</p>
+        <a href="contact.html" class="btn btn--red">
+          <span>Let's Talk</span>
+          <span class="btn__icon" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+        </a>
+      </div>
+    </div>
+  </header>
+
+  <main id="main">
+
+    <!-- ============ 02 HERO ============ -->
+    <section class="hero" id="home" aria-labelledby="hero-title">
+      <div class="container">
+        <div class="hero__frame">
+          <div class="hero__media">
+            <img src="https://images.pexels.com/photos/8519087/pexels-photo-8519087.jpeg?auto=compress&cs=tinysrgb&w=2200"
+                 alt="A team of professionals collaborating around a wooden table in a warm, naturally lit office"
+                 class="hero__img" fetchpriority="high">
+            <div class="hero__shade" aria-hidden="true"></div>
+
+          <div class="hero__content">
+            <p class="eyebrow eyebrow--light">Human-centered digital innovation</p>
+            <h1 id="hero-title" class="hero__title">Digital experiences.<br>Human impact.</h1>
+            <p class="hero__text">We create accessible, innovative digital experiences and strategies that help organizations grow with purpose.</p>
+            <a href="#work" class="btn btn--red">
+              <span>Explore Our Work</span>
+              <span class="btn__icon" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+            </a>
+          </div>
+          </div>
+
+          <a href="#work" class="hero__card" aria-label="Featured project: Wallace Medical &amp; Dental">
+            <span class="hero__card-media">
+              <img src="assets/images/shared/20250613_Wallace-Dental-Clinic_Best-1024x683.jpg"
+                   alt="Interior of the Wallace Medical &amp; Dental Rockwood clinic">
+            </span>
+            <span class="hero__card-foot">
+              <span>
+                <span class="hero__card-label">Featured project</span>
+                <span class="hero__card-title">Wallace Medical &amp; Dental</span>
+              </span>
+              <span class="plus-box" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M8 3v10M3 8h10"/></svg></span>
+            </span>
+          </a>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 03 CLIENT STRIP ============ -->
+    <section class="clients" aria-label="Organizations we have worked with">
+      <div class="container">
+        <ul class="clients__list">
+          <li class="client client--energy">Energy Trust <em>of Oregon</em></li>
+          <li class="client client--ci">Children's Institute</li>
+          <li class="client client--wallace">Wallace <span>Medical &amp; Dental</span></li>
+          <li class="client client--lexicon">LEXICON<span>solutions</span></li>
+          <li class="client client--mti">Medical Teams <span>International</span></li>
+        </ul>
+      </div>
+    </section>
+
+    <!-- ============ 04 ABOUT ============ -->
+    <section class="about section" id="about" aria-labelledby="about-title">
+      <div class="container about__grid">
+        <figure class="about__media reveal">
+          <img src="https://images.pexels.com/photos/34035061/pexels-photo-34035061.jpeg?auto=compress&cs=tinysrgb&w=1400"
+               alt="A professional in thoughtful reflection beside a bright window" loading="lazy">
+        </figure>
+
+        <div class="about__content reveal">
+          <p class="eyebrow">About the studio</p>
+          <h2 id="about-title" class="h2 about__positioning">
+            <span>STRATEGIC INNOVATION.</span>
+            <span>HIGH TOUCH.</span>
+            <span class="about__positioning-accent">HUMAN-CENTERED.</span>
+          </h2>
+          <div class="about__copy-stack">
+            <p>We are a PDX-based, purpose-driven Benefit Company that believes digital and technology companies can and should do more to create a positive impact in society.</p>
+            <p>We specialize in creating inclusive, user-friendly, ADA compliant, multi-lingual and AI optimized websites, as well as a digital media impact, that brands and expands your organization and audience.</p>
+            <p class="about__nature-quote">“Technology and engineering work best when they marry well with nature.”</p>
+            <p class="about__reg-note">Oregon-registered Benefit Company · Benefit Corporations for Good certified · Since 2010</p>
+          </div>
+
+          <dl class="stats">
+            <div class="stat">
+              <dt class="stat__value">2010</dt>
+              <dd class="stat__label">Building digital since</dd>
+            </div>
+            <div class="stat">
+              <dt class="stat__value">WBE</dt>
+              <dd class="stat__label">Women Business Enterprise certified</dd>
+            </div>
+            <div class="stat">
+              <dt class="stat__value">B·Co</dt>
+              <dd class="stat__label">Registered Benefit Company</dd>
+            </div>
+          </dl>
+
+          <div class="about__foot">
+            <a href="about.html" class="link-arrow">
+              More about us
+              <span class="link-arrow__icon" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M8 3v10M3 8h10"/></svg></span>
+            </a>
+            <figure class="about__thumb">
+              <img src="https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg?auto=compress&cs=tinysrgb&w=700"
+                   alt="Hand-drawn website wireframes in a notebook beside a smartphone" loading="lazy">
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 04B CERTIFICATIONS & RECOGNITIONS ============ -->
+    <section class="certifications" aria-labelledby="certifications-title">
+      <div class="container">
+        <div class="certifications__box reveal">
+          <header class="certifications__head">
+            <h2 id="certifications-title" class="eyebrow">Our Commitments &amp; Recognitions</h2>
+            <p class="certifications__sub">Published credentials, state certifications, and environmental commitments</p>
+          </header>
+          <ul class="cert-grid">
+            <li class="cert-item">
+              <div class="cert-item__visual">
+                <img src="assets/images/certifications/people-planet-logo-227x300.png"
+                     alt="People and Planet First Verified badge" width="90" height="119" loading="lazy">
+              </div>
+              <div>
+                <strong class="cert-item__title">People and Planet First</strong>
+                <span class="cert-item__meta">Verified Company · March 2026</span>
+              </div>
+            </li>
+            <li class="cert-item">
+              <div class="cert-item__visual">
+                <img src="assets/images/certifications/bcfg-logo-outline-300x300.png"
+                     alt="Benefit Corporations for Good certification badge" width="96" height="96" loading="lazy">
+              </div>
+              <div>
+                <strong class="cert-item__title">Benefit Corporations for Good</strong>
+                <span class="cert-item__meta">BCFG Certified &amp; Benefit LLC</span>
+              </div>
+            </li>
+            <li class="cert-item">
+              <div class="cert-item__visual">
+                <img src="assets/images/certifications/WBE-Small-1.png" alt="Oregon Women Business Enterprise certification badge" width="281" height="250" loading="lazy">
+              </div>
+              <div>
+                <strong class="cert-item__title">Women Business Enterprise</strong>
+                <span class="cert-item__meta">State Certified · No. 11991</span>
+              </div>
+            </li>
+            <li class="cert-item">
+              <div class="cert-item__visual">
+                <img src="assets/images/certifications/ESB-Small-300x266.png" alt="Oregon Emerging Small Business certification badge" width="300" height="266" loading="lazy">
+              </div>
+              <div>
+                <strong class="cert-item__title">Emerging Small Business</strong>
+                <span class="cert-item__meta">State of Oregon Certified</span>
+              </div>
+            </li>
+            <li class="cert-item">
+              <div class="cert-item__visual">
+                <img src="assets/images/certifications/Washington-County-Green-Business-Leaders.png"
+                     alt="Washington County Green Business Leaders recognition" width="140" height="36" loading="lazy">
+              </div>
+              <div>
+                <strong class="cert-item__title">Green Business Leaders</strong>
+                <span class="cert-item__meta">Historical recognition · 2020</span>
+              </div>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 05 SERVICES ============ -->
+    <section class="services" id="services" aria-labelledby="services-title">
+      <div class="container">
+        <div class="panel panel--dark services__panel">
+          <div class="services__intro reveal">
+            <p class="eyebrow eyebrow--light">Our expertise</p>
+            <h2 id="services-title" class="h2 h2--light">What we do best</h2>
+            <p class="services__desc">A 360° inclusive approach to digital — from accessible, multilingual websites to brand, content and research-driven marketing that expands your audience.</p>
+            <a href="services.html" class="link-arrow link-arrow--light">
+              <span class="link-arrow__icon" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+              Explore services
+            </a>
+          </div>
+
+          <ol class="services__list">
+            <li class="service reveal">
+              <a class="service__link" href="services.html#web-design" aria-label="Website Design &amp; Development — view service details">
+                <figure class="service__media">
+                  <img src="https://images.pexels.com/photos/196646/pexels-photo-196646.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Website wireframe sketches on a designer's desk" loading="lazy">
+                </figure>
+                <div class="service__body">
+                  <span class="service__num">01</span>
+                  <h3 class="service__title">Website Design &amp; Development</h3>
+                  <p>Accessible, responsive, user-centered websites designed for impact and performance.</p>
+                  <ul class="tags" aria-label="Keywords">
+                    <li>Web Design</li><li>Development</li><li>UX/UI</li>
+                  </ul>
+                </div>
+              </a>
+            </li>
+            <li class="service reveal">
+              <a class="service__link" href="services.html#accessibility-seo" aria-label="Accessibility &amp; Optimization — view service details">
+                <figure class="service__media">
+                  <img src="https://images.pexels.com/photos/7446646/pexels-photo-7446646.jpeg?auto=compress&cs=tinysrgb&w=600" alt="A woman using a wheelchair working on a laptop at home" loading="lazy">
+                </figure>
+                <div class="service__body">
+                  <span class="service__num">02</span>
+                  <h3 class="service__title">Accessibility &amp; Optimization</h3>
+                  <p>Inclusive digital experiences, ADA accessibility improvements, SEO, and AI search visibility.</p>
+                  <ul class="tags" aria-label="Keywords">
+                    <li>Accessibility</li><li>SEO</li><li>AEO</li>
+                  </ul>
+                </div>
+              </a>
+            </li>
+            <li class="service reveal">
+              <a class="service__link" href="services.html#branding-creative" aria-label="Branding &amp; Creative — view service details">
+                <figure class="service__media">
+                  <img src="https://images.pexels.com/photos/7598020/pexels-photo-7598020.jpeg?auto=compress&cs=tinysrgb&w=600" alt="A brand strategy moodboard with design elements taped to a wall" loading="lazy">
+                </figure>
+                <div class="service__body">
+                  <span class="service__num">03</span>
+                  <h3 class="service__title">Branding &amp; Creative</h3>
+                  <p>Brand identities, visual communication, design, and content that connect with audiences.</p>
+                  <ul class="tags" aria-label="Keywords">
+                    <li>Branding</li><li>Graphic Design</li><li>Content</li>
+                  </ul>
+                </div>
+              </a>
+            </li>
+            <li class="service reveal">
+              <a class="service__link" href="services.html#marketing-strategy" aria-label="Digital Marketing &amp; Strategy — view service details">
+                <figure class="service__media">
+                  <img src="https://images.pexels.com/photos/7688102/pexels-photo-7688102.jpeg?auto=compress&cs=tinysrgb&w=600" alt="A team reviewing marketing data charts during a strategy session" loading="lazy">
+                </figure>
+                <div class="service__body">
+                  <span class="service__num">04</span>
+                  <h3 class="service__title">Digital Marketing &amp; Strategy</h3>
+                  <p>Research-driven marketing, digital advertising, audience development, and strategic consulting.</p>
+                  <ul class="tags" aria-label="Keywords">
+                    <li>Marketing</li><li>Consulting</li><li>Growth</li>
+                  </ul>
+                </div>
+              </a>
+            </li>
+          </ol>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 06 PHILOSOPHY ============ -->
+    <section class="philosophy section" aria-labelledby="philosophy-title">
+      <div class="container">
+        <header class="section-head section-head--center reveal">
+          <p class="eyebrow">Our philosophy</p>
+          <h2 id="philosophy-title" class="h2">People <span class="inline-mark" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span> first. Always.</h2>
+        </header>
+        <figure class="philosophy__media reveal">
+          <img src="https://images.pexels.com/photos/7495612/pexels-photo-7495612.jpeg?auto=compress&cs=tinysrgb&w=2200"
+               alt="A diverse team planning together around a table in a bright, modern office" loading="lazy">
+        </figure>
+      </div>
+    </section>
+
+    <!-- ============ 07 WHY GET LAGOS NOW ============ -->
+    <section class="why section" id="impact" aria-labelledby="why-title">
+      <div class="container">
+        <header class="section-head section-head--center reveal">
+          <p class="eyebrow">Why Get Lagos Now</p>
+          <h2 id="why-title" class="h2">Why organizations choose us.</h2>
+        </header>
+
+        <div class="bento">
+          <article class="card bento__a reveal">
+            <div class="bento__a-text">
+              <h3 class="card__title">Accessibility-first approach</h3>
+              <p class="card__text">Inclusive, ADA-conscious, multilingual and user-friendly design is built into every project from day one — not bolted on at the end.</p>
+            </div>
+            <span class="card__tag">Est. Portland, OR</span>
+            <div class="gauge" aria-hidden="true">
+              <svg class="gauge__svg" id="gaugeSvg" viewBox="0 0 320 170"></svg>
+              <div class="gauge__label">
+                <span>Since</span>
+                <strong>2010</strong>
+              </div>
+            </div>
+          </article>
+
+          <article class="card card--quote bento__b reveal">
+            <span class="quote-mark" aria-hidden="true">“</span>
+            <blockquote>
+              <p>Get Lagos Now gives us peace of mind and provides expertise when it comes to website security, development, UX-UI, stability, ADA compliance, and SEO.</p>
+            </blockquote>
+            <div class="quote-by">
+              <span class="quote-by__mark" aria-hidden="true">CI</span>
+              <span>
+                <strong>Rafael Otto</strong>
+                <span>Children's Institute</span>
+              </span>
+            </div>
+          </article>
+
+          <article class="card bento__c reveal">
+            <p class="big-type">WBE<span class="big-type__dot">.</span></p>
+            <p class="card__text">Certified Women Business Enterprise and a Registered Benefit Company — accountable to people and planet, not just profit.</p>
+            <ul class="mini-badges">
+              <li>Certified WBE</li>
+              <li>Benefit Company</li>
+            </ul>
+            <a href="#contact" class="btn btn--dark btn--block">
+              <span>Let's Talk</span>
+              <span class="btn__icon" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+            </a>
+          </article>
+
+          <article class="card bento__d reveal">
+            <div class="bento__d-text">
+              <p class="big-type big-type--muted">5%<span class="big-type__red">+</span></p>
+              <h3 class="card__title">Nonprofit giving commitment</h3>
+              <p class="card__text">We believe digital and technology companies can and should do more to create a positive impact in society — so giving back is built into how we operate.</p>
+            </div>
+            <figure class="bento__d-media">
+              <img src="https://images.pexels.com/photos/17554923/pexels-photo-17554923.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="A person working on a laptop at a table covered in living moss" loading="lazy">
+              <figcaption><span class="dot-red" aria-hidden="true"></span> Purpose-driven by design</figcaption>
+            </figure>
+          </article>
+
+          <div class="card bento__e reveal">
+            <p class="bento__e-label">Organizations we've partnered with</p>
+            <ul class="bento__e-list">
+              <li>Energy Trust of Oregon</li>
+              <li>Audubon Society</li>
+              <li>SOLVE Oregon</li>
+              <li>Blanchet House</li>
+              <li>New Avenues for Youth</li>
+              <li>OSSCC</li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 08 FEATURED PROJECTS ============ -->
+    <section class="work section" id="work" aria-labelledby="work-title">
+      <div class="container">
+        <header class="section-head section-head--split reveal">
+          <div>
+            <p class="eyebrow">Selected work</p>
+            <h2 id="work-title" class="h2">Work we're proud of</h2>
+          </div>
+          <a href="work.html" class="link-arrow">
+            See all work
+            <span class="link-arrow__icon" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+          </a>
+        </header>
+
+        <div class="projects">
+          <article class="project reveal">
+            <div class="project__meta">
+              <div>
+                <span class="meta-label">Year</span>
+                <span class="meta-value">2025</span>
+              </div>
+              <div>
+                <span class="meta-label">Live site</span>
+                <a href="https://mywallace.org/" class="meta-link" target="_blank" rel="noopener">mywallace.org</a>
+              </div>
+            </div>
+            <a href="portfolio-medical-dental.html" class="project__media" aria-label="View Wallace Medical &amp; Dental project">
+              <img src="assets/images/shared/DowntownRockwoodbuilding-1024x683.jpg" alt="Wallace Medical &amp; Dental's Downtown Rockwood building" loading="lazy">
+            </a>
+            <div class="project__info">
+              <div>
+                <span class="meta-label">01 — Category</span>
+                <p class="project__cats">Website Design / Accessibility / Multilingual</p>
+              </div>
+              <h3 class="project__title">Wallace Medical &amp; Dental</h3>
+              <a href="portfolio-medical-dental.html" class="btn btn--dark">
+                <span>View Project</span>
+                <span class="btn__icon" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+              </a>
+            </div>
+          </article>
+
+          <article class="project reveal">
+            <div class="project__meta">
+              <div>
+                <span class="meta-label">Year</span>
+                <span class="meta-value">2024</span>
+              </div>
+              <div>
+                <span class="meta-label">Live site</span>
+                <a href="https://childinst.org/" class="meta-link" target="_blank" rel="noopener">childinst.org</a>
+              </div>
+            </div>
+            <a href="articles/2025-client-showcase-the-childrens-institute.html" class="project__media" aria-label="View The Children's Institute project">
+              <img src="assets/images/shared/childrens-inst-1024x683.png" alt="The Children's Institute website project" loading="lazy">
+            </a>
+            <div class="project__info">
+              <div>
+                <span class="meta-label">02 — Category</span>
+                <p class="project__cats">Website Development / UX/UI / Optimization</p>
+              </div>
+              <h3 class="project__title">The Children's Institute</h3>
+              <a href="articles/2025-client-showcase-the-childrens-institute.html" class="btn btn--dark">
+                <span>View Project</span>
+                <span class="btn__icon" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+              </a>
+            </div>
+          </article>
+
+          <article class="project reveal">
+            <div class="project__meta">
+              <div>
+                <span class="meta-label">Year</span>
+                <span class="meta-value">2024–25</span>
+              </div>
+              <div>
+                <span class="meta-label">Live site</span>
+                <a href="https://www.energytrust.org/" class="meta-link" target="_blank" rel="noopener">energytrust.org</a>
+              </div>
+            </div>
+            <a href="portfolio-nonprofit.html" class="project__media project__media--contain" aria-label="View Energy Trust of Oregon project">
+              <img src="assets/images/shared/Blue-energy-trust-1024x538.png" alt="Energy Trust of Oregon project artwork" loading="lazy">
+            </a>
+            <div class="project__info">
+              <div>
+                <span class="meta-label">03 — Category</span>
+                <p class="project__cats">Web Development / Digital Strategy / Marketing</p>
+              </div>
+              <h3 class="project__title">Energy Trust of Oregon</h3>
+              <a href="portfolio-nonprofit.html" class="btn btn--dark">
+                <span>View Project</span>
+                <span class="btn__icon" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+              </a>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 09 ENGAGEMENT OPTIONS ============ -->
+    <section class="engage section" aria-labelledby="engage-title">
+      <div class="container">
+        <header class="section-head section-head--split reveal">
+          <div>
+            <p class="eyebrow">Working together</p>
+            <h2 id="engage-title" class="h2">Flexible partnerships.<br class="br-desk"> Meaningful results.</h2>
+          </div>
+          <p class="engage__note">No one-size-fits-all packages.<br>Every engagement is scoped to you.</p>
+        </header>
+
+        <div class="panel panel--dark engage__panel reveal">
+          <div class="engage__intro">
+            <figure class="engage__media">
+              <img src="https://images.pexels.com/photos/7605981/pexels-photo-7605981.jpeg?auto=compress&cs=tinysrgb&w=900" alt="Project planning documents and charts on a desk" loading="lazy">
+            </figure>
+            <div class="engage__intro-text">
+              <p class="engage__intro-title">Human-crafted work</p>
+              <p>AI is never used for website development, coding or integrations without full disclosure and agreement.</p>
+            </div>
+          </div>
+
+          <article class="plan">
+            <header class="plan__head">
+              <h3 class="plan__name">Project-Based</h3>
+              <span class="plan__badge">For launches</span>
+            </header>
+            <p class="plan__desc">For organizations launching or transforming their digital experience.</p>
+            <p class="plan__big">Defined scope <span>/ per project</span></p>
+            <p class="plan__suit">Suitable for</p>
+            <ul class="checklist">
+              <li>Website projects</li>
+              <li>Redesigns</li>
+              <li>Brand development</li>
+              <li>Accessibility improvements</li>
+            </ul>
+            <div class="plan__foot">
+              <a href="#contact" class="btn btn--red btn--block">
+                <span>Discuss a Project</span>
+                <span class="btn__icon" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+              </a>
+              <p class="plan__fine">Every engagement starts with a conversation.</p>
+            </div>
+          </article>
+
+          <article class="plan">
+            <header class="plan__head">
+              <h3 class="plan__name">Ongoing Partnerships</h3>
+              <span class="plan__badge">For growth</span>
+            </header>
+            <p class="plan__desc">For businesses needing continuous optimization, creative support, and digital growth.</p>
+            <p class="plan__big">Continuous <span>/ partnership</span></p>
+            <p class="plan__suit">Suitable for</p>
+            <ul class="checklist">
+              <li>SEO and optimization</li>
+              <li>Website maintenance</li>
+              <li>Marketing campaigns</li>
+              <li>Content and strategy</li>
+            </ul>
+            <div class="plan__foot">
+              <a href="#contact" class="btn btn--light btn--block">
+                <span>Let's Collaborate</span>
+                <span class="btn__icon" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+              </a>
+              <p class="plan__fine">Front-end, back-end, content and strategy support.</p>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 10 TESTIMONIAL ============ -->
+    <section class="testimonial section" aria-labelledby="testimonial-title">
+      <div class="container">
+        <header class="section-head section-head--center reveal">
+          <p class="eyebrow">Client relationships</p>
+          <h2 id="testimonial-title" class="h2">Straight from the people<br class="br-desk"> we've worked with</h2>
+        </header>
+
+        <div class="testi reveal" id="testi" aria-roledescription="carousel" aria-label="Client testimonials">
+          <div class="testi__text">
+            <span class="testi__mark" aria-hidden="true"><i></i><i></i><i></i><i></i><i></i></span>
+            <div class="testi__slides" aria-live="polite">
+              <figure class="testi__slide is-active" data-img="https://images.pexels.com/photos/4087474/pexels-photo-4087474.jpeg?auto=compress&cs=tinysrgb&w=1200" data-alt="A designer's workspace with laptop, stylus and drawing tablet">
+                <blockquote cite="https://getlagosnow.com/"><p class="testi__quote--long">“We engaged Get Lagos Now to help with a full website redesign. Our old site was antiquated and we were in need of a serious refresh. From the beginning of the process, Michelle and her team were engaging, attentive, and cared deeply about building a site that was representative of our brand and what we were looking to achieve from our website. They guided us through the process and made a full redesign pretty painless. We are thrilled with the final product and I would recommend Michelle and her team to anyone looking for website work (whether it be maintenance, or a complete redesign). They are great!”</p></blockquote>
+                <figcaption>
+                  <strong>Scott Thompson</strong>
+                  <span>Lexicon Solutions · lexiconsolutions.com</span>
+                </figcaption>
+              </figure>
+              <figure class="testi__slide" data-img="assets/images/shared/20250613_Wallace-Dental-Clinic_Best-1024x683.jpg" data-alt="Interior of the Wallace Medical &amp; Dental Rockwood clinic">
+                <blockquote cite="https://getlagosnow.com/"><p>“It's so good! We are fortunate we found you and your team. Thank you!”</p></blockquote>
+                <figcaption>
+                  <strong>Lisa Cline</strong>
+                  <span>CEO, Wallace Medical &amp; Dental (ADA compliant, multilingual website rebuild, 2025)</span>
+                </figcaption>
+              </figure>
+              <figure class="testi__slide" data-img="assets/images/shared/Building-Futures-1024x569.png" data-alt="Children's Institute — Building Futures artwork">
+                <blockquote cite="https://getlagosnow.com/"><p class="testi__quote--long">“Get Lagos Now gives us peace of mind and provides expertise when it comes to website security, development, UX-UI, stability, ADA compliance, and SEO. This work happens behind the scenes but is essential for helping our online presence shine.”</p></blockquote>
+                <figcaption>
+                  <strong>Rafael Otto</strong>
+                  <span>The Children's Institute · Portland, Oregon</span>
+                </figcaption>
+              </figure>
+              <figure class="testi__slide" data-img="https://images.pexels.com/photos/196645/pexels-photo-196645.jpeg?auto=compress&cs=tinysrgb&w=1200" data-alt="Editorial web design wireframe sketches">
+                <blockquote cite="https://getlagosnow.com/"><p class="testi__quote--long">“Michelle is a total professional. Outstanding work and customer service from start to finish: design, production, programming. I highly recommend her services to anyone looking to make a difference with digital media.”</p></blockquote>
+                <figcaption>
+                  <strong>Anthony Bellotti</strong>
+                  <span>White Coat Waste Project — Public Policy DC · blog.whitecoatwaste.org</span>
+                </figcaption>
+              </figure>
+              <figure class="testi__slide" data-img="assets/images/shared/Medical-team-2-1024x683.jpg" data-alt="Medical Teams International mobile dental clinic">
+                <blockquote cite="https://getlagosnow.com/"><p class="testi__quote--long">“We faced a number of challenges making updates to our website so that we could keep it secure and performing well. Get Lagos Now has worked diligently to help us overcome these challenges.”</p></blockquote>
+                <figcaption>
+                  <strong>Medical Teams International</strong>
+                  <span>Website Development &amp; Systems Integrations · medicalteams.org</span>
+                </figcaption>
+              </figure>
+            </div>
+          </div>
+
+          <div class="testi__media">
+            <img id="testiImg" src="https://images.pexels.com/photos/4087474/pexels-photo-4087474.jpeg?auto=compress&cs=tinysrgb&w=1200" alt="A designer's workspace with laptop, stylus and drawing tablet" loading="lazy">
+            <div class="testi__controls">
+              <span class="testi__count" id="testiCount">01 / 05</span>
+              <button class="sq-btn sq-btn--light" id="testiPrev" aria-label="Previous testimonial"><svg viewBox="0 0 16 16"><path d="M13 8H3M7 4L3 8l4 4"/></svg></button>
+              <button class="sq-btn sq-btn--red" id="testiNext" aria-label="Next testimonial"><svg viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4"/></svg></button>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 10B AI POLICY ============ -->
+    <section class="ai-policy" id="ai-policy" aria-labelledby="ai-policy-title">
+      <div class="container">
+        <div class="ai-policy__panel reveal">
+          <div class="ai-policy__intro">
+            <p class="eyebrow">Our approach to AI</p>
+            <h2 id="ai-policy-title" class="h2">Thoughtful technology.<br>Transparent decisions.</h2>
+            <span class="ai-policy__tag">Published AI &amp; Consulting Policy</span>
+          </div>
+          <div class="ai-policy__body">
+            <p><strong>AI Policy</strong> — Our company specializes in AEO (Answer Engine Optimization) and SEO (Search Engine Optimization) so your site, your company, and your platforms are high performing both technically and within the important search features that are stating your title and company's services, reviews, ideas, references, quotes and definitions — but under no circumstance is AI ever used for website development, coding, functionality or system integrations without full disclosure and agreement. However, know that we offer AI WordPress development and AI system integrations that will streamline processes.</p>
+            <p class="ai-policy__consulting">We provide important consulting services so you know you're making the best budget decisions with your marketing, technology, and advertising decisions.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 10C REGISTERED BENEFIT COMPANY ============ -->
+    <section class="benefit-statement" id="benefit-company" aria-labelledby="benefit-title">
+      <div class="container">
+        <div class="benefit-statement__grid reveal">
+          <div class="benefit-statement__content">
+            <p class="eyebrow">Business as a force for good</p>
+            <h2 id="benefit-title" class="h2">WHY Is Get Lagos Now a registered Benefit company?</h2>
+            <div class="benefit-statement__copy">
+              <p>Get Lagos Now (Lagos Consulting LLC) is registered as a Benefit Company in the State of Oregon and certified by <strong>Benefit Corporations for Good (BCFG)</strong>. We are part of a movement of leaders balancing purpose and profit — using business as a force for good.</p>
+              <p>We make legal, financial, and operational decisions that consider the impact our work has on our employees, clients, suppliers, communities, and the environment — staying dedicated to helping make an effective impact on the alleviation of local homelessness and expanding digital access.</p>
+            </div>
+            <div class="benefit-statement__sdg">
+              <strong>UN Sustainable Development Goal</strong>
+              <span>Aligned with Goal 1: No Poverty — supporting local Portland nonprofits through technology access, volunteerism, and annual giving.</span>
+            </div>
+            <a href="reports/annual-benefit-2025.html" class="btn btn--dark" target="_blank" rel="noopener">
+              <span>Read the 2025 Annual Benefit Report</span>
+              <span class="btn__icon" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M4.5 11.5l7-7M5.5 4.5h6v6"/></svg></span>
+            </a>
+          </div>
+
+          <div class="benefit-statement__aside">
+            <div class="benefit-statement__pledge">
+              <p class="benefit-statement__num">5%<span>+</span></p>
+              <div class="benefit-statement__pledge-text">
+                <strong>Published Annual Commitment</strong>
+                <p>5%+ of all in-cash and in-kind donations of business profits are committed yearly to local nonprofits (a published annual commitment, documented yearly in our Benefit Reports).</p>
+              </div>
+            </div>
+            <figure class="benefit-statement__media">
+              <img src="assets/images/shared/Blanchet-House-Mural.jpeg"
+                   alt="Blanchet House mural in Portland, one of the local nonprofits supported by Get Lagos Now"
+                   width="1024" height="683" loading="lazy">
+              <figcaption>Community Impact · Portland, Oregon</figcaption>
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 11 FAQ ============ -->
+    <section class="faq section" id="faq" aria-labelledby="faq-title">
+      <div class="container">
+        <header class="section-head section-head--center reveal">
+          <p class="eyebrow">FAQ</p>
+          <h2 id="faq-title" class="h2">Everything you probably<br class="br-desk"> want to know</h2>
+        </header>
+
+        <div class="faq__grid">
+          <div class="faq__visual reveal">
+            <figure class="faq__media">
+              <img src="https://images.pexels.com/photos/16752907/pexels-photo-16752907.jpeg?auto=compress&cs=tinysrgb&w=1400" alt="Portland, Oregon skyline viewed from the Willamette River" loading="lazy">
+            </figure>
+            <div class="faq__bar">
+              <a href="#contact" class="faq__bar-cta">
+                <span class="faq__bar-icon" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+                <span><strong>Let's talk</strong><span>Start a project</span></span>
+              </a>
+              <div><strong>Based in</strong><span>Portland, Oregon</span></div>
+              <div><strong>Since</strong><span>2010</span></div>
+            </div>
+          </div>
+
+          <div class="accordion reveal" id="accordion">
+            <div class="acc-item is-open">
+              <h3 class="acc-head">
+                <button class="acc-btn" aria-expanded="true" aria-controls="acc-1" id="acc-btn-1">
+                  What types of organizations do you work with?
+                  <span class="acc-icon" aria-hidden="true"></span>
+                </button>
+              </h3>
+              <div class="acc-panel" id="acc-1" role="region" aria-labelledby="acc-btn-1">
+                <p>We partner with nonprofits, healthcare and dental providers, mission-driven businesses, public-interest coalitions and growing companies — organizations that want their digital presence to be inclusive, effective and aligned with their values.</p>
+              </div>
+            </div>
+            <div class="acc-item">
+              <h3 class="acc-head">
+                <button class="acc-btn" aria-expanded="false" aria-controls="acc-2" id="acc-btn-2">
+                  Can you redesign our existing website?
+                  <span class="acc-icon" aria-hidden="true"></span>
+                </button>
+              </h3>
+              <div class="acc-panel" id="acc-2" role="region" aria-labelledby="acc-btn-2" hidden>
+                <p>Yes. Full redesigns are a core part of our work — from discovery and UX/UI through development, content migration and launch, with accessibility and SEO considered throughout.</p>
+              </div>
+            </div>
+            <div class="acc-item">
+              <h3 class="acc-head">
+                <button class="acc-btn" aria-expanded="false" aria-controls="acc-3" id="acc-btn-3">
+                  Do you provide accessibility and SEO services?
+                  <span class="acc-icon" aria-hidden="true"></span>
+                </button>
+              </h3>
+              <div class="acc-panel" id="acc-3" role="region" aria-labelledby="acc-btn-3" hidden>
+                <p>We do. We improve ADA accessibility, multilingual usability and site performance, and specialize in SEO and AEO (Answer Engine Optimization) so your organization stays visible in both traditional and AI-powered search.</p>
+              </div>
+            </div>
+            <div class="acc-item">
+              <h3 class="acc-head">
+                <button class="acc-btn" aria-expanded="false" aria-controls="acc-4" id="acc-btn-4">
+                  Can you support our ongoing digital marketing?
+                  <span class="acc-icon" aria-hidden="true"></span>
+                </button>
+              </h3>
+              <div class="acc-panel" id="acc-4" role="region" aria-labelledby="acc-btn-4" hidden>
+                <p>Absolutely. Through ongoing partnerships we manage content, graphics, blog writing, SEO, social media, digital advertising and marketing strategy alongside front-end and back-end website care.</p>
+              </div>
+            </div>
+            <div class="acc-item">
+              <h3 class="acc-head">
+                <button class="acc-btn" aria-expanded="false" aria-controls="acc-5" id="acc-btn-5">
+                  How do we start a project?
+                  <span class="acc-icon" aria-hidden="true"></span>
+                </button>
+              </h3>
+              <div class="acc-panel" id="acc-5" role="region" aria-labelledby="acc-btn-5" hidden>
+                <p>Tell us about your goals using the inquiry form below. We'll follow up to learn more, explore options together and recommend the right scope for your budget and timeline.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 12 CONTACT ============ -->
+    <section class="contact" id="contact" aria-labelledby="contact-title">
+      <div class="container">
+        <div class="panel panel--dark contact__panel">
+          <div class="contact__intro reveal">
+            <p class="eyebrow eyebrow--light">Get started</p>
+            <h2 id="contact-title" class="h2 h2--light">Let's make your<br>next project matter.</h2>
+            <p class="contact__text">Tell us what you're working on. We'll explore how strategy, creativity, and technology can move it forward.</p>
+            <a href="#faq" class="link-arrow link-arrow--light">
+              Read the FAQ
+              <span class="link-arrow__icon" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M8 3v10M3 8h10"/></svg></span>
+            </a>
+          </div>
+
+          <form class="form reveal" id="inquiryForm" novalidate>
+            <div class="form__row">
+              <div class="field">
+                <label for="fName">Full Name <span aria-hidden="true">*</span></label>
+                <input type="text" id="fName" name="name" autocomplete="name" placeholder="Your name" required aria-describedby="fName-err">
+                <p class="field__error" id="fName-err" aria-live="polite"></p>
+              </div>
+              <div class="field">
+                <label for="fEmail">Email Address <span aria-hidden="true">*</span></label>
+                <input type="email" id="fEmail" name="email" autocomplete="email" placeholder="you@organization.org" required aria-describedby="fEmail-err">
+                <p class="field__error" id="fEmail-err" aria-live="polite"></p>
+              </div>
+            </div>
+            <div class="field">
+              <label for="fService">Service Interested In <span aria-hidden="true">*</span></label>
+              <select id="fService" name="service" required aria-describedby="fService-err">
+                <option value="">Select a service</option>
+                <option>Website Design &amp; Development</option>
+                <option>Accessibility &amp; Optimization (SEO / AEO)</option>
+                <option>Branding &amp; Creative</option>
+                <option>Digital Marketing &amp; Strategy</option>
+                <option>Ongoing Partnership</option>
+                <option>Not sure yet</option>
+              </select>
+              <p class="field__error" id="fService-err" aria-live="polite"></p>
+            </div>
+            <div class="field">
+              <label for="fMsg">Tell Us About Your Project <span aria-hidden="true">*</span></label>
+              <textarea id="fMsg" name="message" rows="4" placeholder="Goals, timeline, anything we should know…" required aria-describedby="fMsg-err"></textarea>
+              <p class="field__error" id="fMsg-err" aria-live="polite"></p>
+            </div>
+            <div class="form__foot">
+              <p class="form__note">Prototype form — submissions are not yet connected to a mail service.</p>
+              <button type="submit" class="btn btn--red">
+                <span>Send Inquiry</span>
+                <span class="btn__icon" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+              </button>
+            </div>
+            <p class="form__status" id="formStatus" role="status" aria-live="polite"></p>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 13 INSIGHTS ============ -->
+    <section class="insights section" id="insights" aria-labelledby="insights-title">
+      <div class="container">
+        <header class="section-head section-head--split reveal">
+          <div>
+            <p class="eyebrow">Insights</p>
+            <h2 id="insights-title" class="h2"><a href="insights.html">News &amp; Updates</a></h2>
+          </div>
+          <a href="insights.html" class="link-arrow">
+            View all articles
+            <span class="link-arrow__icon" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+          </a>
+        </header>
+
+        <div class="posts">
+          <article class="post post--feature reveal">
+            <div class="post__body">
+              <div>
+                <span class="meta-label">Accessibility</span>
+                <h3 class="post__title"><a href="articles/how-important-are-ada-compliant-websites-now.html">How Important Are ADA Compliant Websites Now?</a></h3>
+                <p class="post__excerpt">Ensuring accessibility for everyone is the right thing to do — and also a legal requirement. Why inclusive websites matter more than ever.</p>
+              </div>
+              <a href="articles/how-important-are-ada-compliant-websites-now.html" class="btn btn--dark" aria-label="Read more: How Important Are ADA Compliant Websites Now?">
+                <span>Read More</span>
+                <span class="btn__icon" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+              </a>
+            </div>
+            <figure class="post__media">
+              <img src="https://images.pexels.com/photos/6281464/pexels-photo-6281464.jpeg?auto=compress&cs=tinysrgb&w=1000" alt="A man using a wheelchair working on a laptop in a modern café" loading="lazy">
+            </figure>
+          </article>
+
+          <div class="posts__stack">
+            <article class="post post--small reveal">
+              <div class="post__body">
+                <span class="meta-label">AEO / Search</span>
+                <h3 class="post__title"><a href="articles/10-aeo-questions-i-should-be-asking.html">10 AEO Questions I Should Be Asking?</a></h3>
+                <span class="post__meta">Tech Blogs</span>
+              </div>
+              <figure class="post__media">
+                <img src="https://images.pexels.com/photos/8837507/pexels-photo-8837507.jpeg?auto=compress&cs=tinysrgb&w=600" alt="Hands reviewing data charts on paper during a meeting" loading="lazy">
+              </figure>
+            </article>
+            <article class="post post--small reveal">
+              <div class="post__body">
+                <span class="meta-label">Design / Sustainability</span>
+                <h3 class="post__title"><a href="articles/website-design-trends-in-2026-better-for-people-better-for-planet.html">Website Design Trends in 2026 — Better for People, Better for Planet</a></h3>
+                <span class="post__meta"><time datetime="2026-01-06">Jan 6, 2026</time> · Tech Blogs</span>
+              </div>
+              <figure class="post__media">
+                <img src="https://images.pexels.com/photos/3987013/pexels-photo-3987013.jpeg?auto=compress&cs=tinysrgb&w=600" alt="A laptop on a desk surrounded by green plants" loading="lazy">
+              </figure>
+            </article>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ============ 14 FINAL CTA ============ -->
+    <section class="cta" aria-labelledby="cta-title">
+      <div class="container">
+        <div class="cta__banner">
+          <h2 id="cta-title" class="cta__title">Let's Talk.</h2>
+          <a href="#contact" class="cta__action">
+            <span class="cta__action-mark" aria-hidden="true">
+              <img src="https://images.pexels.com/photos/16752907/pexels-photo-16752907.jpeg?auto=compress&cs=tinysrgb&w=200&h=200&fit=crop" alt="" loading="lazy">
+            </span>
+            <span class="cta__action-text">
+              <strong>Start a project</strong>
+              <span>Portland, Oregon</span>
+            </span>
+            <span class="sq-btn sq-btn--red" aria-hidden="true"><svg viewBox="0 0 16 16"><path d="M3 8h10M9 4l4 4-4 4"/></svg></span>
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- ============ 15 FOOTER ============ -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer__inner">
+        <div class="footer__top">
+          <div class="footer__brand">
+            <a href="index.html" class="footer__logo" aria-label="Get Lagos Now — back to top">
+              <img src="assets/images/shared/gln.png" alt="Get Lagos Now" width="190" height="40" loading="lazy">
+            </a>
+            <p class="footer__tagline">Human-centered.<br>Strategic innovation.<br>High touch.</p>
+            <p class="footer__desc">A PDX-based, purpose-driven Benefit Company creating inclusive, accessible digital experiences since 2010.</p>
+            <p class="footer__loc"><span class="dot-red" aria-hidden="true"></span> Portland, Oregon</p>
+            <ul class="socials" aria-label="Social media">
+              <li><span class="social-placeholder" aria-label="LinkedIn (link to be confirmed)">in</span></li>
+              <li><span class="social-placeholder" aria-label="Instagram (link to be confirmed)">ig</span></li>
+              <li><span class="social-placeholder" aria-label="Facebook (link to be confirmed)">fb</span></li>
+            </ul>
+          </div>
+
+          <div class="footer__right">
+            <div class="footer__cols">
+              <nav aria-label="Footer — explore">
+                <p class="footer__head">Explore</p>
+                <ul>
+                  <li><a href="index.html">Home</a></li>
+                  <li><a href="services.html">Services</a></li>
+                  <li><a href="work.html">Portfolio</a></li>
+                  <li><a href="about.html">About</a></li>
+                  <li><a href="impact.html">Impact</a></li>
+                  <li><a href="insights.html">Blogs</a></li>
+                  <li><a href="contact.html">Contact</a></li>
+                </ul>
+              </nav>
+              <nav aria-label="Footer — services">
+                <p class="footer__head">Services &amp; Sectors</p>
+                <ul>
+                  <li><a href="services.html#web-design">Web Design &amp; Development</a></li>
+                  <li><a href="services.html#accessibility-seo">Accessibility &amp; SEO/AEO</a></li>
+                  <li><a href="services.html#branding-creative">Branding &amp; Creative</a></li>
+                  <li><a href="services.html#marketing-strategy">Marketing &amp; Strategy</a></li>
+                  <li><a href="portfolio-energy-efficiency.html">Energy Efficiency</a></li>
+                  <li><a href="portfolio-nonprofit.html">Non-Profit</a></li>
+                  <li><a href="portfolio-medical-dental.html">Medical &amp; Dental</a></li>
+                </ul>
+              </nav>
+              <nav aria-label="Footer — resources">
+                <p class="footer__head">Reports &amp; Community</p>
+                <ul>
+                  <li><a href="reports/annual-benefit-2025.html">Annual Benefit Report 2025</a></li>
+                  <li><a href="reports/annual-benefit-2024.html">Annual Benefit Report 2024</a></li>
+                  <li><a href="reports/annual-benefit-2023.html">Annual Benefit Report 2023</a></li>
+                  <li><a href="reports/e-recycling-pdx.html">E-Recycling PDX</a></li>
+                  <li><a href="reports/non-profit-recipients.html">Non-Profit Recipients</a></li>
+                </ul>
+              </nav>
+            </div>
+
+            <form class="newsletter" id="newsletterForm" novalidate>
+              <label class="footer__head" for="nlEmail">Newsletter</label>
+              <div class="newsletter__row">
+                <input type="email" id="nlEmail" placeholder="Enter your email" autocomplete="email" aria-describedby="nlStatus">
+                <button type="submit" class="btn btn--red btn--sm">Subscribe</button>
+              </div>
+              <p class="newsletter__status" id="nlStatus" aria-live="polite">Prototype — newsletter sign-up is not yet connected.</p>
+            </form>
+          </div>
+        </div>
+
+        <div class="footer__bottom">
+          <p>© <span id="year">2026</span> Lagos Consulting LLC. All rights reserved.</p>
+          <ul>
+            <li><a href="https://getlagosnow.com/privacy-policy/">Privacy Policy</a></li>
+            <li><a href="services.html#accessibility-seo">Accessibility</a></li>
+            <li><a href="index.html#ai-policy">AI Policy</a></li>
+          </ul>
+          <p class="footer__credit">Editorial photography via Pexels. Project imagery © respective clients.</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="assets/js/main.js" defer></script>
+</body>
+</html>

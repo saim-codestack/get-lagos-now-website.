@@ -1,0 +1,1 @@
+﻿import fs from 'node:fs';const posts=JSON.parse(fs.readFileSync('tools/source/blog-posts.json'));for(const p of posts){const text=p.content.rendered.replace(/<[^>]+>/g,' ').replace(/\s+/g,' ');console.log('\nID',p.id,p.slug,'\n'+text);}

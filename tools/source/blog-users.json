@@ -1,0 +1,28 @@
+[
+  {
+    "id": 8,
+    "name": "mlagos",
+    "url": "",
+    "description": "",
+    "link": "https://getlagosnow.com/author/mlagos/",
+    "slug": "mlagos",
+    "meta": [],
+    "_links": {
+      "self": [
+        {
+          "href": "https://getlagosnow.com/wp-json/wp/v2/users/8",
+          "targetHints": {
+            "allow": [
+              "GET"
+            ]
+          }
+        }
+      ],
+      "collection": [
+        {
+          "href": "https://getlagosnow.com/wp-json/wp/v2/users"
+        }
+      ]
+    }
+  }
+]

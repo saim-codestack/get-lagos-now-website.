@@ -1,0 +1,64 @@
+﻿/* Reports archive and historical reading pages. Shared tokens remain authoritative. */
+.report-heading { padding-top:clamp(130px,13vw,190px); padding-bottom:clamp(36px,5vw,72px); }
+.report-heading>.eyebrow { display:flex; margin-top:22px; }
+.report-heading h1 { max-width:1100px; font-family:var(--f-head); font-size:clamp(40px,5.5vw,80px); font-weight:700; line-height:1.08; letter-spacing:-.05em; overflow-wrap:anywhere; }
+.report-deck { max-width:720px; margin-top:28px; color:var(--body); font-size:clamp(16px,1.45vw,19px); line-height:1.75; }
+.report-source { display:flex; flex-wrap:wrap; gap:12px 28px; margin-top:28px; padding-top:20px; border-top:1px solid var(--line); max-width:780px; font-size:12px; }
+.report-source a { text-decoration:underline; text-underline-offset:4px; }
+.report-source span { color:var(--body); }
+.report-heading>.report-source+p { max-width:780px; color:var(--body); margin-top:18px; font-size:14px; line-height:1.7; }
+.report-feature { display:grid; grid-template-columns:minmax(0,1.12fr) minmax(0,.88fr); align-items:center; gap:clamp(28px,5vw,72px); }
+.report-feature__image { display:block; aspect-ratio:1.18; overflow:hidden; background:var(--cream-2); border-radius:var(--r-sm); }
+.report-feature__image img { width:100%; height:100%; object-fit:contain; }
+.report-feature .h2 { font-size:clamp(32px,3.5vw,50px); }
+.report-feature p:not(.eyebrow) { color:var(--body); line-height:1.75; margin-top:24px; max-width:480px; }
+.report-feature .btn { margin-top:28px; }
+.report-library { margin-top:var(--section); }
+.report-library-heading { margin-bottom:36px; }
+.report-library-heading>p:last-child { color:var(--body); max-width:620px; margin-top:22px; }
+.report-library-row { display:grid; grid-template-columns:90px minmax(0,1fr) auto; gap:28px; align-items:center; padding:30px 0; border-top:1px solid var(--line); }
+.report-library-row:last-child { border-bottom:1px solid var(--line); }
+.report-library-year { color:var(--red); font-size:18px; font-weight:600; }
+.report-library-row strong { display:block; font-family:var(--f-head); font-size:clamp(22px,2.2vw,31px); line-height:1.2; letter-spacing:-.035em; }
+.report-library-row small { display:block; color:var(--body); font-size:13px; line-height:1.65; margin-top:8px; }
+.report-library-action { font-size:11px; text-transform:uppercase; letter-spacing:.05em; }
+.report-library-action>span { display:inline-block; padding-left:12px; color:var(--red); font-size:20px; }
+.report-library-row:hover strong,.report-community-card a:hover { color:var(--red); }
+.report-community-grid { display:grid; grid-template-columns:repeat(3,minmax(0,1fr)); gap:44px 28px; }
+.report-community-card { min-width:0; }
+.report-community-card>a { display:block; aspect-ratio:3/2; background:var(--cream-2); margin-bottom:20px; overflow:hidden; }
+.report-community-card img { width:100%; height:100%; object-fit:contain; }
+.report-community-card .eyebrow { margin-bottom:12px; }
+.report-community-card h3 { font-family:var(--f-head); font-size:clamp(23px,2vw,29px); font-weight:600; line-height:1.25; letter-spacing:-.035em; }
+.report-community-card h3 a { display:flex; gap:18px; justify-content:space-between; }
+.report-community-card h3 span { color:var(--red); flex:none; }
+.report-reading { max-width:860px; padding:0 var(--pad); margin:auto; }
+.report-body { font-size:16px; line-height:1.85; color:var(--body); overflow-wrap:anywhere; }
+.report-body>*+* { margin-top:22px; }
+.report-body p { margin-block:22px; }
+.report-body h2,.report-body h3,.report-body h4 { font-family:var(--f-head); font-weight:600; line-height:1.5; letter-spacing:-.025em; color:var(--ink); margin-top:38px; margin-bottom:18px; }
+.report-body h2 { font-size:clamp(23px,2.3vw,30px); }
+.report-body h3 { font-size:19px; }
+.report-body h4 { font-size:18px; }
+.report-body h2>em { font-style:normal; }
+.report-body a { text-decoration:underline; text-underline-offset:4px; text-decoration-thickness:1px; }
+.report-body a:hover { color:var(--red); }
+.report-body img { height:auto; max-width:100%; max-height:820px; object-fit:contain; margin:30px auto; border-radius:var(--r-sm); }
+.report-body a>img { margin-block:18px; }
+.report-body p:has(>img),.report-body h2:has(>img),.report-body h3:has(>img) { margin-block:32px; }
+.report-body ul,.report-body ol { padding-left:24px; }
+.report-body ul { list-style:disc; }.report-body ol { list-style:decimal; }
+.report-body li+li { margin-top:10px; }
+.report-body blockquote { border-left:2px solid var(--red); padding-left:24px; margin-block:32px; }
+.report-body table { display:block; max-width:100%; overflow:auto; border-collapse:collapse; }
+.report-body td,.report-body th { padding:10px; border:1px solid var(--line); }
+.report-body figcaption { color:var(--body); font-size:12px; line-height:1.7; margin-top:10px; }
+.report-review-note, .report-body aside { margin-block:30px; padding:22px 24px; border-left:2px solid var(--red); background:var(--cream-2); font-size:13px; line-height:1.75; }
+.report-review-note strong, .report-body aside strong { display:block; color:var(--ink); margin-bottom:6px; }
+.report-motto { padding-block:18px; border-block:1px solid var(--line); color:var(--red); font-size:12px; text-transform:uppercase; letter-spacing:.1em; }
+.report-video { border-block:1px solid var(--line); padding-block:20px; }
+.report-next { display:flex; flex-wrap:wrap; justify-content:space-between; gap:20px; margin-top:64px; padding-top:26px; border-top:1px solid var(--line); font-size:13px; }
+.report-next a { min-height:44px; display:inline-flex; align-items:center; text-decoration:underline; text-underline-offset:4px; }
+@media(max-width:1024px) { .report-community-grid { grid-template-columns:repeat(2,minmax(0,1fr)); }.report-feature { gap:30px; } }
+@media(max-width:768px) { .report-feature { grid-template-columns:1fr; }.report-feature__image { aspect-ratio:3/2; }.report-library-row { grid-template-columns:60px minmax(0,1fr); gap:14px 20px; }.report-library-action { grid-column:2; }.report-heading { padding-top:130px; }.report-body { font-size:15px; }.report-body h3 { font-size:18px; }.report-body img { max-height:640px; } }
+@media(max-width:480px) { .report-community-grid { grid-template-columns:1fr; gap:36px; }.report-heading h1 { font-size:39px; }.report-library-row { padding-block:25px; grid-template-columns:48px minmax(0,1fr); gap:10px 16px; }.report-review-note { padding:18px; }.report-body h2 { font-size:23px; }.report-reading { padding-inline:var(--pad); }.report-library-heading .h2 { font-size:34px; } }

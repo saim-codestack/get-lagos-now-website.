@@ -1,0 +1,80 @@
+[
+  {
+    "source": "https://getlagosnow.com/annual-benefit-report/",
+    "field": "content.rendered",
+    "type": "withheld certification claim",
+    "exact_html": "<p style=\"text-align: left;\"><span style=\"font-size: 130%;\">B Corp Certified &#8211; We&#8217;re a new kind of business that balances purpose and profit. We make legal, financial, decisions, and actions required to consider the impact Get Lagos Now makes on the decisions of our workers, customers, suppliers, community, and the environment using our business as a force for good.</span></p>"
+  },
+  {
+    "source": "https://getlagosnow.com/annual-benefit-report/",
+    "field": "content.rendered",
+    "type": "withheld certification badge",
+    "exact_html": "<img loading=\"lazy\" decoding=\"async\" class=\"wp-image-2710 alignleft\" src=\"https://getlagosnow.com/wp-content/uploads/2021/09/Certified-B-Corp-Logo.png\" alt=\"\" width=\"230\" height=\"177\" srcset=\"https://getlagosnow.com/wp-content/uploads/2021/09/Certified-B-Corp-Logo.png 597w, https://getlagosnow.com/wp-content/uploads/2021/09/Certified-B-Corp-Logo-300x232.png 300w\" sizes=\"auto, (max-width: 230px) 100vw, 230px\" />"
+  },
+  {
+    "source": "https://getlagosnow.com/annual-benefit-report-2022/",
+    "field": "content.rendered",
+    "type": "withheld certification claim",
+    "exact_html": "<p>B Corp Certified – We’re a new kind of business that balances purpose and profit. We make legal, financial, decisions, and actions required to consider the impact Get Lagos Now makes on the decisions of our workers, customers, suppliers, community, and the environment using our business as a force for good.</p>"
+  },
+  {
+    "source": "https://getlagosnow.com/annual-benefit-report-2022/",
+    "field": "content.rendered",
+    "type": "withheld certification badge",
+    "exact_html": "<img loading=\"lazy\" decoding=\"async\" class=\"wp-image-2710 alignleft\" src=\"https://getlagosnow.com/wp-content/uploads/2021/09/Certified-B-Corp-Logo.png\" sizes=\"auto, (max-width: 230px) 100vw, 230px\" srcset=\"https://getlagosnow.com/wp-content/uploads/2021/09/Certified-B-Corp-Logo.png 597w, https://getlagosnow.com/wp-content/uploads/2021/09/Certified-B-Corp-Logo-300x232.png 300w\" alt=\"\" width=\"230\" height=\"177\" />"
+  },
+  {
+    "source": "https://getlagosnow.com/annual-benefit-report-2022/",
+    "field": "content.rendered",
+    "type": "historical event discrepancy",
+    "exact_text": "Annual report says August 12th at PCC Sylvania; dedicated 2022 event page says August 11th at 2305 SE 82nd and Division."
+  },
+  {
+    "source": "https://getlagosnow.com/annual-benefit-report-2023/",
+    "field": "content.rendered",
+    "type": "withheld certification claim",
+    "exact_html": "<p>B Corp Certified – We’re a new kind of business that balances purpose and profit. We make legal, financial, decisions, and actions required to consider the impact Get Lagos Now makes on the decisions of our workers, customers, suppliers, community, and the environment using our business as a force for good.</p>"
+  },
+  {
+    "source": "https://getlagosnow.com/annual-benefit-report-2023/",
+    "field": "content.rendered",
+    "type": "withheld certification badge",
+    "exact_html": "<img loading=\"lazy\" decoding=\"async\" class=\"wp-image-2710 alignleft\" src=\"https://getlagosnow.com/wp-content/uploads/2021/09/Certified-B-Corp-Logo.png\" sizes=\"auto, (max-width: 230px) 100vw, 230px\" srcset=\"https://getlagosnow.com/wp-content/uploads/2021/09/Certified-B-Corp-Logo.png 597w, https://getlagosnow.com/wp-content/uploads/2021/09/Certified-B-Corp-Logo-300x232.png 300w\" alt=\"\" width=\"230\" height=\"177\" />"
+  },
+  {
+    "source": "https://getlagosnow.com/annual-benefit-report-2024/",
+    "field": "content.rendered",
+    "type": "withheld certification claim",
+    "exact_html": "<p>B Corp Certified – We’re a new kind of business that balances purpose and profit. We make legal, financial, decisions, and actions required to consider the impact Get Lagos Now makes on the decisions of our workers, customers, suppliers, community, and the environment using our business as a force for good.</p>"
+  },
+  {
+    "source": "https://getlagosnow.com/annual-benefit-report-2024/",
+    "field": "content.rendered",
+    "type": "withheld certification badge",
+    "exact_html": "<img loading=\"lazy\" decoding=\"async\" class=\"wp-image-2710 alignleft\" src=\"https://getlagosnow.com/wp-content/uploads/2021/09/Certified-B-Corp-Logo.png\" sizes=\"auto, (max-width: 230px) 100vw, 230px\" srcset=\"https://getlagosnow.com/wp-content/uploads/2021/09/Certified-B-Corp-Logo.png 597w, https://getlagosnow.com/wp-content/uploads/2021/09/Certified-B-Corp-Logo-300x232.png 300w\" alt=\"\" width=\"230\" height=\"177\" />"
+  },
+  {
+    "source": "https://getlagosnow.com/annual-benefit-report-year-2025/",
+    "field": "content.rendered",
+    "type": "reporting-period discrepancy",
+    "exact_text": "Blanchet House received over $2,700 in in-kind gifts … as well as 186 Volunteer hrs. in 2026; Goals for 2026; People and Planet First verified in March 2026."
+  },
+  {
+    "source": "https://getlagosnow.com/e-recycling-2021/",
+    "field": "content.rendered",
+    "type": "excluded injection",
+    "exact_html": "<a href=\"https://justicia4migrantworkers.org/profile/ohgirl\" target=\"_blank\">Omgitsher one piece</a>"
+  },
+  {
+    "source": "https://getlagosnow.com/e-recycling-2021/",
+    "field": "content.rendered",
+    "type": "withheld certification badge",
+    "exact_html": "<img loading=\"lazy\" decoding=\"async\" class=\"wp-image-2710 aligncenter\" src=\"https://getlagosnow.com/wp-content/uploads/2021/09/Certified-B-Corp-Logo.png\" alt=\"\" width=\"265\" height=\"205\" srcset=\"https://getlagosnow.com/wp-content/uploads/2021/09/Certified-B-Corp-Logo.png 597w, https://getlagosnow.com/wp-content/uploads/2021/09/Certified-B-Corp-Logo-300x232.png 300w\" sizes=\"auto, (max-width: 265px) 100vw, 265px\" />"
+  },
+  {
+    "source": "https://getlagosnow.com/e-recycling-aug-11th-2022/",
+    "field": "content.rendered",
+    "type": "excluded injection",
+    "exact_html": "<a href=\"https://sydneysweeneyonlyfans.blog/\" target=\"_blank\">Sydney Sweeney leaked videos</a>"
+  }
+]
